@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="css" href="stylesheets/styles.css">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="top-list">
+          <li><a href="index.html">Index</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="code-journal.html">Code Journal</a></li>
+        </ul>
+      </nav>
+      <h1>My Portfolio</h1>
+    </header>
+
+    <h2>Suzanne's GitHub Projects</h2>
+
+    <article>
+      <h3>Word Guess</h3>
+      <p>This goal of this project was to build a word guessing game like hangman,
+        using ASCII art.We had to design the game so the user could input a single
+        letter at a time, and the user had a defined number of guesses before losing the game.
+        If the guess was correct, the game would show a letter in the word display or
+        if the guess was incorrect, reveal a part of the ASCII art. A player wins by guessing
+        the word correctly, or loses by exhausting the alottment of guesses which reveals
+        all the ASCII art.
+        <h4>Here's a sample of code for the ASCII art (we made bunnies!)</h4>
+          <samp>
+            require 'colorize'<br>
+            bunny_one =   "\n========".colorize(:yellow)<br>
+            bunny_two =   "\n  ()_() "<br>
+            bunny_thr =   "\n  (^+^) "<br>
+            bunny_for =   "\n*(')_(')"<br>
+            bunny_fiv =   "\n========".colorize(:yellow)<br>
+          </samp>
+        <h4>Personal Learning Milestones</h4>
+        In addition to being the first program I ever wrote, it was also my first pair programming project,
+        as well as my first experience with github.</p>
+    </article>
+
+    <article>
+    <h3>Bank Accounts</h3>
+    <p>This goal of this project was to build a module with multiple classes, class methods, inheritance
+      as well as functionality to read csv files. The goal of the project was to be able to query through any
+      means (or account) and get the information needed ie owner(s), balance(s), account id(s), etc...
+      <h4>Here's a sample of code for Bank Accounts</h4>
+        <samp>
+          def self.all(filename = "./support/accounts.csv")<br>
+            all_accounts = []<br>
+            CSV.open(filename, 'r') do |csv|<br>
+              csv.read.each do |line|<br>
+              all_accounts << self.new(id: line[0], initial_balance: line[1].to_f/100, start_date: line[2])<br>
+              end<br>
+            end<br>
+            return all_accounts<br>
+          end<br>
+        </samp>
+      <h4>Personal Learning Milestones</h4>
+      This project introduced me to multi-document projects, self methods and refactoring process (which I am still working on!).</p>
+    </article>
+
+    <article>
+      <h3>FarMar</h3>
+      <p>This goal of this project was to build a module with multiple classes, class methods,
+      as well as functionality to read csv files. We got practice writing specs and using TDD, we were
+      working with raw data and using it to create instances of a Ruby class, and using Enumerable methods
+      to work with collections of data or instances.A user should be able to be able to query through any
+      means (or market, owner, product) and get the information needed ie owner(s), market(s), id(s), etc...
+        <h4>Here's a sample of code for FarMar</h4>
+        <samp>
+
+        </samp>
+      <h4>Personal Learning Milestones</h4>
+      This project introduced me to TDD and Enumerables-both are challenging but
+      I enjoyed working on this project as it seemed straightforward and very useful.</p>
+    </article>
+
+
+        <aside>
+          <nav>
+            <ul>
+              <li><a href="https://github.com/SuzHarrison/Word-Guess">WORD GUESS</a></li>
+              <li><a href="https://github.com/SuzHarrison/BankAccounts">Bank Accounts</a></li>
+              <li><a href="https://github.com/SuzHarrison/FarMar">FarMar</a></li>
+            </ul>
+          </nav>
+        </aside>
+  </body>
+
+</html>

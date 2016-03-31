@@ -59,6 +59,7 @@ footer {
 .splash img {
   height: 15rem;
   width: 15rem;
+  border: 0.5rem solid black;
   border-radius: 100%;
 }
 
@@ -75,4 +76,8 @@ header h1 {
 
 article {
   background-color: white;
+  width: 55%;
+  margin: auto;
+  padding: 2rem;
+  border: 0.25rem solid black;
 }

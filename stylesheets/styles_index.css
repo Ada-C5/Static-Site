@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Codystar', fantasy;
+  font-size: 6rem;
+  padding-top: 10%;
+}
+
+nav ul {
+  padding-top: 10%;
+}
+
+nav a {
+  font-size: 2rem;
+}

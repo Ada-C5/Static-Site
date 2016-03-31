@@ -50,13 +50,19 @@ footer {
 
 
 nav {
-  
+  text-align:center;
+  width: 100%;
 }
-
-
 
 nav ul {
-
+  /*if i leave out this padding, I don't get top padding. why?*/
+  padding: 2rem;
 }
+
+nav li {
+  display: inline;
+  padding: 2rem;
+}
+
 
 footer {}

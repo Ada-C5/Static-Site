@@ -1,0 +1,52 @@
+body {
+  background-color:#D68FAF;
+  color:black;
+  box-sizing: border-box;
+
+}
+
+/******************************
+            Nav
+*******************************/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6B123B;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none
+}
+
+li a:hover:not(.active) {
+    background-color: #729C34;
+}
+
+.active {
+    background-color: #4D7514;
+}
+
+/******************************
+          Header
+*******************************/
+h1 {
+  display: block;
+  text-align: center;
+  background-color: #8F305B;
+  padding: 30px;
+  border: 30px solid #B35982;
+  border-radius: 12px;
+}
+
+/*http://paletton.com/#uid=25g0u0kllllaFw0g0qFqFg0w0aF*/

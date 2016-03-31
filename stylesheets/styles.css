@@ -1,0 +1,22 @@
+html {font-size: rem;
+      font-family: Verdana;
+      background-color: #f9f9f9;
+}
+
+h1 {background-color: #f6f0f0;
+    border: .3rem solid #FFBCF8;
+    border-radius: .6rem;
+    color: #FFBCF8;
+    text-align: center;
+    display: block;
+    width: 50rem;
+    height: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {display: block;
+    float: left;
+
+
+}

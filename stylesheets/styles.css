@@ -1,0 +1,35 @@
+html {
+  font-size: 16px;
+}
+
+#bg {
+  position: fixed;
+  /*this makes the container bigger than the browser always so our image acts as a background!*/
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+#bg img {
+  position: absolute;
+  /*what do these do?*/
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  /*min-width of the container that is 200% of browser always makes it take up 100% of screen always*/
+  min-width: 50%;
+  min-height: 50%;
+}
+
+body {}
+
+header {}
+
+nav ul {
+
+}
+
+footer {}

@@ -24,7 +24,7 @@ header {
 /*HEADER
 title*/
 header h1 {
-  /*background-color: lavender;*/
+  color: lavender;
   margin-top: 25px;
   margin-left: 25px;
   margin-bottom: .5px;
@@ -62,12 +62,11 @@ section {
 }
 
 /*SECTION
-image*/
-section img {
+image classes*/
+.size {
   height: 500px;
   width: 30%;
 }
-
 
 /*FOOTER
 general*/

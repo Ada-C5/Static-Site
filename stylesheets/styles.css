@@ -26,7 +26,34 @@ html {
 
 body {}
 
-header {}
+header {
+  /*put these on top, and relative makes it go across the entire screen*/
+  background-color: #F3F0F0;
+  opacity: 0.8;
+  position: relative;
+  z-index: 1;
+}
+
+section {
+  /*put these on top, and relative makes it go across the entire screen*/
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+footer {
+  /*put these on top, and relative makes it go across the entire screen*/
+  background-color: #00C07A;
+  position: relative;
+  z-index: 1;
+}
+
+
+nav {
+  
+}
+
+
 
 nav ul {
 

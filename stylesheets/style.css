@@ -1,52 +1,71 @@
+/*BODY
+general*/
 body {
-  background-color:#D68FAF;
-  color:black;
-  box-sizing: border-box;
-
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+  margin: 0;
+  padding: 0;
 }
 
-/******************************
-            Nav
-*******************************/
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #6B123B;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
+/*HEADER
+general*/
+header {
+  background-color: #4d004d;
   color: white;
+  position:relative;
+  top:0px;
+  width: 100%;
+  height: 120px;
+  float: right;
+  clear: both;
+  border-bottom: #7C227C solid 10px;
   text-align: center;
-  padding: 14px;
-  text-decoration: none
 }
 
-li a:hover:not(.active) {
-    background-color: #729C34;
+/*HEADER
+title*/
+header h1 {
+  /*background-color: lavender;*/
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: .5px;
+}
+/*HEADER
+nav*/
+
+header ul {
+  /*background-color:gray;*/
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+header li {
+  /*background-color: black;*/
+  display: inline-block;
+  padding: 15px
 }
 
-.active {
-    background-color: #4D7514;
+/*HEADER
+nav links*/
+header a {
+  color: white;
+  text-decoration: none;
 }
 
-/******************************
-          Header
-*******************************/
-h1 {
-  display: block;
+/*SECTION
+general*/
+section {
+  clear: both;
   text-align: center;
-  background-color: #8F305B;
-  padding: 30px;
-  border: 30px solid #B35982;
-  border-radius: 12px;
+  padding-top: 15px;
 }
 
-/*http://paletton.com/#uid=25g0u0kllllaFw0g0qFqFg0w0aF*/
+/*FOOTER
+general*/
+footer {
+  clear: both;
+  text-align: center;
+  background-color: #7F9516
+  
+}
+/*FOOTER
+address*/

@@ -90,10 +90,14 @@ section.home-pic {
   text-align: center;
 }
 
+p.divider{
+  text-align: center;
+}
 div.section-title {
   border-bottom: 3px double gray;
   /*background-color: lightblue;*/
   padding-bottom: 0px;
+  margin-bottom:10px;
   height: 85px;
 }
 
@@ -113,12 +117,20 @@ MAIN ARTICLE
 H3s and TEXT
 */
 
-div.all-articles {
+/*padding for right-aligned body elements*/
+/*.maintext, .all-posts {
+  padding: 10px;
+}*/
+
+.all-projects {
   margin-top: 15px;
   /*background-color: gray;*/
   text-align: center;
 }
 
+.all-posts {
+
+}
 
 section h3 {
   font-size: 25px;

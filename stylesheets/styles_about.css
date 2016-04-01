@@ -9,6 +9,7 @@ html {
   font-family: 'Muli', sans-serif;
   background-color: #f9f9f9;
   width: 100%;
+  color: #2c1913;
 }
 
 header {
@@ -73,4 +74,19 @@ nav a {
   display: block;
   text-decoration: none;
   color: #4d201d;
+}
+
+.photo figure {
+  display: block;
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-left: 0;
+  }
+
+.photo img {
+  width: 90%;
+  height: 90%;
+  border: .3rem solid #893d54;
+  border-radius: .3rem;
 }

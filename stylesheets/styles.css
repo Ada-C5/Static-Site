@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+body {
+		font-family: "American Typewriter", Courier, monospace;
+		font-size: 18px;
+}
+
 /******** HEADER ********/
 
 header {
@@ -36,10 +41,10 @@ header {
 .header-nav a {
 	color: #202020;
 	text-decoration: none;
-	font-weight: lighter;
 }
 
 .header-nav a:hover {
 	background-color: #458B85;
 	color: #FFDCE5;
 }
+

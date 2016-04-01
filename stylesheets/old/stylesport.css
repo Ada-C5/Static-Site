@@ -1,0 +1,79 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+.leftside{
+  padding: 0;
+  margin: 0;
+  height:100%;
+  width: 250px;
+  background-color: #04103b;
+  position:fixed;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+
+header p{
+  padding: 0;
+  margin: 0;
+}
+.pagepic {
+  position:fixed;
+  /*top:0;
+  left:0;*/
+  width: 250px;
+  height: 250px;
+  background-image: url('file:///Users/cristal/C5/exercises/Static-Site/images/port.jpg') ;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffffff;
+  padding-bottom: 5px;
+  /*background-position: 100% 20%;*/
+  /*color: white;*/
+}
+
+.rightside{
+  padding: 20px 0 0 20px;
+  margin: 0;
+  margin-left:250px;
+  background: #ffffff;
+  min-height:100%;
+}
+
+section p {
+  margin: 0;
+}
+
+/***NAVIGATION ON LEFTSIDE BAR****/
+nav ul{
+  padding-left:0%;
+  padding-top: 267px;
+}
+
+header a{
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  /*vertical-align:center;*/
+}
+
+header li{
+  margin: 5px;
+  text-align: center;
+  clear: left;
+  display: block;
+  padding-bottom: 0;
+}
+
+.highlightlink{
+  background-color: #b1d3f7;
+}

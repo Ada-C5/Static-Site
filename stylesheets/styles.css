@@ -1,0 +1,71 @@
+html {
+  font-size: 24px
+  background-color: white;
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  height:100%;
+  text-align: center
+}
+
+.homeheader {
+  background-image: url('http://41.media.tumblr.com/a753570ff1fdd07cc6c062973faf600e/tumblr_o4xqoeC2ip1rnf6b5o8_1280.jpg') ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100% 30%;
+  height: 100%;
+  color: white;
+}
+
+h1 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 7vw;
+  text-align: center;
+  /*font-size: 80px;*/
+  padding-top: 6%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+nav ul{
+  padding:0;
+  margin: 0;
+  width: 100%;
+  display: block;
+  align-items: center;
+    text-align:center;
+    position: fixed;
+    top: 43%;
+
+}
+
+header a{
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 3.0vw;
+  /*vertical-align:center;*/
+}
+
+header li{
+  margin: 0 auto;
+  padding: 55px;
+  text-align: left;
+  /*clear: left;*/
+  display: inline-block;
+  margin:0 auto;
+  /*padding-top: 0.5%;*/
+  padding-bottom: 0;
+}
+
+header li a:hover{
+  color: #04103b;
+  text-shadow: 1px 1px #a8a7a7;
+}
+
+
+/*#aboutback{
+
+}*/

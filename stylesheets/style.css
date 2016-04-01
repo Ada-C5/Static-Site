@@ -86,6 +86,10 @@ img.title {
   margin-bottom: 0px;
 }
 
+section.home-pic {
+  text-align: center;
+}
+
 div.section-title {
   border-bottom: 3px double gray;
   /*background-color: lightblue;*/
@@ -111,19 +115,28 @@ H3s and TEXT
 
 div.all-articles {
   margin-top: 15px;
-  background-color: gray;
+  /*background-color: gray;*/
   text-align: center;
 }
 
 
 section h3 {
   font-size: 25px;
+  /*background-color: red;*/
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
+section a {
+  text-decoration: none;
+  color: #7C227C;
+}
 .project1, .project2, .project3 {
   width: 30%;
-  border: black solid 1px;
+  /*border: black solid 1px;*/
   display:inline-block;
+
+  /*background-color: tan;*/
 }
 
 .project2 {

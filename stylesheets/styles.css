@@ -34,7 +34,7 @@ html, body {
 }
 
 .site-navigation {
-  bottom: 5rem;
+  bottom: 13%;
   position: fixed;
   width: 100%;
 }
@@ -44,44 +44,47 @@ html, body {
   height: 4rem;
   line-height: 4rem;
   /*https://css-tricks.com/fighting-the-space-between-inline-block-elements/*/
-  font-size: 0;
 }
 
 .site-navigation h1 {
   background-color: #F3F0F0;
   opacity: 0.8;
-  height: 4rem;
-  line-height: 4rem;
-  display: inline-block;
+  /*height: 4rem;*/
+  /*line-height: 4rem;*/
+  float: left;
   font-size: 1rem;
 }
 
 .site-navigation ul {
-  /*if i leave out this padding, I don't get top padding. why?*/
   background-color: #F3F0F0;
   opacity: 0.8;
-  /*padding: 2rem;*/
   height: 4rem;
-  line-height: 4rem;
-  width: 80%;
-  display: inline-block;
+  /*line-height: 4rem;*/
+  width: 95.5%;
+  float: left;
+  list-style: none;
 }
 
 nav li {
-  font-size: 1rem;
-  display: inline;
-  /*padding: 2rem;*/
+  height: 0.75rem;
+  font-size: 0.75rem;
+}
+
+li a {
+  line-height: 1.5rem;
+  padding: 0 .25rem;
+  font-weight: bold;
+  color: #999;
+  display: block;
 }
 
 section {
-  /*put these on top, and relative makes it go across the entire screen*/
   background-color: white;
   position: relative;
 
 }
 
 footer {
-  /*put these on top, and relative makes it go across the entire screen*/
   background-color: #00C07A;
   position: relative;
 

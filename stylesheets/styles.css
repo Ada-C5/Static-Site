@@ -7,6 +7,7 @@
 body {
 		font-family: "American Typewriter", Courier, monospace;
 		font-size: 18px;
+		background-color: #F9F9F9;
 }
 
 /******** HEADER ********/
@@ -19,6 +20,8 @@ header {
 .header-nav {
 	background-color: #81D8D0;
 	border: 1px solid #458B85;
+	margin: 0;
+	padding: 0;
 }
 
 .header-nav ul {
@@ -48,3 +51,38 @@ header {
 	color: #FFDCE5;
 }
 
+/******** MAIN BODY ********/
+
+h1 {
+	color: #202020;
+}
+
+a {
+	text-decoration: none;
+	color: #D9828B;
+}
+
+a:hover {
+	background-color: #81D8D0;
+}
+
+.main-body {
+	margin: 0;
+	padding: 0;
+	flex: 1;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.name {
+  order: 1;
+}
+
+.tagline {
+  order: 2;
+}
+
+
+/********* FOOTER *********/

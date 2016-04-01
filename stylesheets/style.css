@@ -108,10 +108,28 @@ section h2 {
 MAIN ARTICLE
 H3s and TEXT
 */
+
+div.all-articles {
+  margin-top: 15px;
+  background-color: gray;
+  text-align: center;
+}
+
+
 section h3 {
   font-size: 25px;
 }
 
+.project1, .project2, .project3 {
+  width: 30%;
+  border: black solid 1px;
+  display:inline-block;
+}
+
+.project2 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
 /*FOOTER
 general*/
 footer {

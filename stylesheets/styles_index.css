@@ -1,13 +1,10 @@
 h1 {
-  text-align: center;
-  color: #fff;
   font-family: 'Codystar', fantasy;
-  font-size: 6rem;
-  padding-top: 10%;
-}
-
-nav ul {
-  padding-top: 10%;
+  font-size: 6.5rem;
+  margin-top: 0;
+  padding-top: 15%;
+  background-image: url('../images/macbook-coffee-cropped.jpg');
+  padding-bottom: 20%;
 }
 
 nav a {

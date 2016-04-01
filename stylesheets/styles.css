@@ -1,23 +1,28 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-image: url(../images/pink_purple.jpg);
+* {
+  box-sizing: border-box;
 }
+
+html {
+  font-family: fantasy;
+  font-size: 16px;
+  color: #ecc6ec;
+  background-image: url(../images/pink_purple.jpg);
+  background-attachment: fixed;
+}
+
+/**************HEADER**************/
 
 nav ul {
   list-style: none;
   text-align: center;
   padding: 0;
-  margin: 0;
+  margin-top: 1rem;
   overflow: auto;
-  /*background-color: #660066;*/
 }
 
 nav li {
   display: inline-block;
-  font-family: fantasy;
-  font-size: 1.2rem;
-  line-height: 2rem;
+  line-height: 2.3rem;
   height: 1.5rem;
   padding: .2rem 4rem .2rem 4rem;
 }
@@ -26,4 +31,41 @@ nav a {
   text-decoration: none;
   display: block;
   color: #ecc6ec;
+  font-size: 1.5rem;
 }
+
+nav a:hover {
+  color: #1ac6ff;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2.5rem;
+  color: #ff9980;
+  background-image: url('../images/macbook-coffee-cropped.jpg');
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 7rem;
+}
+
+/**************BODY****************/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 2rem;
+}
+
+/*.head-img {
+  width: 100%;
+}*/
+
+.git-links {
+  color: #ffa366;
+}
+

@@ -43,51 +43,46 @@ html, body {
   width: 100%;
   height: 4rem;
   line-height: 4rem;
-  /*https://css-tricks.com/fighting-the-space-between-inline-block-elements/*/
+  /*for browsers that may not support linear-gradient like i have it set up*/
+  background-color: #EF9D6D;
+  background-image: linear-gradient(to right, #D66E55, #EF9D6D, #F2CEB3 11%, #F2CEB3);
+  opacity: 0.7;
 }
 
 .site-navigation h1 {
-  background-color: #F3F0F0;
-  opacity: 0.8;
-  /*height: 4rem;*/
-  /*line-height: 4rem;*/
   float: left;
   font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.home-link {
+  padding-left: 2rem;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.home-link:hover {
+  /*i don't think this method of assigning background images works with firefox but i'm okay with that since this is just a fancy extra.  sorry!*/
+  background-image: url(../images/paw-print-skewed.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  text-decoration: none;
 }
 
 .site-navigation ul {
-  background-color: #F3F0F0;
-  opacity: 0.8;
   height: 4rem;
-  /*line-height: 4rem;*/
-  width: 95.5%;
+  width: 50%;
   float: left;
   list-style: none;
 }
 
 nav li {
-  height: 0.75rem;
-  font-size: 0.75rem;
+  height: 1rem;
 }
 
 li a {
-  line-height: 1.5rem;
-  padding: 0 .25rem;
+  line-height: 1.75rem;
+  padding: 0 1rem;
   font-weight: bold;
-  color: #999;
   display: block;
 }
-
-section {
-  background-color: white;
-  position: relative;
-
-}
-
-footer {
-  background-color: #00C07A;
-  position: relative;
-
-}
-
-footer {}

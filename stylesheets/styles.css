@@ -76,6 +76,18 @@ footer {
   color: #35170d;
 }
 
+/*Below two ul rules are for the social media buttons*/
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+  background-color: #96816e;
+  margin-left: 55px;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
 h2 {
   font-weight: lighter;
   text-align: center;
@@ -117,6 +129,8 @@ a {
   color: #af2f24;
 }
 
+/*Everything from here down is for the slideshow on the Portfolio page. Proceed with cautionnnnnnn*/
+
 .slideshow {
   margin-top: 15px;
   text-align: center;
@@ -125,9 +139,9 @@ a {
 img {
   border-radius: 4px;
   margin-bottom: 15px;
-  border-color: #96816e;
-  border-width: medium;
-  border-style: solid;
+  /*border-color: #96816e;*/
+  /*border-width: medium;*/
+  /*border-style: solid;*/
 }
 
 
@@ -161,13 +175,13 @@ img {
 }
 
 figure:nth-child(1) {
-   animation: xfade 48s 30s infinite;
+   animation: xfade 48s 32s infinite;
 }
 figure:nth-child(2) {
-   animation: xfade 48s 15s infinite;
+   animation: xfade 48s 16s infinite;
 }
 figure:nth-child(3) {
-   animation: xfade 45s 0s infinite;
+   animation: xfade 48s 0s infinite;
 }
 
 @keyframes xfade{

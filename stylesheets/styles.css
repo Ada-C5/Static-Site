@@ -11,14 +11,13 @@ header#main {
   border-radius: 25px;
 }
 
-nav#nav-pages {
+nav.nav-pages {
   width: 22%;
-  height: 90%;
+  height: 100%;
   position: absolute;
-  /*background-size: contain 280px;*/
-  margin: 2% 0% 2% 2%;
+  /*margin: 2% 0% 2% 2%;*/
   background-color: rgba(235, 201, 207, 0.4);
-  border-radius: 25px;
+  border-radius: 1em;
 }
 
 ul#main {
@@ -72,4 +71,5 @@ body:after {
   z-index: -1;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }

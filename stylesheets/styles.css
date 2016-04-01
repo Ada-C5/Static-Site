@@ -1,0 +1,45 @@
+/******** GLOBAL ********/
+
+* {
+	box-sizing: border-box;
+}
+
+/******** HEADER ********/
+
+header {
+	font-family: "American Typewriter", Courier, monospace;
+	font-size: 24px;
+}
+
+.header-nav {
+	background-color: #81D8D0;
+	border: 1px solid #458B85;
+}
+
+.header-nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.header-nav li {
+	display: inline-block;
+	width: 33%;
+	padding: 1rem;
+}
+
+.header-nav li:hover {
+	background-color: #458B85;
+}
+
+.header-nav a {
+	color: #202020;
+	text-decoration: none;
+	font-weight: lighter;
+}
+
+.header-nav a:hover {
+	background-color: #458B85;
+	color: #FFDCE5;
+}

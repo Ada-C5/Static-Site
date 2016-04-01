@@ -2,11 +2,23 @@ h1 {
   font-family: 'Codystar', fantasy;
   font-size: 6.5rem;
   margin-top: 0;
-  padding-top: 15%;
+  padding-top: 12%;
   background-image: url('../images/macbook-coffee-cropped.jpg');
-  padding-bottom: 20%;
+  padding-bottom: 18%;
+  color: #00cccc;
+}
+
+nav ul {
+  padding: 0;
 }
 
 nav a {
   font-size: 2rem;
+  line-height: 3rem;
+}
+
+.heart {
+  font-size: 4rem;
+  vertical-align: middle;
+  color: #990099;
 }

@@ -29,9 +29,6 @@ header {
 }
 
 .homepage_img {
-/*	display: block;
-    margin: 0 auto;*/
-/*    width:75%;*/
 	float:left;
 	clear:both;
 	padding:2px;
@@ -82,7 +79,6 @@ article.about {
 	float:right;
 	width:70%;
 	padding-right:7rem;
-/*	background-image: url("../images/trees.jpg");*/
 }
 
 ul {
@@ -124,7 +120,7 @@ li a:hover:not(.active) {
 
 .index-link:hover {
 	opacity: 0.3;
-	background-image: url("../images/type/oname.png");
+/*	background-image: url("../images/type/oname.png");*/
 }
 
 /***********PORTFOLIO*********/
@@ -162,4 +158,19 @@ article.portfolio {
 	font-style: italic;
 	color:grey;
 	font-size: .8rem;
+}
+
+/***********FOOTER************/
+
+footer {
+	height: 40px;
+    border-top: solid grey;
+    clear:both;
+    padding:1rem;
+    opacity: .5;
+}
+
+footer address {
+	color: red;
+	float: right;
 }

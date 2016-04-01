@@ -69,15 +69,43 @@ footer {
   color: white;
 }
 
+.blurb p {
+  line-height: 0.25rem;
+}
+
+/**** Styling on every page but homepage ****/
+
 header h1 {
   font-size: 4rem;
   color: white;
+  margin: 0px;
 }
 
 article {
   background-color: white;
   width: 55%;
   margin: auto;
-  padding: 2rem;
+  padding: 1rem 2rem 1rem 2rem;
   border: 0.25rem solid black;
+  text-align: justify;
+}
+
+.pixel_image {
+  background-color: yellow;
+  height: 6.25rem;
+  width: 6.25rem;
+  margin: auto;
+}
+
+/**** Portfolio page styling ****/
+
+ul.portfolio {
+  text-align: left;
+  list-style-type: disc;
+  padding-left: 1rem;
+}
+
+ul.portfolio > li{
+  display: list-item;
+  margin: 0.25rem;
 }

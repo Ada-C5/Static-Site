@@ -47,15 +47,56 @@ nav li.home {
   float: left;
 }
 
+li a.current-page {
+  padding-right: 2.3em;
+  padding-left: 2.3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  text-decoration: none;
+  color: #351C3C;
+  border-radius: 1.5em;
+  background-color: rgba(110, 55, 76, 0.4);
+}
+
 section.section-background {
   background-color: rgba(235, 227, 238, 0.7);
   position: relative;
-  height: 100%;
   border-radius: 1.5em;
   padding: 1%;
   margin-top: 2%;
   font-family: Verdana, Arial;
   color: #351C3C;
+  overflow: hidden;
+}
+
+h2 {
+  margin-left: 2%;
+}
+
+section article p img {
+  height: 25%;
+  width: 20%;
+  border-radius: 50%;
+  opacity: 0.8;
+  margin: 1%;
+  float: left;
+}
+
+section article p.paragraph {
+  padding-top: 2%;
+}
+
+p.sites {
+  clear: both;
+}
+
+img.logos {
+    height: 5%;
+    width: 5%;
+    display: inline;
+    margin-top: 1%;
+    margin-left: 4%;
 }
 
 body:after {
@@ -83,16 +124,4 @@ footer.main {
   width: 100%;
   position: fixed;
   bottom: 0;
-}
-
-li a.current-page {
-  padding-right: 2.3em;
-  padding-left: 2.3em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  text-align: center;
-  text-decoration: none;
-  color: #351C3C;
-  border-radius: 1.5em;
-  background-color: rgba(110, 55, 76, 0.4);
 }

@@ -10,9 +10,9 @@ html, body {
   height: 100%;
 }
 
-#bg {
+.background {
   position: fixed;
-  /*this makes the container bigger than the browser always so our image acts as a background!*/
+  /*this makes the container bigger than the browser always so our image acts as a centered background!*/
   top: -50%;
   left: -50%;
   width: 200%;
@@ -20,7 +20,7 @@ html, body {
   z-index: -1;
 }
 
-#bg img {
+.background img {
   position: absolute;
   /*what do these do?*/
   top: 0;

@@ -51,11 +51,51 @@ ul li a:hover {
 	border-radius: 15px;
 }
 
-footer {
+#about {
+	background-color: rgba(244,244,244,.2);
+	display: block; 
+	margin-top: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	padding: .8rem;
+	border-radius: 15px;
 	position: absolute;
-	margin-top: .5rem;
+}
+
+#about img{
+	border-radius: 15px;
+	float: left;
+	display:block;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	position: relative;
+	}
+
+#hobby-blog {
+	background-color: rgba(244,244,244,.2);
+	margin-top: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	border-radius: 15px;
+}
+
+#portfolio {
+	background-color: rgba(244,244,244,.2);
+	display: block; 
+	margin-top: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	padding: .8rem;
+	border-radius: 15px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
 	width: 100%;
-	display: inline-block;
 	text-align: center; 
 }
 

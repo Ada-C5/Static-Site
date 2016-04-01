@@ -86,12 +86,22 @@ img.title {
   margin-bottom: 0px;
 }
 
-section.home-pic {
+.homepic {
   text-align: center;
 }
+/*.home-pic p {
+  display: inline;
+  /*background-color: red;*/
+  /*font-family: 'Crimson Text', serif;
+  position:absolute;
+  top:325px;
+  bottom:0;
+  margin:auto;*/
+/*}*/
 
 p.divider{
   text-align: center;
+  margin-bottom: 0px;
 }
 div.section-title {
   border-bottom: 3px double gray;

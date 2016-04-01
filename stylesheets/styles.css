@@ -39,7 +39,6 @@ ul li a:hover {
 	color:#9E65A4;
 }
 
-
 #introduction {
 	background-color: rgba(244,244,244,.2);
 	display: block; 
@@ -84,12 +83,27 @@ ul li a:hover {
 #portfolio {
 	background-color: rgba(244,244,244,.2);
 	display: block; 
-	margin-top: 1rem;
-	margin-right: 1rem;
-	margin-bottom: 1rem;
-	margin-left: 1rem;
+	/*margin: 20%;*/
+	margin-top: 1%;
+	margin-right: 20%;
+	margin-bottom: 1%;
+	margin-left: 20%;
 	padding: .8rem;
 	border-radius: 15px;
+/*	position: absolute;*/
+	text-align: center; 
+}
+
+#projects th {
+	font-size: 20px; 
+}
+
+#projects img{
+	border-radius: 15px;
+	display:block;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	position: relative;
 }
 
 footer {

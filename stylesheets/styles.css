@@ -6,10 +6,25 @@
 
 html, body {
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: monospace;
+  color: #003842;
   height: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: #003842;
+  display:inline-block;
+}
+
+a:hover {
+  text-decoration: underline;
+  border-bottom: 2px solid;
+}
+
+h1 {
+  font-family: cursive;
+}
 .background {
   position: fixed;
   /*this makes the container bigger than the browser always so our image acts as a centered background!*/
@@ -34,7 +49,7 @@ html, body {
 }
 
 .site-navigation {
-  bottom: 13%;
+  bottom: 10%;
   position: fixed;
   width: 100%;
 }

@@ -69,9 +69,38 @@ nav li {
   text-align: center;
 }
 
-
 nav a {
   display: block;
   text-decoration: none;
   color: #4d201d;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 8rem;
+  font-size: 3.5rem;
+}
+
+.ruby_projects article {
+  display: inline-block;
+  width: 25%;
+  height: 20rem;
+  border: solid #2c1913;
+  border-radius: .3rem;
+  margin: 1.5rem;
+  margin-left: 3rem;
+  padding: 1.5rem;
+}
+
+.ruby_projects article figure img {
+  width: 100%;
+  height: 100%;
+}
+
+/*.ruby_projects article figure p {
+  padding: 2rem;
+}*/
+
+.ruby_projects article h3 {
+  text-align: center;
 }

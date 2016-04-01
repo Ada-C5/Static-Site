@@ -31,7 +31,7 @@ nav a {
   text-decoration: none;
   display: block;
   color: #ecc6ec;
-  font-size: 1.5rem;
+  font-size: 3.5vh;
 }
 
 nav a:hover {
@@ -41,7 +41,7 @@ nav a:hover {
 h1 {
   text-align: center;
   padding-top: 2rem;
-  font-size: 3rem;
+  font-size: 4vw;
   color: #ff9980;
   background-image: url('../images/macbook-coffee-cropped.jpg');
   background-position: center;

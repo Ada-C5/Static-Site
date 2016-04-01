@@ -25,4 +25,7 @@ a img {
 
 h2 {
   clear: both;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }

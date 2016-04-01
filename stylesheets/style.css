@@ -10,6 +10,7 @@ body {
 general*/
 header {
   background-color: #4d004d;
+  font-family: 'Sacramento', cursive;
   color: white;
   position:relative;
   top:0px;
@@ -25,7 +26,6 @@ header {
 title*/
 header h1 {
   color: lavender;
-  font-family: 'Sacramento', cursive;
   font-size: 50px;
   margin-top: 25px;
   margin-left: 25px;
@@ -39,8 +39,6 @@ nav*/
 
 header ul {
   /*background-color:gray;*/
-  font-family: 'Sacramento', cursive;
-
   float: right;
   margin-top: 0px;
   margin-left: 25px;
@@ -77,17 +75,28 @@ section img {
 general*/
 footer {
   background-color: #7F9516;
-  text-align: center;
-  border-top: #A1B832 solid 15px;
+  color: white;
+  font-family: 'Sacramento', cursive;
+  border-top: #A1B832 solid 10px;
   margin-top: 0px;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 /*FOOTER
 address*/
 footer address {
-  height: 50px;
+  /*background-color: red;*/
+  height: 10px;
   width: 30%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: .5px;
+  padding-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 25px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
 }

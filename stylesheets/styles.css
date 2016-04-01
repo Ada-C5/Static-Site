@@ -1,19 +1,31 @@
 html {
 	font-size: 16;
-/*	margin-right: 10rem;
-	margin-left: 10rem;*/
+	font-family: Karla,Helvetica,Arial;
+
 }
 
 * {
 	box-sizing: border-box;
 }
 
-/*body {
-	background-color: light grey;
-}*/
+header {
+	float: left;
+	display: block;
+    margin: 0 auto;
+	width: 25%
+
+}
 
 .index {
-	background-color: white;
+	position: relative;
+	background-color: grey;
+	height: 800px;
+
+}
+
+.index-article {
+	position: absolute;
+	bottom: 0px;
 }
 
 .homepage_img {
@@ -30,19 +42,13 @@ html {
 .post {
 	background-color: lightgrey;
 	padding: 10px;
-	margin: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .about-image {
 	width: 100%;
 	float: right;
-}
-
-header {
-	float: left;
-	display: block;
-    margin: 0 auto;
-	width: 25%
 }
 
 .nav-image {
@@ -61,6 +67,11 @@ nav {
 	width: 10%
 }
 
+img {
+	max-width:100%;
+	max-height:100%;
+}
+
 article.blog {
 	float:right;
 	width:70%;
@@ -68,7 +79,6 @@ article.blog {
 }
 
 article.about {
-	background-color: #d3d3d3;
 	float:right;
 	width:70%;
 	padding-right:7rem;
@@ -101,7 +111,55 @@ li a:hover:not(.active) {
 .index-link {
 	display: block;
 }
-.index-link:hover {
-	background-image: url("..images/type/oname.png");
 
+.index-linkh1 {
+	display: block;
+	margin-bottom: 6rem;
+}
+
+.index-linkh1:hover {
+	opacity: 0.3;
+	background-image: url("../images/type/oname.png");
+}
+
+.index-link:hover {
+	opacity: 0.3;
+	background-image: url("../images/type/oname.png");
+}
+
+/***********PORTFOLIO*********/
+
+article.portfolio {
+	float:right;
+	width:70%;
+	padding-right:7rem;
+}
+
+.portfolio h4 {
+	margin:5px;
+	line-height: 1rem;
+}
+
+.portfolio h5 {
+	margin:5px;
+	line-height: 1rem;
+	font-style: italic;
+}
+
+.portfolio p {
+	margin:5px;
+	line-height: 1.5rem;
+}
+
+.portfolio a {
+	text-decoration: none;
+	margin:5px;
+	color:grey;
+/*	line-height: 1.5rem;*/
+}
+
+.tech {
+	font-style: italic;
+	color:grey;
+	font-size: .8rem;
 }

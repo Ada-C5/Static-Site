@@ -65,19 +65,71 @@ section {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #FEFBF6;
+  /*background-color: red;*/
 }
 
 section img {
   border-radius: 10px;
 }
+
+section article{
+  /*background-color: #FFFFF2;*/
+  font-family: 'Crimson Text', serif;
+  /*border: black solid 1px;*/
+  border-radius: 12px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 5px 10px 5px 10px;
+  text-align: left;
+}
+
+
+/*ARTICLE TITLE BAR
+IMAGE AND HEADING*/
+
+img.title {
+  float: left;
+  /*background-color: navy;*/
+  margin-bottom: 0px;
+}
+
+div.article-title {
+  border-bottom: 3px double gray;
+  /*background-color: lightblue;*/
+  padding-bottom: 0px;
+  height: 85px;
+}
+
+section h2 {
+  /*background-color: teal;*/
+  /*color: #498914;*/
+  color: #0072BC;
+  font-size: 40px;
+  width: 100%;
+  text-align: left;
+  margin-top: 0px;
+  padding-top: 8px;
+  padding-left: 50px;
+}
+
+/*BREAK
+BREAK*/
+
+section article {
+  /*background-color: gray;*/
+}
+
+div.maintext {
+  /*background-color: cyan;*/
+}
+
 /*FOOTER
 general*/
 footer {
-  background-color: #7F9516;
+  background-color: #0072BC;
   color: white;
   font-family: 'Sacramento', cursive;
-  border-top: #A1B832 solid 10px;
+  border-top: #0F9EFB solid 10px;
   margin-top: 0px;
   text-align: center;
   padding-bottom: 0px;

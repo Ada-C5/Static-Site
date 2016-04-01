@@ -17,7 +17,7 @@ header {
   height: 120px;
   float: right;
   clear: both;
-  border-bottom: #7C227C solid 10px;
+  border-bottom: #7C227C solid 15px;
   text-align: center;
 }
 
@@ -25,23 +25,32 @@ header {
 title*/
 header h1 {
   color: lavender;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
   margin-top: 25px;
   margin-left: 25px;
   margin-bottom: .5px;
+  padding: 0px 0px 0px 0px;
+  /*background-color: white;*/
+  line-height: 67px;
 }
 /*HEADER
 nav*/
 
 header ul {
   /*background-color:gray;*/
+  font-family: 'Sacramento', cursive;
+
+  float: right;
   margin-top: 0px;
   margin-left: 25px;
   margin-bottom: 25px;
 }
 header li {
   /*background-color: black;*/
+  font-size: 28px;
   display: inline-block;
-  padding: 30px;
+  padding: 0px 30px 0px 30px
 }
 
 /*HEADER
@@ -61,12 +70,15 @@ section {
   background-color: #FEFBF6;
 }
 
+section img {
+  border-radius: 10px;
+}
 /*FOOTER
 general*/
 footer {
   background-color: #7F9516;
   text-align: center;
-  border-top: #A1B832 solid 10px;
+  border-top: #A1B832 solid 15px;
   margin-top: 0px;
 }
 /*FOOTER

@@ -1,22 +1,107 @@
 html {
 	font-size: 16;
+/*	margin-right: 10rem;
+	margin-left: 10rem;*/
 }
 
 * {
 	box-sizing: border-box;
 }
 
-header {
-	width:50px;
+/*body {
+	background-color: light grey;
+}*/
+
+.index {
+	background-color: white;
 }
 
+.homepage_img {
+/*	display: block;
+    margin: 0 auto;*/
+/*    width:75%;*/
+	float:left;
+	clear:both;
+	padding:2px;
+	opacity: 0.85;
 
+}
 
+.post {
+	background-color: lightgrey;
+	padding: 10px;
+	margin: 10px;
+}
 
+.about-image {
+	width: 100%;
+	float: right;
+}
 
+header {
+	float: left;
+	display: block;
+    margin: 0 auto;
+	width: 25%
+}
 
+.nav-image {
+	float:left;
+	clear:both;
+	width: 100%;
+}
 
+.blog-image {
+	width:100%;
+}
 
+nav {
+	float:left;
+	clear:both;
+	width: 10%
+}
 
+article.blog {
+	float:right;
+	width:70%;
+	padding-right:7rem;
+}
 
+article.about {
+	background-color: #d3d3d3;
+	float:right;
+	width:70%;
+	padding-right:7rem;
+/*	background-image: url("../images/trees.jpg");*/
+}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a.active {
+    color: white;
+}
+
+li a:hover:not(.active) {
+    color: gray;
+}
+
+.index-link {
+	display: block;
+}
+.index-link:hover {
+	background-image: url("..images/type/oname.png");
+
+}

@@ -31,10 +31,19 @@ li {
 }
 
 li a {
-  padding: 2.3em;
+  padding-right: 2.3em;
+  padding-left: 2.3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   text-align: center;
   text-decoration: none;
   color: #351C3C;
+}
+
+li a:hover {
+    background-color: rgba(110, 55, 76, 0.4);
+    margin-top: 2%;
+    border-radius: 1.5em;
 }
 
 li.home {
@@ -45,7 +54,7 @@ section.section-background {
   background-color: rgba(235, 227, 238, 0.7);
   position: relative;
   height: 100%;
-  border-radius: 1em;
+  border-radius: 1.5em;
   padding: 1%;
   margin-top: 2%;
   font-family: Verdana, Arial;
@@ -65,4 +74,16 @@ body:after {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+footer.main {
+  font-family: Verdana, Arial;
+  font-size: 1.7em;
+  color: #351C3C;
+  padding-right: 3%;
+  margin-bottom: 2%;
+  text-align: right;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }

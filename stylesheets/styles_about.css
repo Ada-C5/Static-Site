@@ -45,7 +45,7 @@ h1 {
 }
 
 nav {
-  margin-left: 0;
+  margin: 0;
   width: 100%;
 }
 
@@ -76,17 +76,26 @@ nav a {
   color: #4d201d;
 }
 
+.bio {
+  margin: 12%;
+}
+
 .photo figure {
   display: block;
   width: 25%;
   height: 25%;
   float: left;
   margin-left: 0;
+  margin-top: .5rem;
   }
 
 .photo img {
   width: 90%;
   height: 90%;
-  border: .3rem solid #893d54;
+  /*border: .3rem solid #893d54;*/
   border-radius: .3rem;
+}
+
+.photo figcaption {
+  text-align: center;
 }

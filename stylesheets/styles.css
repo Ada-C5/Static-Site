@@ -102,6 +102,15 @@ img.logos {
     margin-right: 2%;
 }
 
+img.github {
+  height: 4%;
+  width: 4%;
+  border-radius: 50%;
+  display: inline;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
 body:after {
   content: "";
   position: fixed;
@@ -117,7 +126,7 @@ body:after {
   background-attachment: fixed;
 }
 
-footer.main {
+footer {
   font-family: Verdana, Arial;
   font-size: 1.7em;
   color: #351C3C;

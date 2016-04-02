@@ -60,7 +60,7 @@ li a.current-page {
 }
 
 section.section-background {
-  background-color: rgba(235, 227, 238, 0.7);
+  background-color: rgba(235, 227, 238, 0.8);
   position: relative;
   border-radius: 1.5em;
   padding: 1%;
@@ -74,29 +74,32 @@ h2 {
   margin-left: 2%;
 }
 
-section article p img {
+aside p img {
   height: 25%;
   width: 20%;
   border-radius: 50%;
   opacity: 0.8;
-  margin: 1%;
+  margin-right: 2%;
+  margin-left: 1%;
   float: left;
 }
 
 section article p.paragraph {
   padding-top: 2%;
+  display: inline;
 }
 
-p.sites {
-  clear: both;
+section article p a:link {
+  text-decoration: none;
 }
 
 img.logos {
-    height: 5%;
-    width: 5%;
+    height: 3%;
+    width: 3%;
+    border-radius: 50%;
     display: inline;
-    margin-top: 1%;
-    margin-left: 4%;
+    margin-top: 2%;
+    margin-right: 2%;
 }
 
 body:after {

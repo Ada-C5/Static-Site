@@ -60,7 +60,7 @@ li a.current-page {
 }
 
 section.section-background {
-  background-color: rgba(235, 227, 238, 0.8);
+  background-color: rgba(235, 227, 238, 0.9);
   position: relative;
   border-radius: 1.5em;
   padding: 1%;
@@ -74,7 +74,7 @@ h2 {
   margin-left: 2%;
 }
 
-aside p img {
+.circles {
   height: 25%;
   width: 20%;
   border-radius: 50%;
@@ -82,11 +82,6 @@ aside p img {
   margin-right: 2%;
   margin-left: 1%;
   float: left;
-}
-
-section article p.paragraph {
-  padding-top: 2%;
-  display: inline;
 }
 
 section article p a:link {
@@ -109,6 +104,31 @@ img.github {
   display: inline;
   margin-top: 2%;
   margin-left: 2%;
+}
+
+hr.style-seven {
+    height: 30px;
+    border-style: solid;
+    border-color: #351C3C;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    clear: both;
+    margin-top: 3%;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #351C3C;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+
+}
+
+.see-more {
+  text-decoration: none;
 }
 
 body:after {

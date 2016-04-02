@@ -1,6 +1,12 @@
+/* --- GLOBAL --- */
+
 * {
   box-sizing: border-box;
 }
+
+/* --- PRIMARY LAYOUT --- */
+
+/* header, navigation bar, navigation links */
 
 header {
   height: 6em;
@@ -38,14 +44,16 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: rgba(110, 55, 76, 0.4);
-    margin-top: 2%;
-    border-radius: 1.5em;
+  background-color: rgba(110, 55, 76, 0.4);
+  margin-top: 2%;
+  border-radius: 1.5em;
 }
 
 nav li.home {
   float: left;
 }
+
+/* format and color of background on navbar for current page */
 
 li a.current-page {
   padding-right: 2.3em;
@@ -59,77 +67,7 @@ li a.current-page {
   background-color: rgba(110, 55, 76, 0.4);
 }
 
-section.section-background {
-  background-color: rgba(235, 227, 238, 0.9);
-  position: relative;
-  border-radius: 1.5em;
-  padding: 1%;
-  margin-top: 2%;
-  font-family: Verdana, Arial;
-  color: #351C3C;
-  overflow: hidden;
-}
-
-h2 {
-  margin-left: 2%;
-}
-
-.circles {
-  height: 25%;
-  width: 20%;
-  border-radius: 50%;
-  opacity: 0.8;
-  margin-right: 2%;
-  margin-left: 1%;
-  float: left;
-}
-
-section article p a:link {
-  text-decoration: none;
-}
-
-img.logos {
-    height: 3%;
-    width: 3%;
-    border-radius: 50%;
-    display: inline;
-    margin-top: 2%;
-    margin-right: 2%;
-}
-
-img.github {
-  height: 4%;
-  width: 4%;
-  border-radius: 50%;
-  display: inline;
-  margin-top: 2%;
-  margin-left: 2%;
-}
-
-hr.style-seven {
-    height: 30px;
-    border-style: solid;
-    border-color: #351C3C;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
-    clear: both;
-    margin-top: 3%;
-}
-hr.style-seven:before { /* Not really supposed to work, but does */
-    display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: #351C3C;
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
-
-}
-
-.see-more {
-  text-decoration: none;
-}
+/* background image format */
 
 body:after {
   content: "";
@@ -146,6 +84,22 @@ body:after {
   background-attachment: fixed;
 }
 
+/* background for page content, over background image */
+
+section.section-background {
+  background-color: rgba(169, 159, 173, 0.9);
+  /*background-color: rgba(235, 227, 238, 0.9);*/
+  position: relative;
+  border-radius: 1.5em;
+  padding: 1%;
+  margin-top: 2%;
+  font-family: Verdana, Arial;
+  color: #351C3C;
+  overflow: hidden;
+}
+
+/* footer formatting for all pages */
+
 footer {
   font-family: Verdana, Arial;
   font-size: 1.7em;
@@ -156,4 +110,72 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
+}
+
+/* image and logo formatting */
+
+.circles {
+  height: 23%;
+  width: 18%;
+  border-radius: 50%;
+  opacity: 0.8;
+  margin-right: 2%;
+  margin-left: 1%;
+  float: left;
+}
+
+img.logos {
+  height: 3%;
+  width: 3%;
+  border-radius: 50%;
+  display: inline;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+/* --- SPECIFIC SECTION AND PAGE FORMATTING --- */
+
+/* all pages */
+
+h2 {
+  text-align:center;
+  margin-right: 2%;
+}
+
+hr.section-break {
+  margin-bottom: 3%;
+}
+
+/* about me page */
+
+section article p a:link {
+  text-decoration: none;
+}
+
+/* portfolio page */
+
+hr.fancy-line {
+  height: 1.875em;
+  border-style: solid;
+  border-color: #351C3C;
+  border-width: 1px 0 0 0;
+  border-radius: 1.25em;
+  clear: both;
+  margin-top: 3%;
+}
+
+hr.fancy-line:before {
+  display: block;
+  content: "";
+  height: 1.875em;
+  margin-top: -1.94em;
+  border-style: solid;
+  border-color: #351C3C;
+  border-width: 0 0 1px 0;
+  border-radius: 1.25em;
+
+}
+
+.see-more {
+  text-decoration: none;
 }

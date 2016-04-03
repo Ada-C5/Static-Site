@@ -135,17 +135,19 @@ ul.portfolio > li{
 }
 
 /**** Styling on blog page ****/
-article.top_entry, article.next_entry {
-  float: left;
-}
 
-article.next_entry {
-  margin: 0.5rem auto;
+/* Tried separating the CSS for top and next entry because I want sidebar to be next to the top entry... still not working!! */
+
+/* Why does just ".entries" not work for this? */
+.entries article {
+  margin: 0.5rem;
+  float: left;
 }
 
 .sidebar {
   background-color: white;
   width: 30%;
+  margin: 0;
   padding: 1rem 2rem 1rem 2rem;
   border: 0.25rem solid black;
   float: right;

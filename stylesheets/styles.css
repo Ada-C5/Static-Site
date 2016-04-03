@@ -12,11 +12,22 @@ html {
 
 /**************HEADER**************/
 
+header {
+  background-image: url('../images/macbook-coffee-cropped.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0;
+}
+
 nav ul {
   list-style: none;
   text-align: center;
-  padding: 0;
-  margin-top: 1rem;
+  padding: 1rem;
+  margin: 0;
   overflow: auto;
 }
 
@@ -31,7 +42,8 @@ nav a {
   text-decoration: none;
   display: block;
   color: #ecc6ec;
-  font-size: 3.5vh;
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 3px #000;
 }
 
 nav a:hover {
@@ -40,15 +52,12 @@ nav a:hover {
 
 h1 {
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 6rem;
   font-size: 4vw;
   color: #ff9980;
-  background-image: url('../images/macbook-coffee-cropped.jpg');
-  background-position: center;
-  background-size: cover;
   padding-bottom: 7rem;
-  text-shadow: 0px 0px 25px #000;
-  margin-top: 1rem;
+  text-shadow: 2px 2px 5px #000;
+  margin-top: 0;
 }
 
 /**************BODY****************/
@@ -66,15 +75,22 @@ article {
 
 h2 {
   clear: both;
-  margin-bottom: 1rem;
   text-align: center;
+  margin-bottom: 0;
+  font-size: 1.6rem;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.2rem;
 }
 
 /*************FOOTER**************/
 
 footer {
   /*position: absolute;*/
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
   bottom: 0;
   left: 0;

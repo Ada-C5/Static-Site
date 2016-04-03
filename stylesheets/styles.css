@@ -1,3 +1,5 @@
+/**** General styling ****/
+
 html {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
@@ -45,6 +47,7 @@ footer {
   font-size: 1rem;
   text-align: center;
   margin-top: 2rem;
+  clear: both;
 }
 
 article li {
@@ -132,6 +135,18 @@ ul.portfolio > li{
 }
 
 /**** Styling on blog page ****/
+article.top_entry, article.next_entry {
+  float: left;
+}
+
 article.next_entry {
   margin: 0.5rem auto;
+}
+
+.sidebar {
+  background-color: white;
+  width: 30%;
+  padding: 1rem 2rem 1rem 2rem;
+  border: 0.25rem solid black;
+  float: right;
 }

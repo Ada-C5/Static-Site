@@ -1,0 +1,107 @@
+/******** GLOBAL ********/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+		font-family: "American Typewriter", Courier, monospace;
+		font-size: 18px;
+		background-color: #F9F9F9;
+}
+
+h1 {
+	color: #202020;
+}
+
+a {
+	text-decoration: none;
+	color: #D9828B;
+}
+
+a:hover {
+	background-color: #81D8D0;
+}
+
+a:visited {
+	color: #458B85;
+}
+
+/******** HEADER ********/
+
+header {
+	font-family: "American Typewriter", Courier, monospace;
+	font-size: 24px;
+}
+
+.header-nav {
+	background-color: #81D8D0;
+	border: 1px solid #458B85;
+	margin: 1rem;
+	padding: 0;
+}
+
+.header-nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.header-nav li {
+	display: inline-block;
+	width: 33%;
+	padding: 1rem;
+}
+
+.header-nav li:hover {
+	background-color: #458B85;
+}
+
+.header-nav a {
+	color: #202020;
+	text-decoration: none;
+}
+
+.header-nav a:hover {
+	background-color: #458B85;
+	color: #FFDCE5;
+}
+
+/******** MAIN BODY ********/
+
+.main-body {
+	margin-left: 2.5rem;
+  margin-right: -.5rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: baseline;
+}
+
+.name {
+  order: 1;
+  width: 45%;
+  float: left;
+}
+
+.tagline {
+	width: 45%;
+  order: 2;
+  text-align: right;
+}
+
+
+/********* FOOTER *********/
+
+.footer-bar {
+	font-size: 12px;
+	background-color: #81D8D0;
+	border: 1px solid #458B85;
+	margin: 2rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: center;
+}

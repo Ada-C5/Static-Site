@@ -1,0 +1,53 @@
+/******** MAIN BODY PORTFOLIO PAGE ********/
+.main-body {
+	margin-left: 2.5rem;
+  margin-right: -.5rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.main-body h2 {
+	font-size: 1.2rem;
+	font-weight: bolder;
+}
+
+.main-body ul {
+	list-style: none;
+}
+
+.main-body li {
+	margin-bottom: 1rem;
+	margin-right: 2rem;
+	padding: .5rem;
+	border: 1px solid gray;
+}
+
+.ruby {
+	border: 3px groove #D9828B;
+	border-radius: 20px;
+	margin-right: 2rem;
+	margin-bottom: 2.5rem;
+	padding: .5rem;
+	order: 1;
+	background-color: #FFF;
+}
+
+.webpages {
+	order: 1;
+	margin-right: 2rem;
+	padding: .5rem;
+	border: 5px inset #81D8D0;
+	margin-bottom: 2.5rem;
+	background-color: #FFF;
+}
+
+.talks {
+	order: 1;
+	margin-right: 2rem;
+	padding: .5rem;
+	border: 2px dotted #202020;
+	border-radius: 50px;
+	background-color: #FFF;
+}

@@ -1,12 +1,12 @@
 
 html {
+	color:#D76B88;
 	font-family: "Monaco";
 	font-size: 16px;
-	color:#D76B88;
 	background-attachment: fixed;
 	background-image: url("../images/beach_background.jpg");
-	background-repeat: no-repeat; 
 	background-position: center; 
+	background-repeat: no-repeat; 
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -40,28 +40,28 @@ html {
 	color:#9E65A4;
 }
 
-#introduction {
+.introduction {
+	color:#9E65A4;
 	background-color: rgba(244,244,244,.8);
+	border-radius: 15px;
 	display: block; 
 	margin-top: 1%;
 	margin-right: 20%;
-	margin-bottom: 1%;
 	margin-left: 20%;
-	padding: .8rem;
-	border-radius: 15px;
-	color:#9E65A4;
+	margin-bottom: 1%;
+	padding: 2%;
 }
 
 .about {
-	background-color: rgba(244,244,244,.8);
 	color: #9E65A4;
+	background-color: rgba(244,244,244,.8);
+	border-radius: 15px;
 	display: block; 
 	margin-top: 1%;
 	margin-right: 20%;
-	margin-bottom: 1%;
 	margin-left: 20%;
-	padding: .8rem;
-	border-radius: 15px;
+	margin-bottom: 1%;
+	padding: 2%; 
 	text-align: left; 
 }
 
@@ -72,7 +72,7 @@ html {
 	margin-right: 1rem;
 	margin-bottom: .5rem;
 	position: relative;
-	}
+}
 
 
 #portfolio {
@@ -109,21 +109,22 @@ html {
 	position: relative;
 	opacity: 0.75;
 }
-.hobby-blog {
-	background-color: rgba(244,244,244,.8);
+
+.hobby-entries {
 	color: #9E65A4;
+	background-color: rgba(244,244,244,.8);
+	border-radius: 15px;
 	display: block; 
 	margin-top: 1%;
 	margin-right: 20%;
-	margin-bottom: 1%;
 	margin-left: 20%;
+	margin-bottom: 3%;
 	padding: .8rem;
-	border-radius: 15px;
 	text-align: center; 
 
 }
 
-.hobby-blog img{
+.hobby-entries img{
 	border-radius: 15px;
 	margin-right: auto;
 	margin-bottom: 2%;
@@ -133,24 +134,41 @@ html {
 }
 
 
-.hobby-blog img:hover{
+.hobby-entries img:hover{
 	opacity: 1;
 }
 
-.hobby-blog a { 
+.hobby-entries a { 
 	color:#D76B88;
 	text-decoration: none;
 }
 
-.hobby-blog a:hover {
+.hobby-entries a:hover {
 	color:#9E65A4;
 }
 
 footer {
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
 	position: fixed;
-	bottom: 0;
 	width: 100%;
 	text-align: center; 
 }
 
+.return-to-top a {
+	color: #D76B88;
+	background-color: rgba(244,244,244,.8);
+	border-radius: 15px;
+	display: block; 
+	margin-top: 1%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 3%;
+	padding: .8rem;
+	text-align: center;
+	text-decoration: none
+}
 
+.return-to-top a:hover {
+	color:#9E65A4;

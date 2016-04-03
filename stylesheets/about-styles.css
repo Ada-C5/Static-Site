@@ -1,0 +1,27 @@
+
+.main-body {
+	margin-left: 2.5rem;
+  margin-right: -.5rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: baseline;
+}
+
+.author-photo {
+	border: 3px dashed #D9828B;
+	border-radius: 90px;
+	order: 1;
+}
+
+.name {
+  order: 1;
+  width: 45%;
+  float: left;
+}
+
+.tagline {
+	width: 45%;
+  order: 2;
+  text-align: right;
+}

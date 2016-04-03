@@ -55,21 +55,42 @@ ul {
   min-height: 50%;
 }
 
-.site-navigation {
+.horizontal.site-navigation {
   bottom: 10%;
   position: fixed;
   width: 100%;
   z-index: 2;
 }
 
+.leftside.site-navigation {
+  top: 0;
+  left: 0;
+  /*right: 0;*/
+  /*bottom: 0;*/
+  position: fixed;
+  height: 100%;
+  width: 40%;
+  z-index: 2;
+}
+
 .site-navigation nav {
   width: 100%;
-  height: 4rem;
-  line-height: 4rem;
+  /*height: 4rem;
+  line-height: 4rem;*/
   /*for browsers that may not support linear-gradient like i have it set up*/
   background-color: #EF9D6D;
-  background-image: linear-gradient(to right, #D66E55, #EF9D6D, #F2CEB3 39%, #F2CEB3);
   opacity: 0.67;
+}
+
+.horizontal.site-navigation nav {
+  height: 4rem;
+  line-height: 4rem;
+  background-image: linear-gradient(to right, #D66E55, #EF9D6D, #F2CEB3 39%, #F2CEB3);
+}
+
+.leftside.site-navigation nav {
+  height: 100%;
+  background-image: linear-gradient(to bottom, #D66E55, #EF9D6D, #F2CEB3 39%, #F2CEB3);
 }
 
 .site-navigation h1 {
@@ -93,17 +114,18 @@ ul {
 }
 
 
-.home-link {
+.here-link {
     padding-left: 2rem;
     font-weight: bold;
     font-size: 5.5rem;
     color: #F3CEB3;
     /* offset-x | offset-y | blur-radius | color */
     text-shadow: .12rem .12rem .24rem rgba(65, 40, 37, 0.75);
+    border-bottom: 0;
     /*transition: all 0.2s ease;*/
 }
 
-.home-link:hover {
+.here-link:hover {
   /*i don't think this method of assigning background images works with firefox but i'm okay with that since this is just a fancy extra.  sorry!*/
   text-shadow: .12rem .12rem .24rem rgba(215, 110, 82, 1);
   border-bottom: none;
@@ -126,27 +148,46 @@ ul {
   display: inline-block;
 }
 
-.site-section-links a:hover {
-  margin-left: 1rem;
+.site-section-links li:hover {
+  margin-left: 3rem;
+  /*still wigles!*/
 }
 
 footer {
   bottom: 3%;
   position: fixed;
-  width: 100%;
+  /*width: 100%;*/
   z-index: 2;
 }
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
+}
+
 
 .off-site-navigation, .off-site-navigation ul {
   height: 3rem;
   width: 100%;
 }
 
+
 .off-site-navigation li {
   height: 3rem;
-  float: right;
+  /*float: right;*/
   margin-left: 1.5rem;
   margin-right: .5rem;
+}
+
+.right .off-site-navigation li {
+  float: right;
+}
+
+.left .off-site-navigation li {
+  float: left;
 }
 
 .off-site-navigation img {

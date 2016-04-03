@@ -1,0 +1,44 @@
+/******** MAIN BODY ABOUT PAGE ********/
+.main-body {
+	margin-left: 2.5rem;
+  margin-right: -.5rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.ruby {
+	border: 3px dashed #D9828B;
+	border-radius: 90px;
+	order: 1;
+	float: left;
+	clear: both;
+}
+
+.webpages {
+	order: 1;
+	float: right;
+	max-width: 65%;
+	clear: both;
+	margin-left: 1rem;
+}
+
+.mini-lists {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.mini-lists ul {
+	margin-left: 1rem;
+}
+
+.likes {
+	margin-left: .5rem;
+}
+
+.dislikes {
+	margin-left: 1rem;
+}

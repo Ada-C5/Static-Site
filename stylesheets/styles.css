@@ -20,7 +20,7 @@ header {
 .header-nav {
 	background-color: #81D8D0;
 	border: 1px solid #458B85;
-	margin: 0;
+	margin: 2rem;
 	padding: 0;
 }
 
@@ -67,6 +67,8 @@ a:hover {
 }
 
 .main-body {
+	margin-left: 2.5rem;
+  margin-right: -.5rem;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -77,16 +79,25 @@ a:hover {
   order: 1;
   width: 45%;
   float: left;
-  justify-content: flex-start;
 }
 
 .tagline {
 	width: 45%;
   order: 2;
-  justify-content: flex-end;
   text-align: right;
-
 }
 
 
 /********* FOOTER *********/
+
+.footer-bar {
+	font-size: 12px;
+	text-align: center;
+	background-color: #81D8D0;
+	border: 1px solid #458B85;
+	margin: 2rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: baseline;
+}

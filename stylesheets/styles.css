@@ -1,0 +1,209 @@
+/* --- GLOBAL --- */
+
+* {
+  box-sizing: border-box;
+}
+
+/* --- PRIMARY LAYOUT --- */
+
+/* header, navigation bar, navigation links */
+
+header {
+  height: 6em;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  margin-top: 2%;
+  background-color: rgba(200, 194, 208, 0.4);
+  border-radius: 1.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 2%;
+  padding: 0;
+  font-family: Verdana, Arial;
+  font-size: 1.5em;
+}
+
+
+nav li {
+  display: inline;
+  float: right;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+nav li a {
+  padding: 1em 2.3em 1em 2.3em;
+  text-align: center;
+  text-decoration: none;
+  color: #351C3C;
+}
+
+nav li a:hover {
+  background-color: rgba(110, 55, 76, 0.4);
+  margin-top: 2%;
+  border-radius: 1.5em;
+}
+
+nav li.home {
+  float: left;
+}
+
+/* format and color of background on navbar for current page */
+
+li a.current-page {
+  padding: 1em 2.3em 1em 2.3em;
+  text-align: center;
+  text-decoration: none;
+  color: #351C3C;
+  background-color: rgba(110, 55, 76, 0.4);
+  border-radius: 1.5em;
+}
+
+/* background image format */
+
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("../images/background.jpg");
+  width: 100%;
+  height: 100%;
+  opacity : 0.6;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* background for page content, over background image */
+
+section.section-background {
+  background-color: rgba(169, 159, 173, 0.9);
+  position: relative;
+  border-radius: 1.5em;
+  padding: 1%;
+  margin-top: 2%;
+  font-family: Verdana, Arial;
+  color: #351C3C;
+  overflow: hidden;
+}
+
+/* footer formatting for all pages */
+
+footer {
+  padding-right: 3%;
+  margin-bottom: 2%;
+  text-align: right;
+  width: 100%;
+  position: static;
+  bottom: 0;
+}
+
+/* footer formatting for index page only */
+
+footer.index {
+  font-family: Verdana, Arial;
+  font-size: 1.7em;
+  color: #351C3C;
+  padding-right: 3%;
+  margin-bottom: 2%;
+  text-align: right;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+/* image and logo formatting */
+
+.circles {
+  height: 23%;
+  width: 18%;
+  border-radius: 50%;
+  opacity: 0.8;
+  margin: 0 2% 2% 1%;
+  float: left;
+}
+
+img.logos {
+  height: 3%;
+  width: 3%;
+  display: inline;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+/* --- SPECIFIC SECTION AND PAGE FORMATTING --- */
+
+/* all pages */
+
+h2 {
+  text-align:center;
+}
+
+h3 {
+  color:  #6a2941;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr.section-break {
+  margin-bottom: 3%;
+}
+
+/* portfolio and blog pages */
+
+hr.fancy-line {
+  height: 1.875em;
+  border-style: solid;
+  border-color: #351C3C;
+  border-width: 1px 0 0 0;
+  border-radius: 1.25em;
+  clear: both;
+  margin-top: 3%;
+}
+
+hr.fancy-line:before {
+  display: block;
+  content: "";
+  height: 1.875em;
+  margin-top: -1.94em;
+  border: solid #351C3C;
+  border-width: 0 0 1px 0;
+  border-radius: 1.25em;
+
+}
+
+.see-more {
+  text-decoration: none;
+}
+
+/* blog pages */
+
+h2.blog-name {
+  font-size: 30px;
+  text-align: center;
+}
+
+p.sub-heading {
+  font-size: 16px;
+  text-align: center;
+}
+
+h3.blog-title {
+  text-align: center;
+}
+
+time {
+  color:  #6a2941;
+  font-style: italic;
+  font-weight: normal;
+}

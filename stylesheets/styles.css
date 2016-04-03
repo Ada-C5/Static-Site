@@ -1,0 +1,306 @@
+/**
+
+  Colors
+    dark purple: #551A8B
+    light purple: #865CAC
+    lighter purple: #F9F3FE
+    teal: #39b192
+
+**/
+
+/** Main **/
+
+* {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+html {
+  font-family: Fjalla One, Arial;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+/** Header **/
+
+header {
+  width: 100%;
+  height: 12rem;
+  padding-top: 3rem;
+  background-image: url(file:///Users/sophia/C5/projects/Static-Site/images/octopus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-panel {
+  width: 55%;
+  height: 9rem;
+  margin: auto;
+  background-color: rgba(0, 222, 230, 0.4);
+  /*margin: 10rem auto;*/
+  padding: 0;
+}
+
+header h1 {
+  margin: 0;
+  padding-top: 5%;
+  text-align: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+header ul {
+  padding: 0;
+}
+
+header li {
+  display: inline-block;
+  width: 33.33%;
+  height: 2rem;
+  margin: 1rem 0;
+  padding: 0;
+  text-align: center;
+  float: left;
+}
+
+header li:hover {
+  background-color: rgba(200, 222, 230, 0.4);
+  /*background: linear-gradient(to right, rgba(255, 255, 255, 0), #39b192, rgba(255, 255, 255, 0));*/
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), #39b192);
+}
+
+header a {
+  margin: auto;
+  font-size: 1.4rem;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+/** Body **/
+
+body {
+  background-color: #F9F3FE;
+  margin: 0;
+  clear: both;
+  /*background-image: url(file:///Users/sophia/C5/projects/Static-Site/images/octopus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  /*filter: blur(5px);*/
+}
+
+article {
+  padding: 1rem 8rem;
+}
+
+/** Footer **/
+
+footer {
+  width: 100%;
+  height: 4rem;
+  padding: .5rem;
+  background-color: #865CAC;
+  color: white;
+}
+
+footer address {
+  display: block;
+}
+
+/** HOME / INDEX.HTML **/
+
+  /** Home Header **/
+
+.home-header {
+  height: 75%;
+}
+
+.home-header .header-panel {
+  width: 55%;
+  height: 18rem;
+  margin: 10rem auto;
+}
+
+.home-header h1 {
+  font-size: 7rem;
+}
+
+.home-header li {
+  height: 5rem;
+}
+
+.home-header a {
+  font-size: 3rem;
+}
+
+  /** Page Previews **/
+
+.page-preview {
+  width: 33.33%;
+  height: 30rem;
+  float: left;
+  background-color: #b18ed6;
+}
+
+.page-preview:hover {
+    background: linear-gradient(360deg, #b18ed6, #39b192);
+}
+
+/** PORTFOLIO **/
+
+.portfolio-project h2 {
+  display: inline-block;
+  margin-top: 7rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.project-name {
+  width: 40%;
+  margin: auto;
+}
+.project-icon-link {
+  display: inline-block;
+  margin-left: 1rem;
+  /*text-align: center;*/
+  /*float: left;*/
+  font-size: 3rem;
+}
+
+.project-icon-link i:hover {
+  box-shadow: .1em 0 0.1em #865CAC, -.1em 0 0.1em #865CAC;
+}
+
+.project-desc {
+  padding: 1rem 3rem;
+  clear: left;
+}
+
+.project-desc h3 {
+  margin: .5rem 0;
+}
+
+.project-desc li {
+  display: inline-block;
+  margin: 1rem 0 1rem 2rem;
+  margin-left: 2rem;
+  color: #551A8B;
+  font-size: 1.3rem;
+  /*float: left;*/
+}
+
+.project-desc img {
+  display: inline-block;
+  width: 18px;
+  padding-top: 1.1rem;
+}
+
+.project-desc p {
+  clear: left;
+}
+
+  /** project visuals **/
+
+.project-visuals {
+  width: 90%;
+  height: 20rem;
+  margin: 1rem auto;
+}
+
+.project-visuals img {
+  display: inline-block;
+  width: 49%;
+  min-height: 100%;
+  margin:auto;
+  border-radius: .3rem;
+  float: left;
+}
+
+.project-visuals img:hover {
+  box-shadow: .1em 0 0.1em #865CAC, -.1em 0 0.1em #865CAC;
+}
+
+.code-snippet {
+  display: inline-block;
+  width: 49%;
+  height: 100%;
+  margin: auto;
+  background: url(file:///Users/sophia/C5/projects/Static-Site/images/stripes.png) repeat 0 .5rem;
+  background-position: 0px -4px;
+  border: .1rem solid #865CAC;
+  border-left: .4rem solid #865CAC;
+  overflow: auto;
+  float: right;
+}
+
+.code-snippet h4 {
+  margin: 0;
+  padding: .5rem;
+  background-color: #865CAC;
+  color: white;
+}
+
+.code-snippet pre {
+  margin: 0;
+  line-height: 1.25rem;
+  font-family: Courier;
+}
+
+/** HOBBY BLOG **/
+
+.blog {
+  width: 75%;
+  border: .2rem solid black;
+  overflow: hidden;
+}
+
+.blog-img {
+  width: 35%;
+  margin: 1rem;
+}
+
+.blog-img.half {
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** end **/

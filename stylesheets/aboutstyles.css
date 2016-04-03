@@ -65,12 +65,10 @@ aside.side-nav {
   margin-top: 0px;
   float:left;
   max-width: 15%;
-  /*background-color:black;*/
   position: fixed;
   z-index: 2;
   height:100px;
 }
-
 
 div.main {
   width: 100%;
@@ -79,6 +77,7 @@ div.main {
   background-image: url("../images/ireland2.jpg");
   background-size: cover;
 }
+
 aside.side-nav img{
   height: 110px;
   width: 110px;
@@ -93,27 +92,23 @@ aside.side-nav img{
   width: 100%;
   height:800px;
   background-color: blue;
-
 }
+
 .container img {
   border-radius: 3%;
 }
 
-.container a {
-  /*margin-right:530px;*/
+h2 {
+ padding-top: 130px;
+ text-transform: uppercase;
 }
-
- h2 {
-   padding-top: 130px;
-   text-transform: uppercase;
- }
 
 div.container.fam {
   background-image: url("../images/wedding.jpg");
   background-size: cover;
 }
 
-div.famwords {
+div.famwords{
   padding-left: 13%;
   text-transform: none;
   padding-right: 67%;
@@ -138,16 +133,15 @@ div.container.school {
   background-color: green;
 }
 
-
 div.both {
   display: flex;
 }
+
 #ada{
   margin-right: 10%;
   padding-left: 13%;
   text-align:center;
   text-transform: none;
-
 }
 
 #ada img {
@@ -164,9 +158,51 @@ div.both {
   padding-top: 100px;
 }
 
-#ada a:hover{
+#ada a:hover {
   font-style: italic;
   text-shadow: 2px 2px 2px rgb(198, 197, 196);
+}
+
+#work {
+  margin-right: 0%;
+  text-align:center;
+  text-transform: none;
+  margin-left: 13%;
+  width: 100%;
+  display:inline;
+  color:white;
+}
+#brp a:link, #brp a:visited, #billings a:link, #billings a:visited{
+  color: white;
+}
+
+#brp a:hover, #billings a:hover{
+  font-style:italic;
+  color:cornflowerblue;
+}
+
+#billings {
+  float:left;
+  width: 48%;
+  margin-left: 2%;
+}
+
+#work h2 {
+  padding-top: 90px;
+  margin-bottom: 0px;
+}
+
+#brp {
+  float:right;
+  width:48%;
+}
+
+#brp img{
+  width: 60%;
+}
+
+#billings img {
+  width:100%;
 }
 
 div.container.dog {

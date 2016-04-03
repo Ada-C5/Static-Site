@@ -75,7 +75,7 @@ html {
 }
 
 
-#portfolio {
+.portfolio {
 	background-color: rgba(244,244,244,.8);
 	display: block; 
 	margin-top: 1%;
@@ -88,20 +88,20 @@ html {
 	text-align: center; 
 }
 
-#projects th {
+.projects th {
 	font-size: 20px; 
 	color:#9E65A4;
 }
 
-#projects td {
+.projects td {
 	text-shadow: 1px 1px 1px #F4F4F4
 }
 
-#projects td:hover {
+.projects td:hover {
 	color:#9E65A4;
 }
 
-#projects img{
+.projects img{
 	border-radius: 15px;
 	display:block;
 	margin-right: 1rem;
@@ -109,6 +109,11 @@ html {
 	position: relative;
 	opacity: 0.75;
 }
+
+.projects img:hover {
+	opacity: 1;
+}
+
 
 .hobby-entries {
 	color: #9E65A4;

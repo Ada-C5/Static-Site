@@ -7,6 +7,11 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #7C227C;
+}
+
 /*HEADER
 general*/
 
@@ -27,7 +32,7 @@ header {
 /*HEADER
 title*/
 
-header h1 {
+h1 {
   color: lavender;
   font-size: 55px;
   margin-top: 25px;
@@ -81,7 +86,7 @@ p.divider{
 }
 
 /*SECTION
-IMAGE, TITLE, AND BORDER BAR */
+image, title, border bar */
 
 img.title {
   float: left;
@@ -99,39 +104,18 @@ section h2 {
   padding-top: 8px;
 }
 
-/*START HERE*/
+/*SECTION
+general*/
 
-/*.all-projects {
-  margin-top: 15px;
-  text-align: center;
-}*/
-
-
-section h3 {
+h3 {
   font-size: 25px;
-  /*background-color: red;*/
-  margin-top: 0px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-section a {
-  text-decoration: none;
-  color: #7C227C;
-}
-.project1, .project2, .project3 {
-  width: 30%;
-  /*border: black solid 1px;*/
-  display:inline-block;
-
-  /*background-color: tan;*/
-}
-
-.project2 {
-  margin-left: 5px;
-  margin-right: 5px;
-}
 /*FOOTER
 general*/
+
 footer {
   background-color: #0072BC;
   color: white;
@@ -142,10 +126,8 @@ footer {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-/*FOOTER
-address*/
+
 footer address {
-  /*background-color: red;*/
   height: 10px;
   width: 30%;
   padding-top: .5px;

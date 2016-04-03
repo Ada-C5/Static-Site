@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.gallery a {
+.gallery figure {
   width: 22%;
   height: auto;
   margin-left: 1.5%;
@@ -16,14 +16,22 @@
   transition: 0.3s ease;
 }
 
-.gallery a:hover {
-  transform: scale(1.6);
+.gallery figure:hover {
+  transform: scale(1.9);
   z-index: 2;
+  background-color: black;
+  box-shadow: 0 0 1.2rem 1rem #000;
 }
 
-a img {
+img {
   width: 100%;
   height: auto;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #ff9980;
 }
 
 h2 {

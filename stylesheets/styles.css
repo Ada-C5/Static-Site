@@ -1,30 +1,32 @@
+
 html {
 	font-family: "Monaco";
 	font-size: 16px;
 	color:#D76B88;
-}
-
-body {
-	background-attachment: none;
+	background-attachment: fixed;
 	background-image: url("../images/beach_background.jpg");
 	background-repeat: no-repeat; 
-	background-position: fixed; 
+	background-position: center; 
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
-nav {
+.top-bar {
 	width: 100%;
 	text-align: center;
 }
 
-nav ul {
+.top-bar ul {
 	list-style: none;
 }
 
-nav ul li {
+.top-bar ul li {
 	display: inline; 
 }
 
-nav ul li a { 
+.top-bar a { 
 	color:#D76B88;
 	font-size: 32px; 
 	padding-top: 10px;
@@ -32,70 +34,71 @@ nav ul li a {
 	padding-left: 30px;
 	padding-bottom: 5px; 
 	text-decoration: none;
-	display: inline-block;
 }
 
-ul li a:hover {
+.top-bar a:hover {
 	color:#9E65A4;
 }
 
 #introduction {
-	background-color: rgba(244,244,244,.2);
+	background-color: rgba(244,244,244,.8);
 	display: block; 
-	margin-top: 1rem;
-	margin-right: 1rem;
-	margin-bottom: 1rem;
-	margin-left: 1rem;
-	padding: .8rem;
-	border-radius: 15px;
-}
-
-#about {
-	background-color: rgba(244,244,244,.2);
-	display: block; 
-	margin-top: 1rem;
-	margin-right: 1rem;
-	margin-bottom: 1rem;
-	margin-left: 1rem;
-	padding: .8rem;
-	border-radius: 15px;
-	position: absolute;
-}
-
-#about img{
-	border-radius: 15px;
-	float: left;
-	display:block;
-	margin-right: 1rem;
-	margin-bottom: 1rem;
-	position: relative;
-	}
-
-#hobby-blog {
-	background-color: rgba(244,244,244,.2);
-	margin-top: 1rem;
-	margin-right: 1rem;
-	margin-bottom: 1rem;
-	margin-left: 1rem;
-	border-radius: 15px;
-}
-
-#portfolio {
-	background-color: rgba(244,244,244,.2);
-	display: block; 
-	/*margin: 20%;*/
 	margin-top: 1%;
 	margin-right: 20%;
 	margin-bottom: 1%;
 	margin-left: 20%;
 	padding: .8rem;
 	border-radius: 15px;
-/*	position: absolute;*/
+	color:#9E65A4;
+}
+
+.about {
+	background-color: rgba(244,244,244,.8);
+	color: #9E65A4;
+	display: block; 
+	margin-top: 1%;
+	margin-right: 20%;
+	margin-bottom: 1%;
+	margin-left: 20%;
+	padding: .8rem;
+	border-radius: 15px;
+	text-align: left; 
+}
+
+.about img{
+	border-radius: 15px;
+	float: left;
+	display:block;
+	margin-right: 1rem;
+	margin-bottom: .5rem;
+	position: relative;
+	}
+
+
+#portfolio {
+	background-color: rgba(244,244,244,.8);
+	display: block; 
+	margin-top: 1%;
+	margin-right: 20%;
+	margin-bottom: 1%;
+	margin-left: 20%;
+	padding: .8rem;
+	border-radius: 15px;
+	position: absolute;
 	text-align: center; 
 }
 
 #projects th {
 	font-size: 20px; 
+	color:#9E65A4;
+}
+
+#projects td {
+	text-shadow: 1px 1px 1px #F4F4F4
+}
+
+#projects td:hover {
+	color:#9E65A4;
 }
 
 #projects img{
@@ -104,6 +107,43 @@ ul li a:hover {
 	margin-right: 1rem;
 	margin-bottom: 1rem;
 	position: relative;
+	opacity: 0.75;
+}
+.hobby-blog {
+	background-color: rgba(244,244,244,.8);
+	color: #9E65A4;
+	display: block; 
+	margin-top: 1%;
+	margin-right: 20%;
+	margin-bottom: 1%;
+	margin-left: 20%;
+	padding: .8rem;
+	border-radius: 15px;
+	text-align: center; 
+
+}
+
+.hobby-blog img{
+	border-radius: 15px;
+	margin-right: auto;
+	margin-bottom: 2%;
+	margin-left:  auto; 
+	margin-bottom: 2%; 
+	opacity: 0.75;
+}
+
+
+.hobby-blog img:hover{
+	opacity: 1;
+}
+
+.hobby-blog a { 
+	color:#D76B88;
+	text-decoration: none;
+}
+
+.hobby-blog a:hover {
+	color:#9E65A4;
 }
 
 footer {

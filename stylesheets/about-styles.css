@@ -9,7 +9,7 @@
 }
 
 .author-photo {
-	border: 3px dashed #D9828B;
+	border: 2px dashed #D9828B;
 	border-radius: 90px;
 	order: 1;
 	float: left;
@@ -23,6 +23,9 @@
 	clear: both;
 	margin-left: 1rem;
 	align-self: flex-start;
+	background-color: #FFF;
+	padding: .5rem;
+	border: 4px double #202020;
 }
 
 .mini-lists {

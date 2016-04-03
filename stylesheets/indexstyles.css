@@ -58,10 +58,25 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 30px;
-  padding-right: 85%;
-  /*width: 50%;*/
+  height: 100px;
 }
 
 div .links{
   display: inline;
+}
+
+#me{
+  width:40%;
+  float:left;
+  font-size:4rem;
+  font-style:italic;
+  padding-left:5%;
+}
+
+#me a:link, #me a:visited {
+  font-style: italic;
+}
+
+#me a:hover{
+  text-shadow: 2px 2px 2px rgb(40, 61, 83);
 }

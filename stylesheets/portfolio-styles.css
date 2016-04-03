@@ -48,50 +48,60 @@ body {
   background: -ms-linear-gradient(left, rgb(212,228,239) 0%, rgb(134,174,204) 100%);
   background: linear-gradient(to right, rgb(212,228,239) 0%, rgb(134,174,204) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
-  max-width: 100%;
+  /*max-width: 100%;*/
 }
+article {
+  padding-top: 100;
+  padding left: 200;
 
+}
 h1 {color; black;
     font-family: 'Tangerine', serif;
     font-size: 48px;
     text-shadow: 4px 4px 4px #aaa;
     text-align: center;
   }
-  .name {
-    color; black;
-    font-family: 'Tangerine'; serif;
-    font-size: 48px;
-    text-shadow: 4px 4px 4px #aaa;
-    text-align: center;
-    margin-top: 15px;
-    padding-left: 50px;
-  }
-  
+
 p {
     font-family: arial;
-    font-size: 24px;
-    text-align: justify;
-    margin-top: 2px;
-    margin-left: 10px;
-    max-width: 60%;
-    float: left;
-}
+      font-size: 18px;
+      text-align: left;
+      margin-top: 62px;
+      margin-left: 0;
+      max-width: 77%;
+      float: right;
+  }
 
-h2, h3 {
+table {
+  margin-left: 10px;
+  margin-bottom: 60px;
+
+}
+h2 {
+  color; black;
+  font-family: 'Tangerine', serif;
+  font-size: 24px;
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: left;
+
+  }
+
+  h3 {
+    color; black;
+    font-family: 'Tangerine', serif;
+    font-size: 18px;
+    text-shadow: 4px 4px 4px #aaa;
     text-align: left;
-}
-
-aside {
+  }
+/*section {
+  float; left:
+}*/
+/*aside {
   display: inline;
   margin: 0; 5px;
   width: 90%;
-}
+}*/
 
-iframe {
-  padding-right: 15px;
-  max-width: 34%;
-  float: right;
-}
 .portfolio-game-link {
   display: inline;
   margin: 0; 5px;
@@ -105,11 +115,15 @@ iframe {
 p.highlight {
   background-color: purple;
 }
+/*h3.title-with-picture {
+  width: 15%;
+  float: left;
 
- .about-me-photos {
-    display: inline;
-    margin-right: 0;
-    width: 19.5%;
+}*/
+img.photos-game {
+  height: 226px;
+  width: 226px
+  align: left;
 }
 /**************
 footer
@@ -120,7 +134,7 @@ footer {
   text-align: left;
   font-family: sans-serif;
   font: Arial;
-  font-size: 18px;
+  font-size: 24px;
   font-style: normal;
   /*height: 29px;*/
   /*margin-bottom: 0;*/
@@ -146,7 +160,7 @@ footer address {
   text-align: center;
   font-family: sans-serif;
   font: Arial;
-  font-size: 15px;
+  font-size: 12px;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0px;

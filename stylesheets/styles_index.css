@@ -4,7 +4,7 @@ header {
 
 h1 {
   font-family: 'Codystar', fantasy;
-  font-size: 8vw;
+  font-size: 8.5vw;
   margin-top: 0;
   padding-top: 10%;
   background-image: url('../images/macbook-coffee-cropped.jpg');
@@ -15,8 +15,8 @@ h1 {
 }
 
 nav {
-  padding-bottom: 7%;
-  background-color: transparent;
+  padding-bottom: 5%;
+  background: transparent;
 }
 
 nav ul {

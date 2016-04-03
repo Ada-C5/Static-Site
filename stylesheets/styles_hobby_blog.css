@@ -6,38 +6,22 @@ html {
   font-size: rem;
   font-family: 'Muli', sans-serif;
   background-color: #f9f9f9;
-  width: 100%;
-  padding: 2%;
+  padding: 2rem;
 }
 
 header {
-  background-image: url("file:///Users/justinewinnie/Desktop/c5/projects/Static-Site/images/floral.jpg");
-  background-size: cover;
+  background: url("file:///Users/justinewinnie/Desktop/c5/projects/Static-Site/images/gold_wallpaper.jpg");
+  background-size: 90rem;
   background-repeat: no-repeat;
-  border: .3rem solid #893d54;
   border-radius: .6rem;
-  height: 12rem;
-  width: 100%;
-  padding-bottom: .75rem;
-  margin: auto;
-}
-
-header img{
-    opacity: 0.4;
-    filter: alpha(opacity=40);
-    height: 12rem;
-    width: 100%
 }
 
 h1 {
-    color: #2c1913;
-    text-align: left;
-    font-size: 6rem;
-    font-weight: lighter;
-    width: 50rem;
-    height: 3rem;
-    margin-left: 1rem;
-    margin-right: auto;
+  display: inline-block;
+  color: #2c1913;
+  text-align: left;
+  font-size: 6rem;
+  font-weight: lighter;
 }
 
 nav ul {
@@ -51,11 +35,10 @@ nav ul {
 nav li {
   display: inline-block;
   padding: .75rem; 10rem; .75rem; 10rem;
-  float: left;
-  margin: .1%;
+  margin: .2%;
   border: solid #2c1913;
   border-radius: .3rem;
-  width: 33%;
+  width: 24%;
   height: 3rem;
   text-align: center;
 }
@@ -79,12 +62,8 @@ nav a {
 .gallery figure {
   display: inline-block;
   width: 25%;
-  height: 30rem;
   border: solid #2c1913;
   border-radius: .3rem;
-  /*margin: 1.5rem;
-  margin-left: 3rem;*/
-  /*margin: auto;*/
   padding: 1.5rem;
 }
 
@@ -92,5 +71,11 @@ nav a {
   display: inline-block;
   width: 100%;
   height: auto;
-  /*margin: auto;*/
+}
+
+footer {
+  clear: both;
+  font-size: .5rem;
+  padding: auto;
+  text-align: center;
 }

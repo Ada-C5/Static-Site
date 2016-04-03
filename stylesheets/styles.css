@@ -20,7 +20,7 @@ header {
 .header-nav {
 	background-color: #81D8D0;
 	border: 1px solid #458B85;
-	margin: 2rem;
+	margin: 1rem;
 	padding: 0;
 }
 
@@ -33,7 +33,7 @@ header {
 
 .header-nav li {
 	display: inline-block;
-	width: 33%;
+	width: 25%;
 	padding: 1rem;
 }
 

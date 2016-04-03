@@ -39,7 +39,7 @@ ul {
   left: -50%;
   width: 200%;
   height: 200%;
-  z-index: -1;
+  z-index: -2;
 }
 
 .background img {
@@ -59,6 +59,7 @@ ul {
   bottom: 10%;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 .site-navigation nav {
@@ -76,6 +77,22 @@ ul {
   opactiy: 1;
 }
 
+.background-blanket {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.background-blanket:hover {
+  background-color: rgba(0,0,0,0);
+}
+
+
 .home-link {
     padding-left: 2rem;
     font-weight: bold;
@@ -85,15 +102,6 @@ ul {
     text-shadow: .12rem .12rem .24rem rgba(65, 40, 37, 0.75);
     /*transition: all 0.2s ease;*/
 }
-/*paw hover - saved because i'm trying something else.*/
-/*.home-link:hover {*/
-  /*i don't think this method of assigning background images works with firefox but i'm okay with that since this is just a fancy extra.  sorry!*/
-  /*background-image: url(../images/paw-print-skewed.png);*/
-  /*background-size: contain;*/
-  /*background-repeat: no-repeat;*/
-  /*height: 100%;*/
-  /*border-bottom: none;*/
-  /*}*/
 
 .home-link:hover {
   /*i don't think this method of assigning background images works with firefox but i'm okay with that since this is just a fancy extra.  sorry!*/
@@ -101,16 +109,8 @@ ul {
   border-bottom: none;
 }
 
-/*.site-section-links > a:hover {
-  background-image: url(../images/paw-print-skewed.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 100%;
-}*/
-
 .site-navigation ul {
   height: 4rem;
-  /*width: 12%; i don't think I need this - it fits largest li?*/
   float: left;
 }
 
@@ -134,6 +134,7 @@ footer {
   bottom: 3%;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 .off-site-navigation, .off-site-navigation ul {

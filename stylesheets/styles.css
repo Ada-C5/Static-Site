@@ -1,0 +1,75 @@
+body {
+  font: normal 15px/150% Helvetica, Arial, sans-serif;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.skull-image {
+  display: block;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  color: white;
+}
+
+.header-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+  text-decoration: underline;;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+.bench {
+  width: 350px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+}
+
+.sunset {
+  font-size: 24px;
+  color: white;
+  /*margin: 70px;*/
+}
+
+.water {
+  width: 250px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+}
+
+.m-water {
+  font-size: 24px;
+  color: white;
+  /*margin: 70px;*/
+}

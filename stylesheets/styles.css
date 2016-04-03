@@ -61,6 +61,12 @@ h1 {
   margin-top: 0;
 }
 
+p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: justify;
+}
+
 /**************BODY****************/
 body {
   margin: 0;

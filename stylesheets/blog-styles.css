@@ -6,6 +6,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: flex-start;
+	float: left;
 }
 
 .main-body h2 {
@@ -21,7 +22,6 @@
 	margin-bottom: 1rem;
 	margin-right: 2rem;
 	padding: .5rem;
-	border: 1px solid gray;
 }
 
 .archive-menu {
@@ -29,11 +29,45 @@
 	float: right;
 	text-align: right;
 	border: 3px double #458B85;
-	background-color: #81D8D0;
+	background-color: #FFDCE5;
 	margin-right: 4rem;
 	padding-right: 1.5rem;
 }
 
+.archive-menu h3 {
+	font-size: 1.2rem;
+	font-weight: bolder;
+	padding: .5rem;
+	margin-left: 1rem;
+}
+
 .archive-menu ul {
 	list-style-type: circle;
+}
+
+.archive-menu a {
+	color: #458B85;
+}
+
+.archive-menu a:hover {
+	background-color: #FFDCE5
+}
+
+.entries {
+	float: left;
+	clear: both;
+	width: 75%;
+}
+
+.entry-title {
+	margin: 3rem;
+}
+
+.entry {
+	margin: 3rem;
+}
+
+.image figcaption {
+	font-style: italic;
+	font-size: .9rem;
 }

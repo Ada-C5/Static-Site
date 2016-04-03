@@ -1,0 +1,67 @@
+html {
+  background-image: url("../images/back.jpg");
+  background-size: cover;
+}
+a {text-decoration: none;}
+
+nav {
+  width:100%;
+  margin: 0;
+  padding: 0;
+  list-style:none;
+  text-align:center;
+}
+
+nav li {
+  display: inline;
+  padding: 40px;
+  font-size: 60px;
+  font-family: "Century Gothic";
+}
+
+nav li a {
+  color: green;
+}
+
+nav li a:link, nav li a:visited{
+  font-size: 60px;
+  color:rgb(86, 187, 198);
+}
+
+nav li a:hover {
+  /*background-color: yellow;*/
+  text-shadow: 3px 3px 4px rgb(109, 121, 227);
+  color: rgb(87, 219, 242);
+}
+
+nav ul {
+  /*background-color: rgb(126, 238, 240);*/
+  padding: 15px;
+}
+
+
+li{
+  list-style-type: none;
+  display:inline-block;
+  margin-top: 14px;
+  font-size:40px;
+  text-align: center;
+  padding: 22px;
+  text-transform: uppercase;
+  color:green;
+}
+
+footer {
+  margin-top: 400px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 85%;
+  /*width: 50%;*/
+}
+
+div .links{
+  display: inline;
+}

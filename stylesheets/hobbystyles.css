@@ -1,0 +1,237 @@
+html {
+  font-family: Century Gothic;
+}
+
+body {
+  margin:0;
+}
+
+nav {
+  background-color: black;
+  margin-top: -10;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  top:0;
+  left: 0;
+}
+
+nav ul {
+  text-align: right;
+  list-style: none;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
+nav ul li {
+  display: inline;
+  padding-right: 30px;
+  color:white;
+  padding-left: 3rem;
+}
+
+nav li a:link, nav li a:visited{
+  font-size: 1.5rem;
+  color:rgb(16, 112, 190);
+  text-transform: uppercase;
+}
+
+nav li a:hover {
+  text-shadow: 3px 3px 4px rgb(109, 121, 227);
+  color: rgb(87, 219, 242);
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.logo {
+  background-image: url("../images/newback.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.logo img {
+  width: 100%;
+  margin-top: -30px;
+}
+
+h1 {
+  float:left;
+  padding-left: 15%;
+  font-size: 2.5rem;
+  margin-top: 25px;
+  color:rgb(180, 236, 236);
+  text-shadow: 2px 2px 1px rgb(98, 129, 207);
+  text-transform: uppercase;
+}
+
+div.container {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 1400px;
+  background-color: rgb(94, 142, 233);
+}
+article.rock {
+  /*background-color: rgb(94, 142, 233);*/
+  margin-top: 55px;
+  width: 70%;
+  /*padding-left: 20px;*/
+  float:left;
+  margin-left: 0;
+}
+h2 {
+  font-size: 50px;
+  color:orange;
+  text-align:center;
+  margin-left: 0;
+  margin-right:0;
+  margin-top: 45px;
+}
+
+
+h3 {
+  font-size: 1.8rem;
+}
+
+p {
+  padding: 10px;
+  text-align: center;
+  color:rgb(204, 222, 245);
+  font-size: 1.6rem;
+}
+
+#ashima {
+  margin-top: 90px;
+}
+aside.rock {
+  margin-top: 100px;
+  float:right;
+  max-width: 30%;
+  /*padding-right: 20px;*/
+  /*margin-right: 3%;*/
+  background-color: rgba(55, 63, 73, 0.52);
+  border: 4px solid rgb(15, 79, 96);
+  margin-bottom: 330px;
+}
+
+aside.side-nav {
+  margin-left: 0;
+  margin-top: 0px;
+  float:left;
+  max-width: 8%;
+  background-color:black;
+  position: fixed;
+  z-index: 2;
+  height:100px;
+}
+
+aside.side-nav a {
+  color:white;
+  font-size: 1.5rem;
+
+}
+
+aside p, h3{
+  text-align: center;
+}
+
+aside img {
+  width: 80%;
+  /*margin:10%;*/
+  border: 8px gray double;
+  display: block;
+  margin: 0 auto;
+}
+.track {
+  padding-left: 0;
+}
+aside a {
+  color: white;
+}
+
+iframe {
+  max-width: 70%;
+  margin: 5%;
+  display: block;
+  margin: 0 auto;
+}
+
+.music {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 2200px;
+  background-color: rgb(115, 51, 187);
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.music a {
+  color: rgb(202, 168, 232);
+}
+
+.music img {
+  width: 320px;
+  height:210px;
+  border-radius: 3%;
+}
+
+table{
+  display:block;
+  margin: 0 auto;
+}
+
+
+
+.album h3 {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.album {
+  color:white;
+  border: 3px orange solid;
+  background-color: black;
+  margin-left: 35%;
+  margin-right: 35%;
+  display:block;
+}
+.album li {
+  text-align: center;
+  list-style-position:inside;
+}
+
+.album a {
+  color:rgb(241, 90, 25);
+}
+
+.album a:link, .album a:visited{
+  font-size: 2rem;
+  color:rgb(16, 112, 190);
+}
+
+.album a:hover {
+  text-shadow: 3px 3px 4px rgb(109, 121, 227);
+  color: rgb(87, 219, 242);
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.hiking {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(3, 99, 125);
+  flex-direction: column;
+}

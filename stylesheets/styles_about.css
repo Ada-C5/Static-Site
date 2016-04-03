@@ -1,0 +1,12 @@
+#lisa-pic {
+  float: left;
+  width: 35%;
+  margin-left: 3%;
+  border: 5px #000;
+  border-style: double;
+}
+
+article {
+  float: right;
+  width: 60%;
+}

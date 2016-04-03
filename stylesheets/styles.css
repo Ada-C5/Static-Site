@@ -10,6 +10,23 @@ body {
 		background-color: #F9F9F9;
 }
 
+h1 {
+	color: #202020;
+}
+
+a {
+	text-decoration: none;
+	color: #D9828B;
+}
+
+a:hover {
+	background-color: #81D8D0;
+}
+
+a:visited {
+	color: #458B85;
+}
+
 /******** HEADER ********/
 
 header {
@@ -33,7 +50,7 @@ header {
 
 .header-nav li {
 	display: inline-block;
-	width: 25%;
+	width: 33%;
 	padding: 1rem;
 }
 
@@ -52,19 +69,6 @@ header {
 }
 
 /******** MAIN BODY ********/
-
-h1 {
-	color: #202020;
-}
-
-a {
-	text-decoration: none;
-	color: #D9828B;
-}
-
-a:hover {
-	background-color: #81D8D0;
-}
 
 .main-body {
 	margin-left: 2.5rem;
@@ -92,7 +96,6 @@ a:hover {
 
 .footer-bar {
 	font-size: 12px;
-	text-align: center;
 	background-color: #81D8D0;
 	border: 1px solid #458B85;
 	margin: 2rem;
@@ -100,4 +103,5 @@ a:hover {
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: baseline;
+	justify-content: center;
 }

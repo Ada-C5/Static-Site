@@ -22,6 +22,7 @@
 	max-width: 65%;
 	clear: both;
 	margin-left: 1rem;
+	align-self: flex-start;
 }
 
 .mini-lists {

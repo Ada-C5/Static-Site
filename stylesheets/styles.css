@@ -1,0 +1,179 @@
+
+html {
+	color:#D76B88;
+	font-family: "Monaco";
+	font-size: 16px;
+	background-attachment: fixed;
+	background-image: url("../images/beach_background.jpg");
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.top-bar {
+	width: 100%;
+	text-align: center;
+}
+
+.top-bar ul {
+	list-style: none;
+}
+
+.top-bar ul li {
+	display: inline; 
+}
+
+.top-bar a { 
+	color:#D76B88;
+	font-size: 32px; 
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 5px; 
+	text-decoration: none;
+}
+
+.top-bar a:hover {
+	color:#9E65A4;
+}
+
+.introduction {
+	color:#9E65A4;
+	background-color: rgba(244,244,244,.8);
+	border-radius: 15px;
+	display: block; 
+	margin-top: 1%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 1%;
+	padding: 2%;
+}
+
+.about {
+	color: #9E65A4;
+	background-color: rgba(244,244,244,.8);
+	border-radius: 15px;
+	display: block; 
+	margin-top: 1%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 1%;
+	padding: 2%; 
+	text-align: left; 
+}
+
+.about img{
+	border-radius: 15px;
+	float: left;
+	display:block;
+	margin-right: 1rem;
+	margin-bottom: .5rem;
+	position: relative;
+}
+
+
+.portfolio {
+	background-color: rgba(244,244,244,.8);
+	display: block; 
+	margin-top: 1%;
+	margin-right: 20%;
+	margin-bottom: 1%;
+	margin-left: 20%;
+	padding: .8rem;
+	border-radius: 15px;
+	position: absolute;
+	text-align: center; 
+}
+
+.projects th {
+	font-size: 20px; 
+	color:#9E65A4;
+}
+
+.projects td {
+	text-shadow: 1px 1px 1px #F4F4F4
+}
+
+.projects td:hover {
+	color:#9E65A4;
+}
+
+.projects img{
+	border-radius: 15px;
+	display:block;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	position: relative;
+	opacity: 0.75;
+}
+
+.projects img:hover {
+	opacity: 1;
+}
+
+
+.hobby-entries {
+	color: #9E65A4;
+	background-color: rgba(244,244,244,.8);
+	border-radius: 15px;
+	display: block; 
+	margin-top: 1%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 3%;
+	padding: .8rem;
+	text-align: center; 
+
+}
+
+.hobby-entries img{
+	border-radius: 15px;
+	margin-right: auto;
+	margin-bottom: 2%;
+	margin-left:  auto; 
+	margin-bottom: 2%; 
+	opacity: 0.75;
+}
+
+
+.hobby-entries img:hover{
+	opacity: 1;
+}
+
+.hobby-entries a { 
+	color:#D76B88;
+	text-decoration: none;
+}
+
+.hobby-entries a:hover {
+	color:#9E65A4;
+}
+
+footer {
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	position: fixed;
+	width: 100%;
+	text-align: center; 
+}
+
+.return-to-top a {
+	color: #D76B88;
+	background-color: rgba(244,244,244,.8);
+	border-radius: 15px;
+	display: block; 
+	margin-top: 1%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 3%;
+	padding: .8rem;
+	text-align: center;
+	text-decoration: none
+}
+
+.return-to-top a:hover {
+	color:#9E65A4;

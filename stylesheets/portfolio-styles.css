@@ -15,38 +15,23 @@
 	margin-bottom: 2.5rem;
 	padding: .5rem;
 	order: 1;
+	background-color: #FFF;
 }
 
 .webpages {
 	order: 1;
-	margin-left: 1rem;
+	margin-right: 2rem;
 	padding: .5rem;
 	border: 5px double #81D8D0;
+	margin-bottom: 2.5rem;
+	background-color: #FFF;
 }
 
 .talks {
 	order: 1;
-	margin-left: 1rem;
+	margin-right: 2rem;
 	padding: .5rem;
 	border: 2px dashed #202020;
-
-}
-
-.mini-lists {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: flex-start;
-}
-
-.mini-lists ul {
-	margin-left: 1rem;
-}
-
-.likes {
-	margin-left: .5rem;
-}
-
-.dislikes {
-	margin-left: 1rem;
+	border-radius: 50px;
+	background-color: #FFF;
 }

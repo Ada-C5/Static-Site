@@ -1,0 +1,39 @@
+/******** MAIN BODY ABOUT PAGE ********/
+.main-body {
+	margin-left: 2.5rem;
+  margin-right: -.5rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.main-body h2 {
+	font-size: 1.2rem;
+	font-weight: bolder;
+}
+
+.main-body ul {
+	list-style: none;
+}
+
+.main-body li {
+	margin-bottom: 1rem;
+	margin-right: 2rem;
+	padding: .5rem;
+	border: 1px solid gray;
+}
+
+.archive-menu {
+	order: 1;
+	float: right;
+	text-align: right;
+	border: 3px double #458B85;
+	background-color: #81D8D0;
+	margin-right: 4rem;
+	padding-right: 1.5rem;
+}
+
+.archive-menu ul {
+	list-style-type: circle;
+}

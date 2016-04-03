@@ -5,23 +5,40 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	align-items: baseline;
+	align-items: flex-start;
 }
 
 .author-photo {
 	border: 3px dashed #D9828B;
 	border-radius: 90px;
 	order: 1;
+	float: left;
+	clear: both;
 }
 
-.name {
-  order: 1;
-  width: 45%;
-  float: left;
+.bio {
+	order: 1;
+	float: right;
+	max-width: 65%;
+	clear: both;
+	margin-left: 1rem;
 }
 
-.tagline {
-	width: 45%;
-  order: 2;
-  text-align: right;
+.mini-lists {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.mini-lists ul {
+	margin-left: 1rem;
+}
+
+.likes {
+	margin-left: .5rem;
+}
+
+.dislikes {
+	margin-left: 1rem;
 }

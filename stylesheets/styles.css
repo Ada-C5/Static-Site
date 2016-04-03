@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Papyrus, fantasy;
+  font-size: 18px;
+  color: #ecc6ec;
+  background-image: url(../images/pink_purple.jpg);
+  background-attachment: fixed;
+}
+
+/**************HEADER**************/
+
+header {
+  background-image: url('../images/macbook-coffee-cropped.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  /*background-color: rgba(0, 0, 0, 0.3);*/
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+  overflow: auto;
+}
+
+nav li {
+  display: inline-block;
+  line-height: 2.3rem;
+  height: 1.5rem;
+  padding: .2rem 4rem 0.2rem 4rem;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  color: #ecc6ec;
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 3px #000;
+}
+
+nav a:hover {
+  color: #1ac6ff;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 6rem;
+  font-size: 4.5vw;
+  color: #ff9980;
+  padding-bottom: 7rem;
+  text-shadow: 2px 2px 5px #000;
+  margin-top: 0;
+}
+
+p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: justify;
+}
+
+/**************BODY****************/
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+article {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 2rem;
+}
+
+h2 {
+  clear: both;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 1.65rem;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+/*************FOOTER**************/
+
+footer {
+  /*position: absolute;*/
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  bottom: 0;
+  left: 0;
+  width: 97%;
+  height: 50px;
+  text-align: center;
+  font-size: 0.8rem;
+  clear: both;
+}
+
+span.copyright {
+  padding-right: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+span.small-heart {
+  font-size: 0.4rem;
+}
+
+footer a {
+  color: #00cccc;
+}

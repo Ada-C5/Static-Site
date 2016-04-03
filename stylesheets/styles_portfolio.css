@@ -1,0 +1,44 @@
+h2, h3, h4, .git-links {
+  text-shadow: 5px 5px 4px #000;
+}
+
+h4 {
+  padding-left: 1.5rem;
+  display: inline;
+  font-size: 1.25rem;
+  font-variant: small-caps;
+}
+
+article p {
+  padding-left: 2rem;
+  padding-right: 1.5rem;
+}
+
+article ul {
+  margin-left: 2rem;
+}
+
+.lang-block {
+  float:left;
+}
+
+.lang {
+  display: inline;
+  padding-left: 1.25rem;
+}
+
+.git-links {
+  color: #ff9980;
+  font-family: Copperplate, sans-serif;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  float: left;
+  clear: left;
+  margin-bottom: 3rem;
+}
+
+.git-links:hover {
+  color: #cc3300;
+}

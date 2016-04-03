@@ -1,0 +1,43 @@
+.gallery {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.gallery figure {
+  width: 22%;
+  height: auto;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  float:left;
+  position: relative;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.gallery figure:hover {
+  transform: scale(1.9);
+  z-index: 2;
+  background-color: black;
+  box-shadow: 0 0 1.2rem 1rem #000;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #ff9980;
+}
+
+h2 {
+  padding-top: 2rem;
+}
+
+.first-entry {
+  padding-top: 0;
+}

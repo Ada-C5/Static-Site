@@ -9,19 +9,27 @@
 }
 
 .ruby {
-	border: 3px dashed #D9828B;
-	border-radius: 90px;
+	border: 3px dotted #D9828B;
+	border-radius: 20px;
+	margin-right: 2rem;
+	margin-bottom: 2.5rem;
+	padding: .5rem;
 	order: 1;
-	float: left;
-	clear: both;
 }
 
 .webpages {
 	order: 1;
-	float: right;
-	max-width: 65%;
-	clear: both;
 	margin-left: 1rem;
+	padding: .5rem;
+	border: 5px double #81D8D0;
+}
+
+.talks {
+	order: 1;
+	margin-left: 1rem;
+	padding: .5rem;
+	border: 2px dashed #202020;
+
 }
 
 .mini-lists {

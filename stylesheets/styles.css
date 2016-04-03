@@ -20,7 +20,7 @@ header {
 nav ul {
   list-style-type: none;
   margin: 2%;
-  padding: 0%;
+  padding: 0;
   font-family: Verdana, Arial;
   font-size: 1.5em;
 }
@@ -34,10 +34,7 @@ nav li {
 }
 
 nav li a {
-  padding-right: 2.3em;
-  padding-left: 2.3em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 1em 2.3em 1em 2.3em;
   text-align: center;
   text-decoration: none;
   color: #351C3C;
@@ -56,15 +53,12 @@ nav li.home {
 /* format and color of background on navbar for current page */
 
 li a.current-page {
-  padding-right: 2.3em;
-  padding-left: 2.3em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 1em 2.3em 1em 2.3em;
   text-align: center;
   text-decoration: none;
   color: #351C3C;
-  border-radius: 1.5em;
   background-color: rgba(110, 55, 76, 0.4);
+  border-radius: 1.5em;
 }
 
 /* background image format */
@@ -79,8 +73,8 @@ body:after {
   height: 100%;
   opacity : 0.6;
   z-index: -1;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -129,9 +123,7 @@ footer.index {
   width: 18%;
   border-radius: 50%;
   opacity: 0.8;
-  margin-right: 2%;
-  margin-bottom: 2%;
-  margin-left: 1%;
+  margin: 0 2% 2% 1%;
   float: left;
 }
 
@@ -184,8 +176,7 @@ hr.fancy-line:before {
   content: "";
   height: 1.875em;
   margin-top: -1.94em;
-  border-style: solid;
-  border-color: #351C3C;
+  border: solid #351C3C;
   border-width: 0 0 1px 0;
   border-radius: 1.25em;
 
@@ -203,8 +194,8 @@ h2.blog-name {
 }
 
 p.sub-heading {
-  text-align: center;
   font-size: 16px;
+  text-align: center;
 }
 
 h3.blog-title {

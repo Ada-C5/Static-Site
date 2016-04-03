@@ -2,28 +2,35 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /*-webkit-margin-before: 0;
+  -webkit-margin-after: 0;*/
 }
 
 html, body {
   font-size: 16px;
   font-family: monospace;
-  color: #003842;
+  color: #412825;
   height: 100%;
 }
 
 a {
+  transition: all 0.2s ease;
   text-decoration: none;
-  color: #003842;
+  color: #412825;
   display:inline-block;
+  border-bottom: .25rem solid transparent;
 }
 
 a:hover {
-  text-decoration: underline;
-  border-bottom: 2px solid;
+  border-bottom: .25rem solid #D76E52;
 }
 
 h1 {
   font-family: cursive;
+}
+
+ul {
+  list-style: none;
 }
 .background {
   position: fixed;
@@ -54,50 +61,94 @@ h1 {
   width: 100%;
 }
 
-.site-navigation > nav {
+.site-navigation nav {
   width: 100%;
   height: 4rem;
   line-height: 4rem;
   /*for browsers that may not support linear-gradient like i have it set up*/
   background-color: #EF9D6D;
-  background-image: linear-gradient(to right, #D66E55, #EF9D6D, #F2CEB3 11%, #F2CEB3);
-  opacity: 0.7;
+  background-image: linear-gradient(to right, #D66E55, #EF9D6D, #F2CEB3 39%, #F2CEB3);
+  opacity: 0.67;
 }
 
 .site-navigation h1 {
   float: left;
-  font-size: 1rem;
-  padding: 0 1rem;
+  opactiy: 1;
 }
 
 .home-link {
-  padding-left: 2rem;
-  font-weight: bold;
-  font-size: 4rem;
+    padding-left: 2rem;
+    font-weight: bold;
+    font-size: 5.5rem;
+    color: #F3CEB3;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: .12rem .12rem .24rem rgba(65, 40, 37, 0.75);
+    /*transition: all 0.2s ease;*/
 }
+/*paw hover - saved because i'm trying something else.*/
+/*.home-link:hover {*/
+  /*i don't think this method of assigning background images works with firefox but i'm okay with that since this is just a fancy extra.  sorry!*/
+  /*background-image: url(../images/paw-print-skewed.png);*/
+  /*background-size: contain;*/
+  /*background-repeat: no-repeat;*/
+  /*height: 100%;*/
+  /*border-bottom: none;*/
+  /*}*/
+
 .home-link:hover {
   /*i don't think this method of assigning background images works with firefox but i'm okay with that since this is just a fancy extra.  sorry!*/
+  text-shadow: .12rem .12rem .24rem rgba(215, 110, 82, 1);
+  border-bottom: none;
+}
+
+/*.site-section-links > a:hover {
   background-image: url(../images/paw-print-skewed.png);
   background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
-  text-decoration: none;
-}
+}*/
 
 .site-navigation ul {
   height: 4rem;
-  width: 50%;
+  /*width: 12%; i don't think I need this - it fits largest li?*/
   float: left;
-  list-style: none;
 }
 
-nav li {
-  height: 1rem;
+.site-section-links li {
+  line-height: calc(100%/3);
+  height: calc(100%/3);
+  margin: 0.1rem 0rem 0rem 2rem;
 }
 
-li a {
-  line-height: 1.75rem;
-  padding: 0 1rem;
+.site-section-links a {
+  line-height: 0.75rem;
   font-weight: bold;
-  display: block;
+  display: inline-block;
+}
+
+.site-section-links a:hover {
+  margin-left: 1rem;
+}
+
+footer {
+  bottom: 3%;
+  position: fixed;
+  width: 100%;
+}
+
+.off-site-navigation, .off-site-navigation ul {
+  height: 3rem;
+  width: 100%;
+}
+
+.off-site-navigation li {
+  height: 3rem;
+  float: right;
+  margin-left: 1.5rem;
+  margin-right: .5rem;
+}
+
+.off-site-navigation img {
+  /*width: 100%;*/
+  height: 3rem;
 }

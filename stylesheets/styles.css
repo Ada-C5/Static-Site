@@ -134,13 +134,10 @@ ul.portfolio > li{
   margin: 0.25rem;
 }
 
-/**** Styling on blog page ****/
+/**** Styling on code-journal page ****/
 
 .entries article {
   margin: 0.5rem;
-}
-
-article.top_entry {
   float: left;
 }
 

@@ -232,6 +232,10 @@ h2 {
   margin-bottom: 1rem;
 }
 
+p {
+  margin-bottom: .5rem;
+}
+
 .project-link {
   height: 100%;
   display: inline-block;

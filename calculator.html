@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Solecism!</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="css" href="stylesheets/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="file:///Users/melissajimison/Documents/c5/projects/Static-Site/portfolio.html">Ruby Portfolio</a></li>
+        <li><a href="file:///Users/melissajimison/Documents/c5/projects/Static-Site/code-journal.html">Code Journal</a></li>
+        <li><a href="file:///Users/melissajimison/Documents/c5/projects/Static-Site/about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <pre class="prettyprint lang-ruby">
+  #Input numer1 operation number2
+  puts "This is a calculator".upcase
+  puts "Please enter your operation. "
+  puts "You can use mathematic symbols such as '+', '-', '*', '/', '^', '%'"
+  puts "And even the words 'add', 'subtract', 'multiply', 'divide', 'exponential', 'modulo'."
+  puts "Very important, please split the elements in you operation with a space "
+  operation = gets.chomp.downcase # Collets the user input and stored it in donwcase into a variable called 'operation'
+
+  while operation.empty? # Chomps the user if this hits enter, empty input
+    puts "You forgot putting a mathematic operation. Try again."
+    operation = gets.chomp.downcase
+  end
+
+  items = operation.split(" ") # Creates the array item and puts the elemnets of operation in sepated string-values
+  #=> item = ["54", "+", "23"]
+
+  valid_op = ["add", "+", "subtract", "-", "multiply", "*", "divide", "/", "exponential", "^", "modulo", "%"]
+
+    until !items[0][/[Float::INTINITY]/] && valid_op.include?(items[1]) && !items[2][/[Float::INTINITY]/] # It allows numeric input such Float, fixnum and negative numbers
+      puts "Please enter a valid mathematic operation "
+      operation = gets.chomp.downcase #Ask again if user input is no one of valid operation or if does not include numbers
+      items = operation.split(" ")
+      end
+
+  if items.include?("add") || items.include?("+") # chose the mathematic operation to do
+    op = "+"
+    result = items[0].to_f + items[2].to_f
+   elsif items.include?("substract") || items.include?("-")
+     op = "-"
+     result = items[0].to_f - items[2].to_f
+   elsif items.include?("multiply") || items.include?("*")
+      op = "*"
+      result = items[0].to_f * items[2].to_f
+    elsif items.include?("divide") || items.include?("/")
+       op = "*"
+       result = items[0].to_f / items[2].to_f
+    elsif items.include?("exponential") || items.include?("^")
+      op = "^"
+      result = items[0].to_f ** items[2].to_f
+    elsif items.include?("modulo") || items.include?("%")
+      op = "%"
+      result = items[0].to_f % items[2].to_f
+    else
+        "Error"
+      end
+
+  if result % 1 == 0.0 # Conditional would convert into a Integer if the result is a whole number
+        result = result.to_i
+      end
+  puts "#{items[0]} #{op} #{items[2]} = #{result}"
+
+</pre>
+
+</body>
+</html>

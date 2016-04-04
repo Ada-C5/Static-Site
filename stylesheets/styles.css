@@ -1,0 +1,222 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+* {
+	box-sizing: border-box;
+	font-family: Roboto;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #b39ba1;
+/*background-color: #F3D7A7;*/
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+
+header{
+	background: url(../images/space.jpg) no-repeat;
+	background-size: 100% 100%;
+	padding: 100px 0 200px 0;
+}
+h1{
+	padding: 0 10px 0 ;
+	text-align: right;
+	color: white;
+}
+
+h2{
+	margin: 10px;
+}
+
+header p{
+	text-align: right;
+	color: white;
+	font-size: 20px;
+	padding-right: 20px;
+}
+
+nav {
+	position: relative;
+	top: 200px;
+	border: solid black;
+	background-color: white;
+	opacity: 0.7;
+	font-size: 24px;
+	text-align: center;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+}
+nav ul {
+	width: 100%;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 5% 0 5%;
+}
+
+nav a {
+	text-align: center;
+	display: block;
+}
+
+article p {
+	text-indent: 20px;
+}
+
+section {
+	text-align: justify;
+	margin: 5px 20% 15px 20%;
+	font-size: 20px;
+}
+
+#profile {
+	display: block;
+	margin: 40px auto 50px auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+}
+
+
+footer{
+	background-color: #F3D7A7;
+}
+footer ul {
+	padding: 10px;
+}
+
+/*social media css code sourced from the net: http://codepen.io/thalseth/pen/saqIj*/
+/*WARNING: DO NOT TOUCH THIS*/
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+ul.social-buttons {
+  text-align: center;
+  margin-top: 50px;
+}
+
+ul.social-buttons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul.social-buttons li a {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 60px;
+  color: white;
+}
+
+ul.social-buttons li a.brandico-twitter-bird {
+  background-color: #4099FF;
+}
+
+ul.social-buttons li a.brandico-facebook {
+  background-color: #3B5998;
+}
+
+ul.social-buttons li a.brandico-linkedin {
+  background-color: #0e76a8;
+}
+
+/*Demo 1*/
+ul#demo1 li a {
+  transition: transform 0.2s linear;
+}
+
+ul#demo1 li:hover a {
+  transform: translateY(-10px);
+}
+/*see notes above*/
+/* CSS code for portfolio slideshow, DO NOT TOUCH. 
+Sourced from: http://codepen.io/leemark/pen/vzCdo*/
+
+.css-slideshow{
+  position: relative;
+  bottom: 50px;
+  max-width: 495px;
+  height: 370px;
+  margin: 5em auto .5em auto;
+}
+.css-slideshow figure{
+  margin: 0;
+  max-width: 495px;
+  height: 370px;
+  background: #000;
+  position: absolute;
+}
+.css-slideshow img{
+  box-shadow: 0 0 2px #666;
+}
+.css-slideshow figcaption{
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background: rgba(0,0,0, .3);
+  font-size: .8em;
+  padding: 8px 12px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.css-slideshow:hover figure figcaption{
+  transition: opacity .5s;
+  opacity: 1;
+}
+.css-slideshow-attr{
+  max-width: 495px;
+  text-align: right;
+  font-size: .7em;
+  font-style: italic;
+  margin:0 auto;
+}
+.css-slideshow-attr a{
+  color: #666;
+}
+.css-slideshow figure{
+  opacity:0;
+}
+figure:nth-child(1) {
+  animation: xfade 40s 30s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 40s 20s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 40s 10s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 40s 0s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25%{
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*see notes above*/

@@ -1,0 +1,267 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+.leftside{
+  padding: 0;
+  margin: 0;
+  height:100%;
+  width: 25%;
+  background-color: #04103b;
+  position:fixed;
+  display:block;
+
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+
+header p{
+  padding: 0;
+  margin: 0;
+}
+.pagepic {
+  position:fixed;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  height: 0;
+  background-color: #ffffff;
+  /*padding-bottom: 2%;*/
+}
+
+.rightside{
+  /*padding: 20px 0 0 0;*/
+  margin: 0;
+  margin-left:26%;
+  margin-right:1%;
+  padding-top:1%;
+  background: #ffffff;
+  min-height:100%;
+  display: block;
+
+}
+
+.aboutname{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 5vw;
+    text-align: center;
+    width: 100%;
+    color: #04103b;
+}
+
+
+.subname{
+  text-align: center;
+  margin-bottom: 5%;
+  color: gray;
+}
+
+section p {
+  margin: 0;
+}
+
+/***NAVIGATION ON LEFTSIDE BAR****/
+nav ul{
+  padding-left:0%;
+  padding-top: 100%;
+}
+
+header a{
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+header li{
+  margin: 2%;
+  text-align: center;
+  clear: left;
+  display: block;
+  padding-bottom: 0;
+}
+
+header li a:hover{
+  color: #ff8b92;
+  /*color: #66ffc7;*/
+  text-shadow: 1px 1px #6b6767;
+}
+
+.highlightlink{
+  margin: 0;
+  background-color: #b1d3f7;
+}
+
+/*section .aboutme{
+  height: 100%;
+  width: 100%;
+  margin-right: 6%;
+  margin-left: 6%;
+}*/
+/*.mepic {
+  position:relative;
+
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  height: 0;
+  background-color: #ffffff;
+  /*padding-bottom: 2%;*/
+
+/*article nav{
+  padding:0;
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  /*display: inline-block;*/
+  /*align-items: center;*/
+  /*text-align:center;*/
+  /*position: relative;*/
+  /*left: 10%;*/
+  /*margin-left: 5%;
+  margin-right: 5%;}*/
+
+article ul{
+  padding:0;
+  margin: 0;
+  width: 100%;
+  /*height: 100px;*/
+  /*display: inline-block;*/
+  /*align-items: center;*/
+  text-align:center;
+  position: relative;
+  /*left: 10%;*/
+  /*padding-left: 2%;*/
+  /*padding-right: 2%;*/
+  /*margin-left: 7%;
+  margin-right: 10%;*/
+   list-style-type: none;
+   /*margin: 1% 1% 1% 1%;*/
+
+}
+
+article ul li{
+  display: initial;
+     /*margin: 1% 1% 1% 1%;*/
+
+}
+
+article ul li img{
+  /*margin: 0 auto;*/
+  width: 23%;
+  /*height: 10%;*/
+  /*width: 278px;
+  height: 400px;*/
+  /*float: left;*/
+  align-items: center;
+  display: inline-block;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding: 1% 0.5% 1% 0.5%;
+}
+
+.citylife{
+  width: 100%;
+  margin: 0;
+  background-image: url('http://36.media.tumblr.com/aa64d6119d96e54425ac44116fb311aa/tumblr_o4xrspwy351rnf6b5o1_1280.jpg') ;
+  background-repeat: no-repeat;
+  background-position: 40% 20%;
+  min-height: 10%;
+  opacity: 1;
+}
+
+.citylife:hover{
+  transition: .6s;
+    transition-property: initial;
+    transition-duration: 0.6s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+    opacity: .8;
+}
+
+section figure a{
+  font-family: "Arial Black", Gadget, sans-serif;
+  /*font-size: 8vw;*/
+  font-size: 5vw;
+  text-shadow: 2px 2px  #6b6767;
+  display: block;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  height: 10%;
+  text-align: center;
+  display: block;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  opacity: 0;
+}
+
+section figure a:hover {
+    opacity: 1;
+}
+
+section figure a p{
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  margin: 50px 20% 0px 20%;
+  text-shadow: 1px 1px 1px #000;
+  text-align: left;
+  color: #ffffff;
+  font-size: 1.5vw;
+  text-decoration: none;
+  opacity: 1;
+}
+
+section figure a p:hover{
+  opacity: 1;
+}
+
+
+.newchapter{
+  width: 100%;
+  margin: 0;
+  margin-top: 10px;
+  background-image: url('http://40.media.tumblr.com/108d7b3bd1817f9f81df8d39644a589e/tumblr_o4xrspwy351rnf6b5o2_1280.jpg') ;
+  background-repeat: no-repeat;
+  background-position: 40% 40%;
+  min-height: 10%;
+  opacity: 1;
+}
+
+.newchapter:hover{
+    transition: .6s;
+    transition-property: initial;
+    transition-duration: 0.6s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+    opacity: .8;
+
+}
+
+
+.thesis{
+  width: 100%;
+  margin: 0;
+  margin-top: 10px;
+  background-image: url('https://40.media.tumblr.com/60e8a57fd902f7c8667b54faac101142/tumblr_o4xyydQeDM1rnf6b5o1_1280.jpg') ;
+  background-repeat: no-repeat;
+  background-position: 40% 40%;
+  min-height: 10%;
+  opacity: 1;
+}
+
+.thesis:hover{
+    transition: .6s;
+    transition-property: initial;
+    transition-duration: 0.6s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+    opacity: .8;
+
+}

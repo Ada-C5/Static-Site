@@ -108,7 +108,6 @@ footer {
   position: absolute;
 }
 .social-media-box{
-  border: solid white;
   padding: 0;
   margin: 0;
   float: left;
@@ -393,6 +392,10 @@ h4, h5 {
   margin-top: .3rem;
 }
 
+h6 {
+  border: solid lime;
+}
+
 .tags {
   margin: 3%;
   width: 26%;
@@ -434,7 +437,7 @@ width: 100%;
 
 .one-entry {
   border: solid
-  
+
 }
 
 .text-block{
@@ -472,6 +475,25 @@ width: 100%;
 .header-about {
 
   background-image: repeating-linear-gradient( 90deg, rgb(214, 229, 100), rgb(214, 229, 100) 30px, rgb(194, 209, 80) 30px, rgb(194, 209, 80) 60px );
+}
+
+.about-page {
+ margin: 3%;
+  border: solid purple;
+  text-align: center;
+}
+
+.about-page p {
+  border: solid green;
+  text-align: left;
+
+}
+
+.about-page img {
+  margin-top: -8rem;
+  border-radius: 50%;
+  width: 17rem;
+  z-index: 600;
 }
 /***************END***************/
 

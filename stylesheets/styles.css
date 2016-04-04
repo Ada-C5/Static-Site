@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 16px;
+  font-family: monospace;
+  color: #412825;
+  height: 100%;
+}
+
+section {
+  position:fixed;
+  top: 4rem;
+  bottom: 4rem;
+  left: 33rem;
+  width: 45%;
+  background-color: rgba(242, 206, 179,0.67);
+  overflow-y: auto;
+  padding: 1rem;
+  z-index: 2;
+
+}
+
+footer {
+  bottom: 3%;
+  position: fixed;
+  /*width: 100%;*/
+  z-index: 2;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  transition: all 0.2s ease-in-out;
+}
+
+a {
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: #412825;
+  display:inline-block;
+  border-bottom: .25rem solid transparent;
+}
+
+a:hover {
+  border-bottom: .25rem solid #D76E52;
+}
+
+h1 {
+  font-family: "Apple Chancery", "Monotype Corsiva", cursive;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: .5rem;
+}
+
+
+/*background styling*/
+
+.background {
+  position: fixed;
+  /*this makes the container bigger than the browser always so our image acts as a centered background!*/
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: -2;
+}
+
+.background img {
+  position: absolute;
+  /*what do these do?*/
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  /*min-width of the container that is 200% of browser always makes it take up 100% of screen always*/
+  min-width: 50%;
+  min-height: 50%;
+}
+
+/*background effects*/
+
+.background-blanket {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    transition: all 0.35s ease-in-out;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.background-blanket:hover {
+  background-color: rgba(0,0,0,0);
+}
+
+/*general navigation styling*/
+
+.site-navigation nav {
+  width: 100%;
+  background-color: #EF9D6D;
+  opacity: 0.67;
+}
+
+.site-navigation h1 {
+  float: left;
+  opactiy: 1;
+}
+
+.site-section-links li {
+  line-height: calc(100%/3);
+  height: calc(100%/3);
+}
+
+.site-section-links a {
+  line-height: 0.75rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/*positioning horizontally*/
+
+.site-navigation.horizontal {
+  bottom: 10%;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.site-navigation.horizontal nav {
+  height: 4rem;
+  line-height: 4rem;
+  background-image: linear-gradient(to right, #D66E55, #EF9D6D, #F2CEB3 39%, #F2CEB3);
+}
+
+.site-navigation.horizontal ul {
+  height: 4rem;
+  float: left;
+}
+
+.site-navigation.horizontal .site-section-links li {
+  margin: 0.1rem 0rem 0rem 2rem;
+}
+
+.site-navigation.horizontal .site-section-links li:hover {
+  margin-left: 3rem;
+}
+
+/*positioning on left side*/
+
+.site-navigation.leftside {
+  top: 0;
+  left: 0;
+  /*right: 0;*/
+  /*bottom: 0;*/
+  position: fixed;
+  height: 100%;
+  width: 23rem;
+  z-index: 2;
+}
+
+.site-navigation.leftside nav {
+  height: 100%;
+  background-image: linear-gradient(to bottom, #D66E55, #EF9D6D, #F2CEB3 39%, #F2CEB3);
+}
+
+.site-navigation.leftside ul {
+  height: 4rem;
+  float: right;
+}
+
+.site-navigation.leftside .site-section-links li {
+  margin: 0.5rem 4rem 0rem 0rem;
+  padding-right: 1rem;
+  padding-left: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.site-navigation.leftside .site-section-links li:hover{
+  /*still wigles!*/
+  padding-left: 1rem;
+  padding-right: 0;
+}
+
+/*main link/header styling*/
+.here-link {
+    padding-left: 2rem;
+    font-weight: bold;
+    font-size: 5.5rem;
+    color: #F3CEB3;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: .12rem .12rem .24rem rgba(65, 40, 37, 0.75);
+    border-bottom: 0;
+}
+
+.here-link:hover {
+  /*i don't think this method of assigning background images works with firefox but i'm okay with that since this is just a fancy extra.  sorry!*/
+  text-shadow: .12rem .12rem .24rem rgba(215, 110, 82, 1);
+  border-bottom: none;
+}
+
+/*off-site footer links*/
+
+.off-site-navigation, .off-site-navigation ul {
+  height: 3rem;
+  width: 100%;
+}
+
+.off-site-navigation li {
+  height: 3rem;
+  /*float: right;*/
+  margin-left: 1.5rem;
+  margin-right: .5rem;
+}
+
+.off-site-navigation img {
+    height: 3rem;
+}
+
+/*logos positioned right bottom*/
+
+.right {
+  right: 0;
+}
+
+.right .off-site-navigation li {
+  float: right;
+}
+
+/*logos positioned left bottom*/
+
+.left .off-site-navigation li {
+  float: left;
+}
+
+/*portfolio page*/
+
+.project-link {
+  height: 100%;
+  display: inline-block;
+  float:left;
+  margin-left: 1rem;
+}
+
+.project-text {
+  text-align: center;
+  display: none;
+  clear: both;
+  position: absolute;
+  top: 2.5rem;
+  padding: 1rem;
+}
+
+.project-text p {
+  text-align: left;
+}
+
+.project-link:hover + .project-text {
+  display: block;
+}
+
+/*thanks for reading!*/

@@ -76,12 +76,18 @@ nav a.active {
   cursor: default;
 }
 h2 {
-  font-family: cursive;
-
+  font: normal normal normal 22px/1.2em 'Noticia Text',serif;
+  word-wrap: break-word;
+  font-weight: bold;
+  text-shadow: 2px 2px #dddddd;
 }
 h1, h3 {
   font-family: 'Shadows Into Light', cursive;
   text-align: center;
+}
+
+h3{
+  font-size: 2rem;
 }
 
 footer {
@@ -92,12 +98,35 @@ footer {
   margin-bottom: 0;
   bottom: 0;
   height: 9vh;
-  position: relative;
+  /*position: absolute;*/
+  overflow: auto;
+  /*border: solid orange;*/
+
 }
 .footer-index
 {
   position: absolute;
 }
+.social-media-box{
+  border: solid white;
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-left: 10%;
+}
+
+.social-media {
+  border-radius: 50%;
+  margin-right: 2rem;
+  border: dotted aqua;
+}
+
+copy-rights {
+  margin-top: 5rem;
+  color: white;
+  border: solid red;
+}
+
 /*********************INDEX****************/
 .home {
   background-image: repeating-linear-gradient( 45deg, #85D5E6 0px, #85D5E6 30px, #71C1D2 30px, #71C1D2 60px );
@@ -108,7 +137,7 @@ footer {
 
 .index-container{
   margin-top: 13vw;
-  /*margin-bottom: 5vh;*/
+  /*margin-bottom: 3vh;*/
   overflow: auto;
   display: inline;
   width: 100%;
@@ -234,24 +263,30 @@ footer {
 /******************END***********/
 
 
-/*******************CODE-JOURNAL******************/
+/*******************PORTFOLIO******************/
 .header-journal {
   background-image: repeating-linear-gradient( -45deg, #D54A8D, #D54A8D 30px, #E9AFC6 30px, #E9AFC6 60px );
 }
 
+/*background-image: repeating-linear-gradient( rgb(153, 216, 101), rgb(153, 216, 101) 30px, rgb(133, 196, 81) 30px, rgb(133, 196, 81) 60px );
+}*/
+
 .intro-journal {
-  border: solid;
   position: relative;
-  top: 8vh;
+  top: 12vh;
 }
 .pages-tittle{
   text-align: center;
   font-size: 4rem;
   margin: 0;
   padding: 0;
-  border: solid orange;
-
 }
+
+.pages-second-tittle {
+  text-align: center;
+}
+
+
 .main-container {
   border: solid yellow;
   position: relative;
@@ -382,7 +417,7 @@ h4, h5 {
   transition: 0.2s;
 }
 
-/***********************PORTAFOLIO********/
+/***********************JOURNAL********/
 .portafolio {
   border: solid yellow;
 width: 100%;
@@ -437,6 +472,15 @@ width: 100%;
   width: 55%;
   padding: 20px;
 }
+
+
+/***************ABOUT***************/
+.header-about {
+  background-image: repeating-linear-gradient( 90deg, #D54A8D, #D54A8D 30px, #E9AFC6 30px, #E9AFC6 60px );
+}
+/***************END***************/
+
+
 
 /**************MADLIBS***************/
 

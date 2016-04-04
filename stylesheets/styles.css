@@ -125,14 +125,25 @@ article {
 
 footer {
   width: 100%;
-  height: 4rem;
-  padding: .5rem;
+  height: 4.25rem;
+  padding: .5rem 1rem;
   background-color: #865CAC;
+}
+footer p {
   color: white;
 }
-
 footer address {
   display: block;
+  width: 20%;
+  padding-top: .5rem;
+}
+
+address a {
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+  margin-left: 1rem;
+  float: right;
 }
 
 /** HOME / INDEX.HTML **/

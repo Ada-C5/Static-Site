@@ -5,6 +5,7 @@
     light purple: #865CAC
     lighter purple: #F9F3FE
     teal: #39b192
+    grey: #535252
 
 **/
 
@@ -28,6 +29,14 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #535252;
 }
 
 .left {
@@ -303,7 +312,35 @@ address a {
 }
 
 
+/** ABOUT **/
 
+.about-desc {
+  width: 80%;
+  padding-right: 1rem;
+}
+
+.about-desc img {
+  width: 30%;
+  margin: 0 1rem 1rem 0;
+}
+
+.social-media-links {
+  width: 20%;
+  margin: 8rem auto 4rem auto;
+  padding: 0 0 0 2rem;
+  border-left: .1rem solid #551A8B;
+}
+
+.social-media-links h3 {
+  text-align: center;
+}
+
+.social-media-links a {
+  width: 25%;
+  margin: 1rem auto;
+  color: #865CAC;
+  text-align: center;
+}
 
 
 

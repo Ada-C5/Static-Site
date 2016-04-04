@@ -102,6 +102,7 @@ header h1 {
 
 article {
   background-color: white;
+  margin: auto;
   width: 55%;
   padding: 1rem 2rem 1rem 2rem;
   border: 0.25rem solid black;
@@ -144,8 +145,8 @@ article.top_entry {
 }
 
 article.next_entry {
-margin: 0.5rem;
-clear: both;
+  margin: 0.5rem;
+  clear: both;
 }
 
 aside.sidebar {

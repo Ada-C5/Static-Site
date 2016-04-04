@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+   font-size: 16px;
+   border-top: 8px solid white;
+   border-right: 8px solid white;
+   border-left: 8px solid white;
+   /*background-color: black;*/
+}
+
+
+body{
+  position: relative;
+  background-color: white;
+  /*position: relative;*/
+}
+
+.home{
+  height: 20rem;
+  background: url("../images/name.jpg") no-repeat center center;
+  background-size: 40%;
+  opacity: 0.8;
+}
+
+header {
+  position: relative;
+  background: url("../images/group_pic.jpg") no-repeat center center;
+  background-size: cover;
+  height: 20rem;
+}
+
+nav{
+  top: 15rem;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  opacity: 0.9;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  float: left;
+  margin-top: 1 rem;
+  padding: 2rem;
+  display: inline-block;
+  border-right: .07rem solid #bbb;
+  font-family: fantasy;
+  text-transform: uppercase;
+  padding: .9rem 1rem;
+}
+
+
+nav ul li a{
+  float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social{
+  position: relative;
+  top: 15.1rem;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+/**********PORTFOLIO*************************/
+.github{
+  margin: auto;
+  padding: 10px;
+  width: 90%;
+}
+
+table{
+  list-style-type: none;
+  text-decoration: none;
+  font-family: fantasy;
+  text-transform: uppercase;
+  padding: 0;
+  margin: auto;
+
+}
+
+th{
+  font-size: 20px;
+}
+
+table tr td {
+  text-decoration: none;
+  float: left;
+  margin-top: 1 rem;
+  padding: 2rem;
+  display: inline-block;
+  font-family: fantasy;
+  text-align: right;
+  text-transform: uppercase;
+  padding: .9rem 1rem;
+  width: 15rem;
+  height: 15rem;
+
+}
+
+
+table tr td a{
+  list-style-type: none;
+  float: left;
+  color: black;
+  text-decoration: none;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+/**********HOBBY BLOG*************************/
+
+.hobby{
+  margin: auto;
+  padding: 10px;
+  width: 90%;
+}
+
+table{
+  list-style-type: none;
+  text-decoration: none;
+  font-family: fantasy;
+  text-transform: uppercase;
+  padding: 0;
+  margin: auto;
+
+}
+
+/*.hobby img{
+  height:*/
+
+th{
+  font-size: 30px;
+  font-family: fantasy;
+  color: white;
+  background-color: maroon;
+  opacity: 0.5;
+}
+
+table tr td img{
+  text-decoration: none;
+  float: left;
+  margin-top: 1 rem;
+  padding: 2rem;
+  display: inline-block;
+  font-family: fantasy;
+  text-align: right;
+  text-transform: uppercase;
+  padding: .9rem 1rem;
+  width: 15rem;
+  height: 15rem;
+
+}
+
+
+table tr td a{
+  list-style-type: none;
+  float: left;
+  color: black;
+  text-decoration: none;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+/**********About*************************/
+.about{
+  margin: auto;
+  width: 50%;
+  padding-top: 30px;
+  text-align: center;
+
+}
+
+/*.middle{
+  position:absolute;
+  margin: auto;
+  padding: 0;
+  background: url("../images/name.jpg") repeat center center;
+  background-size: contain;
+}*/
+/*
+.middle{
+  background: #fff  repeat-y center center;
+  height: 20rem;
+  background-size: contain;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}*/

@@ -38,12 +38,12 @@ header li a:hover:not(.active) {
 header.active {
    background-color: #4CAF50;
 }
-.name-in-nav {
+/*.name-in-nav {
   color: white;
   font-family: "Arial";
   font-size: 16px;
   float:right;
-}
+}*/
 
 body {
   background: rgb(212,228,239);
@@ -57,11 +57,14 @@ body {
   max-width: 100%;
 }
 
-h1 {color; black;
+h1 {
     font-family: 'Tangerine', serif;
     font-size: 48px;
     text-shadow: 4px 4px 4px #aaa;
     text-align: center;
+    margin-top: 12px;
+    margin-bottom: 1px;
+    padding: 15px;
   }
 
 p {
@@ -77,15 +80,25 @@ p {
 table {
   margin-left: 30px;
   margin-bottom: 60px;
+  margin-top: 30px;
   max-width: 85%;
+  border-bottom-color: inherit;
+  border-bottom-style: double;
 }
+
+h3.boxtitletop {
+  margin: 0;
+  padding: 0;
+  }
+
 h2 {
   color; black;
   font-family: 'Tangerine', serif;
-  font-size: 24px;
+  font-size: 36px;
   text-shadow: 4px 4px 4px #aaa;
-  text-align: left;
-
+  text-align: center;
+  margin: 0;
+  padding: 0;
   }
 
   h3 {
@@ -94,6 +107,7 @@ h2 {
     font-size: 18px;
     text-shadow: 4px 4px 4px #aaa;
     text-align: left;
+    padding: 0:
   }
 
 .portfolio-game-link {
@@ -102,10 +116,16 @@ h2 {
   width: 90%;
 }
 
-img.photos-game {
+img {
   height: 226px;
-  width: 226px
+  width: 226px;
   align: left;
+}
+
+.row-in-table{
+  margin: 0; 5px;
+  padding: 0;
+  width: 90%;
 }
 /**************
 footer
@@ -116,7 +136,7 @@ footer {
   text-align: left;
   font-family: sans-serif;
   font: Arial;
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   /*height: 29px;*/
   /*margin-bottom: 0;*/
@@ -127,7 +147,7 @@ footer {
 
 footer address {
   font-style: normal;
-  font-size: 24px;
+  font-size: 16px;
   padding-bottom: 15px;
 
 }

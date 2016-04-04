@@ -12,7 +12,7 @@ body {
 
 .skull-image {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,16 +28,16 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #333;
 }
 
-li {
+.header-nav li {
   float: left;
 }
 
-li a {
+.header-nav li a {
   display: block;
   color: white;
   text-align: center;
   padding: 20px 50px 20px 50px;
-  text-decoration: underline;;
+  text-decoration: underline;
 }
 
 li a:hover {
@@ -73,3 +73,73 @@ li a:hover {
   color: white;
   /*margin: 70px;*/
 }
+
+.smiles {
+  width: 350px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+}
+
+.j-smile {
+  font-size: 24px;
+  color: white;
+  /*margin: 70px;*/
+}
+
+section.left {
+  float: left;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+section.right {
+  float: right;
+  margin-right: 300px;
+  margin-top: 50px;
+}
+
+section.bcenter{
+  clear: both;
+  margin-top: 450px;
+  margin-bottom: 100px;
+}
+
+.intro {
+  font-size: 18px;
+  color: white;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-top: 50px;
+  line-height:36px;
+}
+
+.footer-nav > ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin: 0px;
+}
+
+.footer-nav li {
+    display: block;
+    color: white;
+    text-decoration: underline;;
+    margin: 0;
+    float: none;
+}
+
+.footer-nav a {
+    color: white;
+}
+
+.copyright {
+  text-align: center;
+  clear: both;
+}
+
+/*New page  This is for portfolio styles*/
+/**************************************************/

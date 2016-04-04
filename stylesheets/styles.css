@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  clear: both;
 }
 
 .header-nav li {
@@ -122,6 +123,7 @@ section.bcenter{
   overflow: hidden;
   background-color: #333;
   margin: 0px;
+  clear: both;
 }
 
 .footer-nav li {
@@ -143,3 +145,47 @@ section.bcenter{
 
 /*New page  This is for portfolio styles*/
 /**************************************************/
+
+.port-images {
+  float: left;
+  width: 25%;
+  clear: left;
+  margin: 20px 10px 5px 10px;
+}
+
+.port-images img {
+  width: 300px;
+}
+
+.port-text {
+  float: left;
+  width: 65%;
+  margin: 20px 10px 5px 10px;
+}
+
+/*End of Portfolio styles*/
+
+/*New page, this is for about me styles*/
+/************************************************/
+
+.siblings {
+  width: 350px;
+  height: 250px;
+  margin: 15px;
+}
+
+/*end of about me styling*/
+
+/*new page for Blog styling*/
+/*************************************************/
+
+.blogtext {
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+hr {
+  width: 50%;
+}

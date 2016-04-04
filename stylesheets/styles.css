@@ -69,7 +69,7 @@ header {
   width: 100%;
   height: 12rem;
   padding-top: 1.5rem;
-  background-image: url(file:///Users/sophia/C5/projects/Static-Site/images/octopus.jpg);
+  background-image: url(https://backpackerlee.files.wordpress.com/2015/02/octopusseafood.jpg?w=2000&h=1500&crop=1);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -100px;
@@ -164,6 +164,10 @@ address img {
   width: 100%;
 }
 
+address img:hover {
+  transform: scale(1.2);
+}
+
 /** HOME / INDEX.HTML **/
 
   /** Home Header **/
@@ -225,16 +229,16 @@ address img {
   width: 40%;
   margin: auto;
 }
-.project-icon-link {
+
+.project-icon-link img {
   display: inline-block;
+  width: 9%;
   margin-left: 1rem;
-  /*text-align: center;*/
-  /*float: left;*/
   font-size: 3rem;
 }
 
-.project-icon-link i:hover {
-  box-shadow: .1em 0 0.1em #865CAC, -.1em 0 0.1em #865CAC;
+.project-icon-link img:hover {
+  transform: scale(1.2);
 }
 
 .project-desc {

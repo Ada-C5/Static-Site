@@ -35,6 +35,10 @@ a {
   text-decoration: none;
 }
 
+a:focus {
+  color: white;
+}
+
 p {
   color: #535252;
 }
@@ -64,47 +68,51 @@ p {
 header {
   width: 100%;
   height: 12rem;
-  padding-top: 3rem;
+  padding-top: 1.5rem;
   background-image: url(file:///Users/sophia/C5/projects/Static-Site/images/octopus.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -100px;
 }
 
 .header-panel {
   width: 55%;
-  height: 9rem;
   margin: auto;
-  background-color: rgba(0, 222, 230, 0.4);
+  background-color: rgba(195, 179, 208, 0.5);
   /*margin: 10rem auto;*/
   padding: 0;
 }
 
 header h1 {
   margin: 0;
-  padding-top: 5%;
+  padding-top: 2%;
   text-align: center;
+  color: white;
   font-weight: lighter;
   text-transform: uppercase;
 }
 
+header nav {
+  height: 3.8rem;
+}
+
 header ul {
   padding: 0;
+  margin: .25rem 0 0 0;
 }
 
 header li {
   display: inline-block;
   width: 33.33%;
-  height: 2rem;
-  margin: 1rem 0;
-  padding: 0;
+  padding: 1rem 0;
   text-align: center;
   float: left;
 }
 
 header li:hover {
-  background-color: rgba(200, 222, 230, 0.4);
+  /*background-color: rgba(200, 222, 230, 0.4);*/
   /*background: linear-gradient(to right, rgba(255, 255, 255, 0), #39b192, rgba(255, 255, 255, 0));*/
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0), #39b192);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), #865CAC);
 }
 
 header a {
@@ -120,10 +128,6 @@ body {
   background-color: #F9F3FE;
   margin: 0;
   clear: both;
-  /*background-image: url(file:///Users/sophia/C5/projects/Static-Site/images/octopus.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;*/
-  /*filter: blur(5px);*/
 }
 
 article {
@@ -170,12 +174,17 @@ address img {
 
 .home-header .header-panel {
   width: 55%;
-  height: 18rem;
-  margin: 10rem auto;
+  margin: 10rem auto 15rem auto;
 }
 
 .home-header h1 {
+  margin-bottom: 2rem;
+  padding-top: 6%;
   font-size: 7rem;
+}
+
+.home-header nav {
+  height: 5rem;
 }
 
 .home-header li {
@@ -183,7 +192,7 @@ address img {
 }
 
 .home-header a {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
   /** Page Previews **/
@@ -197,6 +206,10 @@ address img {
 
 .page-preview:hover {
     background: linear-gradient(360deg, #b18ed6, #39b192);
+}
+
+.home-footer {
+  margin-top: 0;
 }
 
 /** PORTFOLIO **/

@@ -1,0 +1,190 @@
+html {
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+
+
+body {
+    background-color: rgb(0, 26, 0);
+}
+
+header{
+  display: block;
+  height: 42rem;
+  background-image: url("../images/red_tulips2.jpg");
+  background-size: 100% auto;
+  /*background-size:100% auto;*/
+  background-position: relative
+}
+
+nav {
+  background-color: rgba(255,255,255, 0.75);
+  /*border-width: 10px;*/
+  /*border-color: rgba(255,255,255, 0.75);*/
+  border-style: solid;
+  width: 100%;
+  display: block;
+  position: relative;
+  bottom: 60px;
+}
+
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+
+li{
+  display: inline;
+}
+
+li a {
+  padding: 17px;
+  padding-left: 170px;
+  text-align: center;
+  font-size: 24px;
+  color: #4c563e;
+}
+
+h1{
+  font-size: 32px;
+  color: #ffffff;
+  padding-left: 60px;
+  /*padding-top: 40px;*/
+}
+
+a:hover{
+  color:#b38600;
+
+}
+
+article p {
+  color: #ffffff;
+  font-size: 22px;
+  display: block;
+  background-color: rgba(255,255,255, 0.75);
+  color: #333d24;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 45px;
+}
+
+
+
+.gallery {
+  width: 640px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+
+
+.about_photo > div > img {
+    display: block;
+    width: 20rem;
+    border-radius: 160px;
+    margin-left: 500px;
+}
+
+
+
+.portfolio {
+  width: 640px;
+  margin: 0 auto;
+  padding: 30px;
+
+}
+
+.portfolio > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.portfolio > div > img {
+  display: block;
+  width: 200px;
+  border-radius: 160px;
+}
+
+
+
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,200,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+  /*font-size: 26px;*/
+}
+
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+section #services h2 {
+  margin: 80px 0px 40px;
+  color: #fff;
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5em;
+}
+section #services li {
+  width: 120px;
+  height: 140px;
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+section #services li div {
+  width: 120px;
+  height: 120px;
+  color: #4c563e;
+  text-align: center;
+  line-height: 120px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+  font-size: 3.4em;
+}
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}

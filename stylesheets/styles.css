@@ -224,8 +224,12 @@ footer {
   height: 3rem;
 }
 
-.portfolio-navigation {
+section {
     padding: 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
 }
 
 .project-link {

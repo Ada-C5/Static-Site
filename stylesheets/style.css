@@ -1,0 +1,143 @@
+/*BODY
+general*/
+
+body {
+  font-family: 'Crimson Text', serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #7C227C;
+}
+
+/*HEADER
+general*/
+
+header {
+  background-color: #4d004d;
+  font-family: 'Sacramento', cursive;
+  color: white;
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+  height: 120px;
+  float: right;
+  clear: both;
+  border-bottom: #7C227C solid 15px;
+  text-align: center;
+}
+
+/*HEADER
+title*/
+
+h1 {
+  color: lavender;
+  font-size: 55px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: .5px;
+  padding: 0px 0px 0px 0px;
+  line-height: 67px;
+}
+
+/*HEADER
+nav bar and links*/
+
+header ul {
+  float: right;
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+header li {
+  font-size: 28px;
+  display: inline-block;
+  padding: 0px 30px 0px 30px
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+/*SECTION and ARTICLE
+general*/
+
+section {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+  clear: both;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+article {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+p.divider{
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/*SECTION
+image, title, border bar */
+
+img.title {
+  float: left;
+}
+
+div.section-title {
+  border-bottom: 3px double gray;
+  height: 85px;
+}
+
+section h2 {
+  color: #0072BC;
+  font-size: 40px;
+  margin-top: 0px;
+  padding-top: 8px;
+}
+
+/*SECTION
+general*/
+
+h3 {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*FOOTER
+general*/
+
+footer {
+  background-color: #0072BC;
+  color: white;
+  font-family: 'Sacramento', cursive;
+  border-top: #0F9EFB solid 10px;
+  margin-top: 0px;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+footer address {
+  height: 10px;
+  width: 30%;
+  padding-top: .5px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 27px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}

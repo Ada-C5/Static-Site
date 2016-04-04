@@ -1,0 +1,8 @@
+.all-projects {
+  text-align: center;
+}
+
+.project1, .project2, .project3 {
+  width: 30%;
+  display:inline-block;
+}

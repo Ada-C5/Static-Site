@@ -1,0 +1,166 @@
+/************
+Baseline Styles
+************/
+
+html {
+  font-size: 16px;
+}
+/*****************
+header
+*****************/
+
+header ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+}
+
+header li {
+   float: left;
+}
+
+header li a {
+   display: block;
+   color: white;
+   font-family: "Arial";
+   font-size: 16px
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+header li a:hover:not(.active) {
+   background-color: #111;
+}
+
+header.active {
+   background-color: #4CAF50;
+}
+
+body {
+  background: rgb(212,228,239);
+  background: -moz-linear-gradient(left, rgb(212,228,239) 0%, rgb(134,174,204) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgb(212,228,239)), color-stop(100%, rgb(134,174,204)));
+  background: -webkit-linear-gradient(left, rgb(212,228,239) 0%, rgb(134,174,204) 100%);
+  background: -o-linear-gradient(left, rgb(212,228,239) 0%, rgb(134,174,204) 100%);
+  background: -ms-linear-gradient(left, rgb(212,228,239) 0%, rgb(134,174,204) 100%);
+  background: linear-gradient(to right, rgb(212,228,239) 0%, rgb(134,174,204) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+  max-width: 100%;
+}
+
+h1 {
+  color: black;
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+  }
+
+.name {
+  color; black;
+  font-family: 'Tangerine'; serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+  margin-top: 15px;
+  padding-left: 50px;
+  }
+
+p {
+  font-family: arial;
+  font-size: 24px;
+  text-align: justify;
+  margin-top: 2px;
+  margin-left: 10px;
+  max-width: 60%;
+  float: left;
+}
+
+h2, h3 {
+  text-align: left;
+}
+
+aside {
+  display: inline;
+  margin: 0; 5px;
+  width: 90%;
+}
+
+iframe {
+  padding-right: 15px;
+  max-width: 34%;
+  float: right;
+}
+figcaption {
+  margin-right: 30px;
+  float: right
+
+}
+.portfolio-game-link {
+  display: inline;
+  margin: 0; 5px;
+  width: 90%;
+}
+
+.highlight {
+  color: red;
+}
+
+p.highlight {
+  background-color: purple;
+}
+
+ .about-me-photos {
+  display: inline;
+  margin-right: 0;
+  width: 19.5%;
+}
+/**************
+footer
+**************/
+footer {
+  background-color: #333;
+  color: white;
+  text-align: left;
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 18px;
+  font-style: normal;
+  /*height: 29px;*/
+  /*margin-bottom: 0;*/
+  padding-top: 40px;
+  padding-left: 40px;
+  clear: both;
+}
+
+footer address {
+  font-style: normal;
+  font-size: 24px;
+  padding-bottom: 15px;
+
+}
+.footeremail {
+  color: purple;
+  text-align: left;
+  margin-left: 0px;
+
+}
+.bottomline {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0px;
+}
+/*.figtext {
+
+ }*/
+/*.top-list > li {
+  background-color: purple;
+}*/

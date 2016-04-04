@@ -24,108 +24,105 @@
     <article class="portfolio-project">
       <div class="project-name">
         <h2>Solar System</h2>
-        <a class="project-icon-link" href="">
-          <img alt="" src="images/github-purple.png">
+        <a class="project-icon-link" href="https://github.com/sophiabaldonado/Solar-System">
+          <img alt="git hub logo" src="images/github-purple.png">
         </a>
-        <a class="project-icon-link" href="">
-          <img alt="" src="images/repl.png">
+        <a class="project-icon-link" href="https://repl.it/CBxD">
+          <img alt="repl.it logo" src="images/repl.png">
         </a>
       </div>
       <section class="project-desc">
         <h3>Learning Milestones</h3>
         <ul>
-          <li><img src="images/ruby.svg"> Objective 1</li>
-          <li><img src="images/ruby.svg"> Objective 2</li>
-          <li><img src="images/ruby.svg"> Objective 3</li>
+          <li><img src="images/ruby.svg"> Object Oriented Programming</li>
+          <li><img src="images/ruby.svg"> Classes & Composition</li>
+          <li><img src="images/ruby.svg"> Variables & Scope</li>
         </ul>
-        <p>Pop-up street art slow-carb, kinfolk distillery asymmetrical tumblr mlkshk leggings sartorial you probably haven't heard of them ennui tilde. Helvetica mustache poutine gochujang cred, quinoa franzen retro chartreuse skateboard cronut twee synth fingerstache forage. Listicle affogato cred blog. Freegan literally pitchfork, shabby chic ugh godard taxidermy green juice occupy waistcoat bitters cliche small batch.</p>
+        <p>
+          Solar System was an early project I worked on alone to learn about classes and object oriented programming. This was the first project where we were instructed to write our own classes. We also had to use composition to use the Planet class inside of the Solar System class. The program was to be execute in the terminal and involved user interaction to learn about different planets. I had fun writing a 'Space ID' random name generator and a secret easter egg in the program.
+        </p>
       </section>
       <div class="project-visuals">
-        <a href="images/octopus.jpg"><img alt="" src="images/octopus.jpg"></a>
+        <a href="images/solar-system.png"><img alt="screenshot of solar system project running in the terminal" src="images/solar-system.png"></a>
         <div class="code-snippet">
-          <h4><i class="fa fa-code"></i> Code Sample</h4>
+          <h4><img alt="code icon" src="images/code.png"> Code Sample</h4>
           <pre><code>
-  def play(word)
-    # adds word to array of words
-    @words_played << word
-    # Returns false if player has already won
-    word_score = Scrabble::Scoring.score(word)
-    remove_played_letters(word)
-    won? ? false : word_score
-      # scores word & returns score
+  # Generates a random number with user selected amount of digits
+  # doesn't account for digits <= 0
+  def random_number(digits)
+    if digits == 1
+      return rand(0..9)
+    else
+      range_start = 10 ** (digits - 1)
+      range_end = (10 ** (digits)) - 1
+      return rand(range_start..range_end)
+    end
+  end
+  # Generates a random letter from a to z
+  def random_letter
+    return ("a".."z").to_a[rand(26)]
+  end
+  # Generate a random space id for user
+  def random_space_id
+    "#{random_number(1)}#{random_letter.upcase}" +
+    "#{random_number(3)}-#{random_number(2)}" +
+    "#{random_letter.upcase}"
+  end
+          </code></pre>
+        </div>
+      </div>
+    </article>
+    <article class="portfolio-project">
+      <div class="project-name">
+        <h2>Word Guess Game</h2>
+        <a class="project-icon-link" href="https://github.com/sophiabaldonado/Word-Guess">
+          <img alt="git hub logo" src="images/github-purple.png">
+        </a>
+        <a class="project-icon-link" href="https://repl.it/CBxO/1">
+          <img alt="repl.it logo" src="images/repl.png">
+        </a>
+      </div>
+      <section class="project-desc">
+        <h3>Learning Milestones</h3>
+        <ul>
+          <li><img src="images/ruby.svg"> Pair Programming</li>
+          <li><img src="images/ruby.svg"> Classes</li>
+          <li><img src="images/ruby.svg"> Git</li>
+          <li><img src="images/ruby.svg"> Gems</li>
+        </ul>
+        <p>
+          Word Guess Game was our first pair programming assignment. Much of our time was spent learning to work with another person on a project, emphasizing communication and pair programming techniques, as well as using git with another person. We were also still learning core concepts including classes and methods. One thing I'm proud of for this assignment is our awesome dragon ASCII art which used the colorize gem to really impress the player.
+        </p>
+      </section>
+      <div class="project-visuals">
+        <a href="images/wordguess.png"><img alt="screenshot of word guess game running in the terminal" src="images/wordguess.png"></a>
+        <div class="code-snippet">
+          <h4><img alt="code icon" src="images/code.png"> Code Sample</h4>
+          <pre><code>
+  elsif @tally == 4
+  puts "
+  <~>                          ___________
+   | |,_____                  (BWAHAHAAHA!)
+         ___`|                 ⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻
+         |"+"('>".colorize(:red)+"|`-__            o
+           ~      ~~~--__   º        "+"**              ***".colorize(:light_red).blink+"
+                 ______  (@|   "+"*".colorize(:light_yellow).blink+"******  *".colorize(:light_red).blink+"***    *******    ******".colorize(:red).blink+"
+                /"+"******".colorize(:light_yellow).blink+"~~~~||"+"*".colorize(:light_yellow).blink+"***********".colorize(:light_red).blink+"**********************".colorize(:red).blink+"
+        |       `--____"+"*******".colorize(:light_yellow).blink+"******".colorize(:light_red).blink+"*****************************".colorize(:red).blink+"
+       / ~~~--_____    ~~~/ "+"***".colorize(:light_yellow).blink+"******".colorize(:light_red).blink+"******************************".colorize(:red).blink+"
+                   `~~~~~         "+"*".colorize(:light_yellow).blink+"*********".colorize(:light_red).blink+"********************".colorize(:red).blink+"
+                                        "+"****    *********".colorize(:light_red).blink+"*****".colorize(:red).blink+"
+                                          "+"***       ********".colorize(:light_red).blink+"***".colorize(:red).blink+"
+                                                          "+"****".colorize(:light_red).blink+"****".colorize(:red).blink+"
+
+  ".colorize(:red).blink
+  puts "The word was: #{@current_word}".colorize(:magenta)
   end
           </code></pre>
         </div>
       </div>
     </article>
 
-    <article class="portfolio-project">
-      <div class="project-name">
-        <h2>Solar System</h2>
-        <a class="project-icon-link" href=""><i class="fa fa-github"></i></a>
-        <a class="project-icon-link" href=""><i class="fa fa-external-link-square"></i></a>
-      </div>
-      <section class="project-desc">
-        <h3>Learning Milestones</h3>
-        <ul>
-          <li><i class="fa fa-heart"></i> Objective 1</li>
-          <li><i class="fa fa-heart"></i> Objective 2</li>
-          <li><i class="fa fa-heart"></i> Objective 3</li>
-        </ul>
-        <p>Pop-up street art slow-carb, kinfolk distillery asymmetrical tumblr mlkshk leggings sartorial you probably haven't heard of them ennui tilde. Helvetica mustache poutine gochujang cred, quinoa franzen retro chartreuse skateboard cronut twee synth fingerstache forage. Listicle affogato cred blog. Freegan literally pitchfork, shabby chic ugh godard taxidermy green juice occupy waistcoat bitters cliche small batch.</p>
-      </section>
-      <div class="project-visuals">
-        <a href="images/octopus.jpg"><img alt="" src="images/octopus.jpg"></a>
-        <div class="code-snippet">
-          <h4><i class="fa fa-code"></i> Code Sample</h4>
-          <pre><code>
-  def play(word)
-    # adds word to array of words
-    @words_played << word
-    # Returns false if player has already won
-    word_score = Scrabble::Scoring.score(word)
-    remove_played_letters(word)
-    won? ? false : word_score
-      # scores word & returns score
-  end
-          </code></pre>
-        </div>
-      </div>
-    </article>
-
-    <article class="portfolio-project">
-      <div class="project-name">
-        <h2>Solar System</h2>
-        <a class="project-icon-link" href=""><i class="fa fa-github"></i></a>
-        <a class="project-icon-link" href=""><i class="fa fa-external-link-square"></i></a>
-      </div>
-      <section class="project-desc">
-        <h3>Learning Milestones</h3>
-        <ul>
-          <li><img href="images/ruby.svg"> Objective 1</li>
-          <li><img href="images/ruby.svg"> Objective 2</li>
-          <li><img href="images/ruby.svg"> Objective 3</li>
-        </ul>
-        <p>Pop-up street art slow-carb, kinfolk distillery asymmetrical tumblr mlkshk leggings sartorial you probably haven't heard of them ennui tilde. Helvetica mustache poutine gochujang cred, quinoa franzen retro chartreuse skateboard cronut twee synth fingerstache forage. Listicle affogato cred blog. Freegan literally pitchfork, shabby chic ugh godard taxidermy green juice occupy waistcoat bitters cliche small batch.</p>
-      </section>
-      <div class="project-visuals">
-        <a href="images/octopus.jpg"><img alt="" src="images/octopus.jpg"></a>
-        <div class="code-snippet">
-          <h4><i class="fa fa-code"></i> Code Sample</h4>
-          <pre><code>
-  def play(word)
-    # adds word to array of words
-    @words_played << word
-    # Returns false if player has already won
-    word_score = Scrabble::Scoring.score(word)
-    remove_played_letters(word)
-    won? ? false : word_score
-      # scores word & returns score
-  end
-          </code></pre>
-        </div>
-      </div>
-    </article>
 
 
     <footer class="clear-both">

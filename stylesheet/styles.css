@@ -7,26 +7,78 @@
 .header {
   display: block;
   background-color: white;
+  margin-left: 10%;
+
+}
+
+.header h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+.navandbody li {
+  list-style-type: none;
 
 }
 
 
 
+.navandbody h2{
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+
+.navandbody h3 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+.navandbody ul li {
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+
+}
 
 .navandbody{
+  overflow:auto;
   display:flex;
+  margin-left: 5%;
 
+}
+
+
+.navandbody li a {
+  color:gray;
+  text-decoration: none;
+
+}
+
+.navandbody  a:hover{
+  color: black;
 }
 
 .nav{
   display: block;
   background-color: white;
-  width: 20%
+  width: 20%;
+  margin-left: 5%;
 
 
 }
 
+.navandbody h3 {
+  text-indent: 20px;
+}
+
+
+
+
 .img_section{
-  display: block;
+  margin-left: 100px;
   background-color: white;
+  display: block;
+}
+
+
+.img_section p {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 13px;
+  font-style: italic;
 }

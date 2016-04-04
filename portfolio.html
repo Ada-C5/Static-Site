@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <title>sophiabaldonado</title>
+  </head>
+  <header>
+    <div class="header-panel">
+      <a href="index.html"><h1>Sophia</h1></a>
+      <nav>
+        <ul>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="hobby-blog.html">Sewing</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <body>
+
+    <article class="portfolio-project">
+      <div class="project-name">
+        <h2>Solar System</h2>
+        <a class="project-icon-link" href="https://github.com/sophiabaldonado/Solar-System">
+          <img alt="git hub logo" src="images/github-purple.png">
+        </a>
+        <a class="project-icon-link" href="https://repl.it/CBxD">
+          <img alt="repl.it logo" src="images/repl.png">
+        </a>
+      </div>
+      <section class="project-desc">
+        <h3>Learning Milestones</h3>
+        <ul>
+          <li><img src="images/ruby.svg"> Object Oriented Programming</li>
+          <li><img src="images/ruby.svg"> Classes & Composition</li>
+          <li><img src="images/ruby.svg"> Variables & Scope</li>
+        </ul>
+        <p>
+          Solar System was an early project I worked on alone to learn about classes and object oriented programming. This was the first project where we were instructed to write our own classes. We also had to use composition to use the Planet class inside of the Solar System class. The program was to be execute in the terminal and involved user interaction to learn about different planets. I had fun writing a 'Space ID' random name generator and a secret easter egg in the program.
+        </p>
+      </section>
+      <div class="project-visuals">
+        <a href="images/solar-system.png"><img alt="screenshot of solar system project running in the terminal" src="images/solar-system.png"></a>
+        <div class="code-snippet">
+          <h4><img alt="code icon" src="images/code.png"> Code Sample</h4>
+          <pre><code>
+  # Generates a random number with user selected amount of digits
+  # doesn't account for digits <= 0
+  def random_number(digits)
+    if digits == 1
+      return rand(0..9)
+    else
+      range_start = 10 ** (digits - 1)
+      range_end = (10 ** (digits)) - 1
+      return rand(range_start..range_end)
+    end
+  end
+  # Generates a random letter from a to z
+  def random_letter
+    return ("a".."z").to_a[rand(26)]
+  end
+  # Generate a random space id for user
+  def random_space_id
+    "#{random_number(1)}#{random_letter.upcase}" +
+    "#{random_number(3)}-#{random_number(2)}" +
+    "#{random_letter.upcase}"
+  end
+          </code></pre>
+        </div>
+      </div>
+    </article>
+    <article class="portfolio-project">
+      <div class="project-name">
+        <h2>Word Guess Game</h2>
+        <a class="project-icon-link" href="https://github.com/sophiabaldonado/Word-Guess">
+          <img alt="git hub logo" src="images/github-purple.png">
+        </a>
+        <a class="project-icon-link" href="https://repl.it/CBxO/1">
+          <img alt="repl.it logo" src="images/repl.png">
+        </a>
+      </div>
+      <section class="project-desc">
+        <h3>Learning Milestones</h3>
+        <ul>
+          <li><img src="images/ruby.svg"> Pair Programming</li>
+          <li><img src="images/ruby.svg"> Classes</li>
+          <li><img src="images/ruby.svg"> Git</li>
+          <li><img src="images/ruby.svg"> Gems</li>
+        </ul>
+        <p>
+          Word Guess Game was our first pair programming assignment. Much of our time was spent learning to work with another person on a project, emphasizing communication and pair programming techniques, as well as using git with another person. We were also still learning core concepts including classes and methods. One thing I'm proud of for this assignment is our awesome dragon ASCII art which used the colorize gem to really impress the player.
+        </p>
+      </section>
+      <div class="project-visuals">
+        <a href="images/wordguess.png"><img alt="screenshot of word guess game running in the terminal" src="images/wordguess.png"></a>
+        <div class="code-snippet">
+          <h4><img alt="code icon" src="images/code.png"> Code Sample</h4>
+          <pre><code>
+  elsif @tally == 4
+  puts "
+  <~>                          ___________
+   | |,_____                  (BWAHAHAAHA!)
+         ___`|                 ⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻⁻
+         |"+"('>".colorize(:red)+"|`-__            o
+           ~      ~~~--__   º        "+"**              ***".colorize(:light_red).blink+"
+                 ______  (@|   "+"*".colorize(:light_yellow).blink+"******  *".colorize(:light_red).blink+"***    *******    ******".colorize(:red).blink+"
+                /"+"******".colorize(:light_yellow).blink+"~~~~||"+"*".colorize(:light_yellow).blink+"***********".colorize(:light_red).blink+"**********************".colorize(:red).blink+"
+        |       `--____"+"*******".colorize(:light_yellow).blink+"******".colorize(:light_red).blink+"*****************************".colorize(:red).blink+"
+       / ~~~--_____    ~~~/ "+"***".colorize(:light_yellow).blink+"******".colorize(:light_red).blink+"******************************".colorize(:red).blink+"
+                   `~~~~~         "+"*".colorize(:light_yellow).blink+"*********".colorize(:light_red).blink+"********************".colorize(:red).blink+"
+                                        "+"****    *********".colorize(:light_red).blink+"*****".colorize(:red).blink+"
+                                          "+"***       ********".colorize(:light_red).blink+"***".colorize(:red).blink+"
+                                                          "+"****".colorize(:light_red).blink+"****".colorize(:red).blink+"
+
+  ".colorize(:red).blink
+  puts "The word was: #{@current_word}".colorize(:magenta)
+  end
+          </code></pre>
+        </div>
+      </div>
+    </article>
+
+
+
+    <footer class="clear-both">
+      <address class="right">
+        <!-- <p>Let's connect!</p> -->
+        <a href="mailto:sophiabaldonado@gmail.com">
+          <img alt="email logo" src="images/email-white.png">
+        </a>
+        <a href="http://github.com/sophiabaldonado">
+          <img alt="github logo" src="images/github-white.png">
+        </a>
+        <a href="http://twitter.com/yokopuffs">
+          <img alt="twitter logo" src="images/twitter-white.png">
+        </a>
+      </address>
+      <p>Copyright © 2016 • Sophia Baldonado</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,400 @@
+/**
+
+  Colors
+    dark purple: #551A8B
+    light purple: #865CAC
+    lighter purple: #F9F3FE
+    teal: #39b192
+    grey: #535252
+
+**/
+
+/** Main **/
+
+* {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+html {
+  font-family: Fjalla One, Arial;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #551A8B;
+}
+
+a:focus {
+  color: white;
+}
+
+p {
+  color: #535252;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+/** Header **/
+
+header {
+  width: 100%;
+  height: 12rem;
+  padding-top: 1.5rem;
+  background-image: url(https://backpackerlee.files.wordpress.com/2015/02/octopusseafood.jpg?w=2000&h=1500&crop=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -100px;
+}
+
+.header-panel {
+  width: 55%;
+  margin: auto;
+  background-color: rgba(195, 179, 208, 0.5);
+  /*margin: 10rem auto;*/
+  padding: 0;
+}
+
+header h1 {
+  margin: 0;
+  padding-top: 2%;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+header nav {
+  height: 3.8rem;
+}
+
+header ul {
+  padding: 0;
+  margin: .25rem 0 0 0;
+}
+
+header li {
+  display: inline-block;
+  width: 33.33%;
+  padding: 1rem 0;
+  text-align: center;
+  float: left;
+}
+
+header li:hover {
+  /*background-color: rgba(200, 222, 230, 0.4);*/
+  /*background: linear-gradient(to right, rgba(255, 255, 255, 0), #39b192, rgba(255, 255, 255, 0));*/
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), #865CAC);
+}
+
+header a {
+  margin: auto;
+  font-size: 1.4rem;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+/** Body **/
+
+body {
+  background-color: #F9F3FE;
+  margin: 0;
+  clear: both;
+}
+
+article {
+  padding: 1rem 8rem;
+}
+
+/** Footer **/
+
+footer {
+  width: 100%;
+  height: 4.25rem;
+  margin-top: 4rem;
+  padding: .5rem 1rem;
+  background-color: #865CAC;
+}
+footer p {
+  color: white;
+}
+footer address {
+  display: block;
+  width: 20%;
+  padding-top: .5rem;
+}
+
+address a {
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+  margin-left: 1rem;
+  float: right;
+}
+
+address img {
+  width: 100%;
+}
+
+address img:hover {
+  transform: scale(1.2);
+}
+
+/** HOME / INDEX.HTML **/
+
+  /** Home Header **/
+
+.home-header {
+  height: 75%;
+}
+
+.home-header .header-panel {
+  width: 55%;
+  margin: 10rem auto 15rem auto;
+}
+
+.home-header h1 {
+  margin-bottom: 2rem;
+  padding-top: 6%;
+  font-size: 7rem;
+}
+
+.home-header nav {
+  height: 5rem;
+}
+
+.home-header li {
+  height: 5rem;
+}
+
+.home-header a {
+  font-size: 2.5rem;
+}
+
+  /** Page Previews **/
+
+.page-preview {
+  width: 33.33%;
+  height: 30rem;
+  float: left;
+  background-color: #b18ed6;
+}
+
+.page-preview:hover {
+    background: linear-gradient(360deg, #b18ed6, #39b192);
+}
+
+.home-footer {
+  margin-top: 0;
+}
+
+/** PORTFOLIO **/
+
+.portfolio-project h2 {
+  display: inline-block;
+  margin-top: 7rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.project-name {
+  width: 40%;
+  margin: auto;
+}
+
+.project-icon-link img {
+  display: inline-block;
+  width: 9%;
+  margin-left: 1rem;
+  font-size: 3rem;
+}
+
+.project-icon-link img:hover {
+  transform: scale(1.2);
+}
+
+.project-desc {
+  padding: 1rem 3rem;
+  clear: left;
+}
+
+.project-desc h3 {
+  margin: .5rem 0;
+}
+
+.project-desc li {
+  display: inline-block;
+  margin: 1rem 0 1rem 2rem;
+  margin-left: 2rem;
+  color: #551A8B;
+  font-size: 1.3rem;
+  /*float: left;*/
+}
+
+.project-desc img {
+  display: inline-block;
+  width: 18px;
+}
+
+.project-desc p {
+  clear: left;
+}
+
+  /** project visuals **/
+
+.project-visuals {
+  width: 90%;
+  height: 20rem;
+  margin: 1rem auto;
+}
+
+.project-visuals img {
+  display: inline-block;
+  width: 49%;
+  min-height: 100%;
+  margin:auto;
+  border-radius: .3rem;
+  float: left;
+}
+
+.project-visuals img:hover {
+  box-shadow: .1em 0 0.1em #865CAC, -.1em 0 0.1em #865CAC;
+}
+
+.code-snippet {
+  display: inline-block;
+  width: 49%;
+  height: 100%;
+  margin: auto;
+  background: url(file:///Users/sophia/C5/projects/Static-Site/images/stripes.png) repeat 0 .5rem;
+  background-position: 0px -4px;
+  border: .1rem solid #865CAC;
+  border-left: .4rem solid #865CAC;
+  overflow: auto;
+  float: right;
+}
+
+.code-snippet h4 {
+  margin: 0;
+  padding: .5rem;
+  background-color: #865CAC;
+  color: white;
+}
+
+.code-snippet img {
+  width: 8%;
+  margin-right: .5rem;
+}
+
+.code-snippet pre {
+  margin: 0;
+  line-height: 1.25rem;
+  font-family: Courier;
+}
+
+/** HOBBY BLOG **/
+
+.blog {
+  width: 80%;
+  margin: 4rem auto;
+  padding-bottom: 3rem;
+  background-color: white;
+  overflow: hidden;
+}
+
+.blog-img {
+  width: 40%;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.blog-img.left {
+  margin-left: 0;
+}
+
+.blog-img.right {
+  margin-right: 0;
+}
+
+.blog-img.half {
+  width: 50%;
+}
+
+
+/** ABOUT **/
+
+.about-desc {
+  width: 80%;
+  padding-right: 1rem;
+}
+
+.about-desc img {
+  width: 30%;
+  margin: 0 1rem 1rem 0;
+}
+
+.lead-sentence {
+  font-weight: bold;
+  color: #865CAC;
+}
+
+.social-media-links {
+  width: 20%;
+  margin: 8rem auto 4rem auto;
+  padding: 0 0 0 2rem;
+  border-left: .1rem solid #551A8B;
+}
+
+.social-media-links h3 {
+  text-align: center;
+}
+
+.social-media-links a {
+  width: 25%;
+  margin: 1rem auto;
+  color: #865CAC;
+  text-align: center;
+}
+
+.social-media-links img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/** end **/

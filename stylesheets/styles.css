@@ -2,8 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /*-webkit-margin-before: 0;
-  -webkit-margin-after: 0;*/
 }
 
 html, body {
@@ -13,8 +11,36 @@ html, body {
   height: 100%;
 }
 
+section {
+  position:fixed;
+  top: 4rem;
+  bottom: 4rem;
+  left: 33rem;
+  width: 45%;
+  background-color: rgba(242, 206, 179,0.67);
+  overflow-y: auto;
+  padding: 1rem;
+  z-index: 2;
+
+}
+
+footer {
+  bottom: 3%;
+  position: fixed;
+  /*width: 100%;*/
+  z-index: 2;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  transition: all 0.2s ease-in-out;
+}
+
 a {
-  transition: all 0.2s ease;
+  transition: all 0.2s ease-in-out;
   text-decoration: none;
   color: #412825;
   display:inline-block;
@@ -29,9 +55,17 @@ h1 {
   font-family: "Apple Chancery", "Monotype Corsiva", cursive;
 }
 
-ul {
-  list-style: none;
+h2 {
+  margin-bottom: 1rem;
 }
+
+p {
+  margin-bottom: .5rem;
+}
+
+
+/*background styling*/
+
 .background {
   position: fixed;
   /*this makes the container bigger than the browser always so our image acts as a centered background!*/
@@ -55,14 +89,78 @@ ul {
   min-height: 50%;
 }
 
-.horizontal.site-navigation {
+/*background effects*/
+
+.background-blanket {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    transition: all 0.35s ease-in-out;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.background-blanket:hover {
+  background-color: rgba(0,0,0,0);
+}
+
+/*general navigation styling*/
+
+.site-navigation nav {
+  width: 100%;
+  background-color: #EF9D6D;
+  opacity: 0.67;
+}
+
+.site-navigation h1 {
+  float: left;
+  opactiy: 1;
+}
+
+.site-section-links li {
+  line-height: calc(100%/3);
+  height: calc(100%/3);
+}
+
+.site-section-links a {
+  line-height: 0.75rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/*positioning horizontally*/
+
+.site-navigation.horizontal {
   bottom: 10%;
   position: fixed;
   width: 100%;
   z-index: 2;
 }
 
-.leftside.site-navigation {
+.site-navigation.horizontal nav {
+  height: 4rem;
+  line-height: 4rem;
+  background-image: linear-gradient(to right, #D66E55, #EF9D6D, #F2CEB3 39%, #F2CEB3);
+}
+
+.site-navigation.horizontal ul {
+  height: 4rem;
+  float: left;
+}
+
+.site-navigation.horizontal .site-section-links li {
+  margin: 0.1rem 0rem 0rem 2rem;
+}
+
+.site-navigation.horizontal .site-section-links li:hover {
+  margin-left: 3rem;
+}
+
+/*positioning on left side*/
+
+.site-navigation.leftside {
   top: 0;
   left: 0;
   /*right: 0;*/
@@ -73,47 +171,30 @@ ul {
   z-index: 2;
 }
 
-.site-navigation nav {
-  width: 100%;
-  /*height: 4rem;
-  line-height: 4rem;*/
-  /*for browsers that may not support linear-gradient like i have it set up*/
-  background-color: #EF9D6D;
-  opacity: 0.67;
-}
-
-.horizontal.site-navigation nav {
-  height: 4rem;
-  line-height: 4rem;
-  background-image: linear-gradient(to right, #D66E55, #EF9D6D, #F2CEB3 39%, #F2CEB3);
-}
-
-.leftside.site-navigation nav {
+.site-navigation.leftside nav {
   height: 100%;
   background-image: linear-gradient(to bottom, #D66E55, #EF9D6D, #F2CEB3 39%, #F2CEB3);
 }
 
-.site-navigation h1 {
-  float: left;
-  opactiy: 1;
+.site-navigation.leftside ul {
+  height: 4rem;
+  float: right;
 }
 
-.background-blanket {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
-    transition: all 0.2s ease-in-out;
-    background-color: rgba(0,0,0,0.3);
+.site-navigation.leftside .site-section-links li {
+  margin: 0.5rem 4rem 0rem 0rem;
+  padding-right: 1rem;
+  padding-left: 0;
+  transition: all 0.2s ease-in-out;
 }
 
-.background-blanket:hover {
-  background-color: rgba(0,0,0,0);
+.site-navigation.leftside .site-section-links li:hover{
+  /*still wigles!*/
+  padding-left: 1rem;
+  padding-right: 0;
 }
 
-
+/*main link/header styling*/
 .here-link {
     padding-left: 2rem;
     font-weight: bold;
@@ -122,7 +203,6 @@ ul {
     /* offset-x | offset-y | blur-radius | color */
     text-shadow: .12rem .12rem .24rem rgba(65, 40, 37, 0.75);
     border-bottom: 0;
-    /*transition: all 0.2s ease;*/
 }
 
 .here-link:hover {
@@ -131,78 +211,12 @@ ul {
   border-bottom: none;
 }
 
-.horizontal.site-navigation ul {
-  height: 4rem;
-  float: left;
-}
-
-.leftside.site-navigation ul {
-  height: 4rem;
-  float: right;
-}
-
-.site-section-links li {
-  line-height: calc(100%/3);
-  height: calc(100%/3);
-}
-
-.horizontal .site-section-links li {
-  margin: 0.1rem 0rem 0rem 2rem;
-}
-
-.leftside .site-section-links li {
-  margin: 0.5rem 4rem 0rem 0rem;
-}
-
-.site-section-links a {
-  line-height: 0.75rem;
-  font-weight: bold;
-  display: inline-block;
-}
-
-.horizontal .site-section-links li:hover {
-  margin-left: 3rem;
-  /*still wigles!*/
-}
-
-.leftside .site-section-links li:hover {
-  margin-left: -1rem;
-  /*still wigles!*/
-}
-
-section {
-  position:fixed;
-  top: 4rem;
-  bottom: 4rem;
-  left: 33rem;
-  width: 45%;
-  background-color: rgba(242, 206, 179,0.67);
-  overflow-y: auto;
-  z-index: 2;
-
-}
-
-footer {
-  bottom: 3%;
-  position: fixed;
-  /*width: 100%;*/
-  z-index: 2;
-}
-
-.right {
-  right: 0;
-}
-
-.left {
-  left: 0;
-}
-
+/*off-site footer links*/
 
 .off-site-navigation, .off-site-navigation ul {
   height: 3rem;
   width: 100%;
 }
-
 
 .off-site-navigation li {
   height: 3rem;
@@ -211,30 +225,38 @@ footer {
   margin-right: .5rem;
 }
 
+.off-site-navigation img {
+    height: 3rem;
+}
+
+/*logos positioned right bottom*/
+
+.right {
+  right: 0;
+}
+
 .right .off-site-navigation li {
   float: right;
 }
+
+/*logos positioned left bottom*/
 
 .left .off-site-navigation li {
   float: left;
 }
 
-.off-site-navigation img {
-  /*width: 100%;*/
-  height: 3rem;
-}
 
-section {
-    padding: 1rem;
-}
 
-h2 {
-  margin-bottom: 1rem;
-}
 
-p {
-  margin-bottom: .5rem;
-}
+
+
+
+
+
+
+
+
+
 
 .project-link {
   height: 100%;

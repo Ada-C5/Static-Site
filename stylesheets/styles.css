@@ -135,6 +135,7 @@ article {
 footer {
   width: 100%;
   height: 4.25rem;
+  margin-top: 4rem;
   padding: .5rem 1rem;
   background-color: #865CAC;
 }
@@ -153,6 +154,10 @@ address a {
   height: 100%;
   margin-left: 1rem;
   float: right;
+}
+
+address img {
+  width: 100%;
 }
 
 /** HOME / INDEX.HTML **/

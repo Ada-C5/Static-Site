@@ -1,0 +1,253 @@
+html {
+  font-family: Century Gothic;
+  background-color: rgb(55, 56, 54);
+  text-transform: uppercase;
+}
+
+body {
+  margin:0;
+}
+
+nav {
+  background-color: black;
+  margin-top: -10;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  top:0;
+  left: 0;
+}
+
+nav ul {
+  text-align: right;
+  list-style: none;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
+nav ul li {
+  display: inline;
+  padding-right: 30px;
+  color:white;
+  padding-left: 3rem;
+  text-transform: uppercase;
+  font-family: Century Gothic;
+}
+
+nav li a:link, nav li a:visited{
+  font-size: 2rem;
+  color:rgb(16, 112, 190);
+}
+
+nav li a:hover {
+  text-shadow: 3px 3px 4px rgb(109, 121, 227);
+  color: rgb(87, 219, 242);
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+h1 {
+  float:left;
+  padding-left: 30px;
+  font-size: 2.5rem;
+  padding-top: 0;
+  color:white;
+  margin-top:auto;
+  text-transform: uppercase;
+}
+
+aside.side-nav {
+  margin-left: 0;
+  margin-top: 0px;
+  float:left;
+  max-width: 15%;
+  position: fixed;
+  z-index: 2;
+  height:100px;
+}
+
+div.main {
+  width: 100%;
+  height:620px;
+  margin-top:100px;
+  background-image: url("../images/ireland2.jpg");
+  background-size: cover;
+}
+
+aside.side-nav img{
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  border: 10px solid rgba(241, 228, 242, .2);
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.container {
+  margin-top: 100px;
+  width: 100%;
+  height:800px;
+  background-color: blue;
+}
+
+.container img {
+  border-radius: 3%;
+}
+
+h2 {
+ padding-top: 130px;
+ text-transform: uppercase;
+}
+
+div.container.fam {
+  background-image: url("../images/wedding.jpg");
+  background-size: cover;
+}
+
+div.famwords{
+  padding-left: 13%;
+  text-transform: none;
+  padding-right: 67%;
+  font-size: 1.2rem;
+}
+
+div.bakerwords {
+  padding-left: 13%;
+  text-transform: none;
+  font-size: 1.2rem;
+}
+
+p.container.fam {
+  margin: 20px 400px 0px 150px;
+}
+
+div.container.work {
+  background-color: navy;
+}
+
+div.container.school {
+  background-color: green;
+}
+
+div.both {
+  display: flex;
+}
+
+#ada{
+  margin-right: 10%;
+  padding-left: 13%;
+  text-align:center;
+  text-transform: none;
+}
+
+#ada img {
+  width:60%;
+  border: 10px solid rgba(99, 101, 103, .6);
+  border-radius: 80px/60px;
+}
+ #ada h2{
+   padding-top: 90px;
+ }
+
+#ada a:link, #ada a:visited{
+  color: rgb(95, 245, 81);
+  padding-top: 100px;
+}
+
+#ada a:hover {
+  font-style: italic;
+  text-shadow: 2px 2px 2px rgb(198, 197, 196);
+}
+
+#work {
+  margin-right: 0%;
+  text-align:center;
+  text-transform: none;
+  margin-left: 13%;
+  width: 100%;
+  display:inline;
+  color:white;
+}
+#brp a:link, #brp a:visited, #billings a:link, #billings a:visited{
+  color: white;
+}
+
+#brp a:hover, #billings a:hover{
+  font-style:italic;
+  color:cornflowerblue;
+}
+
+#billings {
+  float:left;
+  width: 48%;
+  margin-left: 2%;
+}
+
+#work h2 {
+  padding-top: 90px;
+  margin-bottom: 0px;
+}
+
+#brp {
+  float:right;
+  width:48%;
+}
+
+#brp img{
+  width: 60%;
+}
+
+#billings img {
+  width:100%;
+}
+
+div.container.dog {
+  background-color:rgb(233, 190, 93);
+  height: 1250px;
+}
+
+.pic img{
+  height:auto;
+  width:100%;
+  border:6px rgba(9, 8, 9, .3) solid;
+  border-radius: 3px;
+}
+
+figure.pic {
+  margin-left: 85%
+}
+
+.fampic {
+  margin-top: -430px;
+}
+
+figcaption {
+  font-size: 1rem;
+}
+
+table{
+  margin-left:13%;
+  margin-right: 3%;
+}
+
+.bakes img {
+  width: 100%;
+  border: 7px solid rgba(99, 101, 103, .3);
+  border-radius: 3px;
+}
+
+.bakes video {
+  width: 100%;
+  border-radius: 3%;
+  border: 7px solid rgba(99, 101, 103, .3);
+}
+
+td {
+  width: 20%;
+  height: auto;
+  margin: 0 auto;
+}

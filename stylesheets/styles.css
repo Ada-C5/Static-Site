@@ -11,23 +11,34 @@ body{
 }
 
 .homeheader {
+  padding: 0;
   background-image: url('http://41.media.tumblr.com/a753570ff1fdd07cc6c062973faf600e/tumblr_o4xqoeC2ip1rnf6b5o8_1280.jpg') ;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 100% 30%;
   height: 100%;
   color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 7vw;
   text-align: center;
+  width: 100%;
   /*font-size: 80px;*/
-  padding-top: 6%;
+  /*padding-top: 6%;*/
   margin-top: 0;
   margin-bottom: 0;
+  position: fixed;
+  top: 11%;
+  text-align:center;
+
 }
+
 
 nav ul{
   padding:0;
@@ -35,10 +46,9 @@ nav ul{
   width: 100%;
   display: block;
   align-items: center;
-    text-align:center;
-    position: fixed;
-    top: 43%;
-
+  text-align:center;
+  position: fixed;
+  top: 45%;
 }
 
 header a{
@@ -46,14 +56,17 @@ header a{
   color: white;
   text-decoration: none;
   font-size: 3.0vw;
+    /*text-align: center;*/
+
   /*vertical-align:center;*/
 }
 
 header li{
   margin: 0 auto;
-  padding: 55px;
-  text-align: left;
-  /*clear: left;*/
+  padding: 0 86px 0 88px;
+  text-align: center;
+  /*align-items: center;*/
+  clear: left;
   display: inline-block;
   margin:0 auto;
   /*padding-top: 0.5%;*/
@@ -62,7 +75,8 @@ header li{
 
 header li a:hover{
   color: #04103b;
-  text-shadow: 1px 1px #a8a7a7;
+  text-decoration:line-through;
+  /*text-shadow: 1px 1px #a8a7a7;*/
 }
 
 

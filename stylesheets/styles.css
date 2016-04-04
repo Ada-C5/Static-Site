@@ -34,26 +34,6 @@ img {
 	max-height:100%;
 }
 
-/*********BLOG*********/
-
-.post {
-	background-color: lightgrey;
-	padding: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-
-.blog-image {
-	width:100%;
-}
-
-article.blog {
-	float:right;
-	width:70%;
-	padding-right:7rem;
-}
-
 /*********NAV**********/
 
 nav {
@@ -101,7 +81,7 @@ li a:hover:not(.active) {
 
 .index-article {
 	position: absolute;
-	bottom: 0px;
+	bottom: 50px;
 }
 
 .homepage_img {
@@ -134,12 +114,48 @@ li a:hover:not(.active) {
 	opacity: 0.3;
 }
 
+/*********BLOG*********/
+
+.post {
+	background-color: lightgrey;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.blog-image {
+	width:100%;
+}
+
+article.blog {
+	float:right;
+	width:70%;
+	padding-right:7rem;
+}
+
+
 /***********PORTFOLIO*********/
 
 article.portfolio {
 	float:right;
 	width:70%;
 	padding-right:7rem;
+}
+
+.portfolio h2 {
+	margin-top: 3rem;
+	margin-bottom: 1px;
+	padding-bottom: 1px;
+	font-size: 2rem;
+	text-transform: uppercase;
+	opacity: .5;
+}
+
+.portfolio h3 {
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+	font-size: 1.5rem;
 }
 
 .portfolio h4 {
@@ -172,7 +188,6 @@ article.portfolio {
 
 /**********ABOUT***********/
 
-
 article.about {
 	float:right;
 	width:70%;
@@ -186,7 +201,6 @@ article.about {
 }
 
 /***********FOOTER************/
-
 
 footer {
 	position: absolute;

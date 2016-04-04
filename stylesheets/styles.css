@@ -51,34 +51,36 @@ body {
   max-width: 100%;
 }
 
-h1 {color; black;
-    font-family: 'Tangerine', serif;
-    font-size: 48px;
-    text-shadow: 4px 4px 4px #aaa;
-    text-align: center;
+h1 {
+  color: black;
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
   }
-  .name {
-    color; black;
-    font-family: 'Tangerine'; serif;
-    font-size: 48px;
-    text-shadow: 4px 4px 4px #aaa;
-    text-align: center;
-    margin-top: 15px;
-    padding-left: 50px;
+
+.name {
+  color; black;
+  font-family: 'Tangerine'; serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+  margin-top: 15px;
+  padding-left: 50px;
   }
-  
+
 p {
-    font-family: arial;
-    font-size: 24px;
-    text-align: justify;
-    margin-top: 2px;
-    margin-left: 10px;
-    max-width: 60%;
-    float: left;
+  font-family: arial;
+  font-size: 24px;
+  text-align: justify;
+  margin-top: 2px;
+  margin-left: 10px;
+  max-width: 60%;
+  float: left;
 }
 
 h2, h3 {
-    text-align: left;
+  text-align: left;
 }
 
 aside {
@@ -91,6 +93,11 @@ iframe {
   padding-right: 15px;
   max-width: 34%;
   float: right;
+}
+figcaption {
+  margin-right: 30px;
+  float: right
+
 }
 .portfolio-game-link {
   display: inline;
@@ -107,9 +114,9 @@ p.highlight {
 }
 
  .about-me-photos {
-    display: inline;
-    margin-right: 0;
-    width: 19.5%;
+  display: inline;
+  margin-right: 0;
+  width: 19.5%;
 }
 /**************
 footer

@@ -38,12 +38,12 @@ header li a:hover:not(.active) {
 header.active {
    background-color: #4CAF50;
 }
-.name-in-nav {
+/*.name-in-nav {
   color: white;
   font-family: "Arial";
   font-size: 16px;
   float:right;
-}
+}*/
 
 body {
   background: rgb(212,228,239);

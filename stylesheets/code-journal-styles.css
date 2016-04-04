@@ -79,7 +79,7 @@ p {
 
 table {
   margin-left: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   margin-top: 30px;
   max-width: 85%;
   border-bottom-color: inherit;
@@ -101,13 +101,13 @@ h2 {
   padding: 0;
   }
 
-  h3 {
-    color; black;
-    font-family: 'Tangerine', serif;
-    font-size: 18px;
-    text-shadow: 4px 4px 4px #aaa;
-    text-align: left;
-    padding: 0:
+h3 {
+  color; black;
+  font-family: 'Tangerine', serif;
+  font-size: 18px;
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: left;
+  padding: 0:
   }
 
 .portfolio-game-link {

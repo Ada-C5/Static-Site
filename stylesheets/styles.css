@@ -224,25 +224,28 @@ footer {
   height: 3rem;
 }
 
-article {
-  text-align: center;
+.portfolio-navigation {
+    padding: 1rem;
 }
 
 .project-link {
   height: 100%;
   display: inline-block;
-}
-
-.portfolio-navigation {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
+  float:left;
+  margin-left: 1rem;
 }
 
 .project-text {
+  text-align: center;
   display: none;
-  margin-top: 2rem;
+  clear: both;
+  position: absolute;
+  top: 2.5rem;
+  padding: 1rem;
+}
 
+.project-text p {
+  text-align: left;
 }
 
 .project-link:hover + .project-text {

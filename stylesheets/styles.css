@@ -1,0 +1,300 @@
+/********** BASELINE **********/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/Revbigblue.jpg);
+  background-color: #f4ffff;
+  background-size: 150%;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: junction;
+    src: url(Fontin-Regular.otf);
+}
+
+html {
+  font-family: junction;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:visted {
+  color: black;
+}
+
+h1 {
+  padding-left: .6em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+h2 {
+  padding-left: .8em;
+  padding-top: .8em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+h3 {
+  padding-left: 1.5em;
+  padding-top: .5em;
+  width: 60%;
+  margin-left: .1em;
+}
+/********** HEADER **********/
+
+nav {
+  clear: both;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 3em;
+  margin-bottom: 5em;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  font-size: 2em;
+  padding: .5em;
+}
+
+li~li { border-left: 1px solid #000000 }
+
+/********** BODY **********/
+
+/*** index ***/
+.welcome {
+  font-size: 1.3em;
+  padding: 1em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+/*** portfolio ***/
+
+.intro p {
+  font-size: 1.3em;
+  padding-left: 1em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.solar-system {
+  padding-bottom: 1em;
+}
+
+.solar-system p {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.bank-accounts {
+  padding-bottom: 1em;
+}
+
+.bank-accounts p {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.FarMar {
+  padding-bottom: 1em;
+}
+
+.FarMar p {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.static-site {
+  padding-bottom: 1em;
+}
+
+.static-site p {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.word-guess {
+  padding-bottom: 1em;
+}
+
+.word-guess p {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.Scrabble {
+  padding-bottom: 1em;
+}
+
+.Scrabble p {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.bio p {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.headshot {
+  float: left;
+  padding-left: 1.7em;
+  padding-right: .5em;
+  padding-bottom:.5em;
+  width: 30%;
+  height: auto;
+}
+
+.stage h1 {
+  text-align: center;
+  clear: both;
+  width: 60%;
+}
+
+.film h1 {
+  text-align: center;
+  clear: both;
+  width: 60%;
+}
+
+.modeling h1 {
+  text-align: center;
+  width: 60%;
+}
+
+.star-trek h1 {
+  clear:both;
+  text-align: center;
+  width: 60%;
+}
+
+.broadway-babes h1 {
+  clear:both;
+  text-align: center;
+  width: 60%;
+}
+
+.burlxmen h1 {
+  clear:both;
+  text-align: center;
+  width: 60%;
+}
+
+.revelry h1 {
+  clear:both;
+  text-align: center;
+  width: 60%;
+}
+
+.stage img {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-left: 1.7em;
+    padding-right: .5em;
+    padding-bottom: 1.7em;
+  }
+
+.film img {
+      width: 50%;
+      height: auto;
+      float: left;
+      padding-left: 1.7em;
+      padding-right: .5em;
+      padding-bottom: 1.7em;
+  }
+
+.modeling img {
+        width: 50%;
+        height: auto;
+        float: left;
+        padding-left: 1.7em;
+        padding-right: .5em;
+        padding-bottom: 1.7em;
+    }
+
+img {
+  width: 20%;
+  height: auto;
+  float: left;
+  padding-left: 1.7em;
+  padding-right: .5em;
+  padding-bottom: 1.7em;
+}
+
+.star-trek p {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.broadway-babes p {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.burlxmen p {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.revelry p {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.ohmygodjustdowhatiwant {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+/********** FOOTER **********/
+
+footer {
+  clear: both;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+footer li {
+  display: inline;
+  font-size: 1em;
+  padding: .5em;
+}

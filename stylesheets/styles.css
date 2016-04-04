@@ -1,11 +1,24 @@
 html {
 	font-size: 16;
 	font-family: Karla,Helvetica,Arial;
+	/* footer hack */
+	height: 100%;
+}
 
+body {
+	/* footer hack */
+	position: relative;
+	padding-bottom: 40px;
+	margin-bottom: 0px;
+	min-height: 100%;
 }
 
 * {
 	box-sizing: border-box;
+}
+
+.clearfix {
+	clear: both;
 }
 
 header {
@@ -16,25 +29,12 @@ header {
 
 }
 
-.index {
-	position: relative;
-	background-color: grey;
-	height: 800px;
-
+img {
+	max-width:100%;
+	max-height:100%;
 }
 
-.index-article {
-	position: absolute;
-	bottom: 0px;
-}
-
-.homepage_img {
-	float:left;
-	clear:both;
-	padding:2px;
-	opacity: 0.85;
-
-}
+/*********BLOG*********/
 
 .post {
 	background-color: lightgrey;
@@ -43,30 +43,9 @@ header {
 	margin-bottom: 10px;
 }
 
-.about-image {
-	width: 100%;
-	float: right;
-}
-
-.nav-image {
-	float:left;
-	clear:both;
-	width: 100%;
-}
 
 .blog-image {
 	width:100%;
-}
-
-nav {
-	float:left;
-	clear:both;
-	width: 10%
-}
-
-img {
-	max-width:100%;
-	max-height:100%;
 }
 
 article.blog {
@@ -75,10 +54,18 @@ article.blog {
 	padding-right:7rem;
 }
 
-article.about {
-	float:right;
-	width:70%;
-	padding-right:7rem;
+/*********NAV**********/
+
+nav {
+	float:left;
+	clear:both;
+	width: 10%
+}
+
+.nav-image {
+	float:left;
+	clear:both;
+	width: 100%;
 }
 
 ul {
@@ -104,6 +91,27 @@ li a:hover:not(.active) {
     color: gray;
 }
 
+/********INDEX/HOME PAGE*********/
+
+.index {
+	position: relative;
+	background-color: grey;
+	height: 800px;
+}
+
+.index-article {
+	position: absolute;
+	bottom: 0px;
+}
+
+.homepage_img {
+	float:left;
+	clear:both;
+	padding:2px;
+	opacity: 0.85;
+
+}
+
 .index-link {
 	display: block;
 }
@@ -120,7 +128,10 @@ li a:hover:not(.active) {
 
 .index-link:hover {
 	opacity: 0.3;
-/*	background-image: url("../images/type/oname.png");*/
+}
+
+.index-link:active {
+	opacity: 0.3;
 }
 
 /***********PORTFOLIO*********/
@@ -151,7 +162,6 @@ article.portfolio {
 	text-decoration: none;
 	margin:5px;
 	color:grey;
-/*	line-height: 1.5rem;*/
 }
 
 .tech {
@@ -160,17 +170,36 @@ article.portfolio {
 	font-size: .8rem;
 }
 
-/***********FOOTER************/
+/**********ABOUT***********/
 
-footer {
-	height: 40px;
-    border-top: solid grey;
-    clear:both;
-    padding:1rem;
-    opacity: .5;
+
+article.about {
+	float:right;
+	width:70%;
+	padding-right:7rem;
 }
 
-footer address {
-	color: red;
+.about-image {
+	width: 100%;
 	float: right;
+	padding: 1rem;
+}
+
+/***********FOOTER************/
+
+
+footer {
+	position: absolute;
+	height:30px;
+	width:100%;
+	bottom: 0;
+	left: 0;
+	background:#efefef;
+}
+
+
+footer address {
+	color: grey;
+	float: right;
+	margin-top: 5px;
 }

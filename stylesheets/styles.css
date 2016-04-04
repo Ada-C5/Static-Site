@@ -245,18 +245,7 @@ p {
   float: left;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*portfolio page*/
 
 .project-link {
   height: 100%;
@@ -281,3 +270,5 @@ p {
 .project-link:hover + .project-text {
   display: block;
 }
+
+/*thanks for reading!*/

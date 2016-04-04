@@ -397,7 +397,6 @@ h6 {
   font-family: 'Shadows Into Light', cursive;
   font-size: 20px;
   margin: 0;
-
 }
 
 .tags {
@@ -494,10 +493,10 @@ width: 100%;
 }
 
 .about-page img {
-  margin-top: -8rem;
   border-radius: 50%;
   width: 17rem;
   z-index: 600;
+  /*margin-top: 0;*/
 }
 /***************END***************/
 

@@ -80,7 +80,7 @@ li~li { border-left: 1px solid #000000 }
   margin-left: .1em;
 }
 
-/*** portfolio ***/
+/*** programmer ***/
 
 .intro p {
   font-size: 1.3em;
@@ -89,71 +89,18 @@ li~li { border-left: 1px solid #000000 }
   margin-left: .1em;
 }
 
-.solar-system {
+.Scrabble, .word-guess, .static-site, .FarMar, .bank-accounts, .solar-system {
   padding-bottom: 1em;
 }
 
-.solar-system p {
+.Scrabble p, .word-guess p, .static-site p, .FarMar p, .bank-accounts p, .solar-system p {
   font-size: 1em;
   padding-left: 1.7em;
   width: 60%;
   margin-left: .1em;
 }
 
-.bank-accounts {
-  padding-bottom: 1em;
-}
-
-.bank-accounts p {
-  font-size: 1em;
-  padding-left: 1.7em;
-  width: 60%;
-  margin-left: .1em;
-}
-
-.FarMar {
-  padding-bottom: 1em;
-}
-
-.FarMar p {
-  font-size: 1em;
-  padding-left: 1.7em;
-  width: 60%;
-  margin-left: .1em;
-}
-
-.static-site {
-  padding-bottom: 1em;
-}
-
-.static-site p {
-  font-size: 1em;
-  padding-left: 1.7em;
-  width: 60%;
-  margin-left: .1em;
-}
-
-.word-guess {
-  padding-bottom: 1em;
-}
-
-.word-guess p {
-  font-size: 1em;
-  padding-left: 1.7em;
-  width: 60%;
-  margin-left: .1em;
-}
-
-.Scrabble {
-  padding-bottom: 1em;
-}
-
-.Scrabble p {
-  font-size: 1em;
-  padding-left: 1.7em;
-  width: 60%;
-  margin-left: .1em;
-}
+/*** person ***/
 
 .bio p {
   font-size: 1em;
@@ -171,73 +118,28 @@ li~li { border-left: 1px solid #000000 }
   height: auto;
 }
 
-.stage h1 {
+/*** performer/producer ***/
+
+.stage h1, .film h1, .modeling h1, .star-trek h1, .broadway-babes h1, .burlxmen h1, .revelry h1 {
   text-align: center;
   clear: both;
   width: 60%;
 }
 
-.film h1 {
-  text-align: center;
-  clear: both;
+.stage p, .film p, .modeling p {
+  padding-left: 1.7em;
   width: 60%;
+  margin-left: .1em;
 }
 
-.modeling h1 {
-  text-align: center;
-  width: 60%;
+.modeling img, .film img, .stage img {
+  width: 50%;
+  height: auto;
+  float: left;
+  padding-left: 1.7em;
+  padding-right: .5em;
+  padding-bottom: 1.7em;
 }
-
-.star-trek h1 {
-  clear:both;
-  text-align: center;
-  width: 60%;
-}
-
-.broadway-babes h1 {
-  clear:both;
-  text-align: center;
-  width: 60%;
-}
-
-.burlxmen h1 {
-  clear:both;
-  text-align: center;
-  width: 60%;
-}
-
-.revelry h1 {
-  clear:both;
-  text-align: center;
-  width: 60%;
-}
-
-.stage img {
-    width: 50%;
-    height: auto;
-    float: left;
-    padding-left: 1.7em;
-    padding-right: .5em;
-    padding-bottom: 1.7em;
-  }
-
-.film img {
-      width: 50%;
-      height: auto;
-      float: left;
-      padding-left: 1.7em;
-      padding-right: .5em;
-      padding-bottom: 1.7em;
-  }
-
-.modeling img {
-        width: 50%;
-        height: auto;
-        float: left;
-        padding-left: 1.7em;
-        padding-right: .5em;
-        padding-bottom: 1.7em;
-    }
 
 img {
   width: 20%;
@@ -248,40 +150,13 @@ img {
   padding-bottom: 1.7em;
 }
 
-.star-trek p {
+.revelry p, .burlxmen p, .broadway-babes p, .star-trek p  {
   font-size: 1em;
   padding-left: 1.7em;
   width: 60%;
   margin-left: .1em;
 }
 
-.broadway-babes p {
-  font-size: 1em;
-  padding-left: 1.7em;
-  width: 60%;
-  margin-left: .1em;
-}
-
-.burlxmen p {
-  font-size: 1em;
-  padding-left: 1.7em;
-  width: 60%;
-  margin-left: .1em;
-}
-
-.revelry p {
-  font-size: 1em;
-  padding-left: 1.7em;
-  width: 60%;
-  margin-left: .1em;
-}
-
-.ohmygodjustdowhatiwant p {
-  font-size: 1em;
-  padding-left: 1.7em;
-  width: 60%;
-  margin-left: .1em;
-}
 /********** FOOTER **********/
 
 footer {

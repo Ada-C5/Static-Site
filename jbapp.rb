@@ -3,23 +3,23 @@ require 'sinatra'
 class JBapp < Sinatra::Base
 
   get '/' do
-    send_file 'static/index.html'
+    erb :index
   end
 
   get '/programmer' do
-    send_file 'static/portfolio.html'
+    erb :programmer
   end
 
   get '/person' do
-    send_file 'static/about.html'
+    erb :person
   end
 
   get '/performer' do
-    send_file 'static/hobby-blog.html'
+    erb :performer
   end
 
   get '/producer' do
-    send_file 'static/hobby-blog2.html'
+    erb :producer
   end
 
   run!

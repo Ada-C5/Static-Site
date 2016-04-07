@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>All About Me</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="css" href="../stylesheets/styles.css"/>
+</head>
+
+<body>
+  <header class="top">
+    <nav class="header-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/portfolio">Portfolio</a></li>
+        <li><a href="/pizza-party">Pizza Party</a></li>
+        <li><a href="/my-first-form">1st Form</a></li>
+        <li><a href="/my-second-form">2nd Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <%= yield %>
+  </main>
+
+  <footer>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="mailto:adriana@cannon.ws">Email Me</a></li>
+        <li>253.867.5309</li>
+        <li class="copyright">Copyright Adriana Cannon 2016</li>
+      </ul>
+    </nav>
+    <a href="#top">Top of Page</a>
+  </footer>
+</body>

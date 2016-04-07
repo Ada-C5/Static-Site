@@ -1,21 +1,51 @@
 require 'sinatra'
+require_relative 'lib/peep'
 
 class Blog < Sinatra::Base
+  get '/amazing' do
+    @favorite_animal = "Red Panda"
+    erb(:amazing)
+  end
+
+  get '/my-first-form' do
+    erb :my_first_form
+  end
+
+  post '/my-first-form' do
+    @my_peep = Peep.new(params["peep"])
+    erb :my_first_form
+  end
+
+  get '/my-second-form' do
+    erb :my_second_form
+  end
+
+  post '/my-second-form' do
+    erb :my_second_form
+  end
+
+  get '/pizza-party' do
+    erb :pizza_party
+  end
+
+  post '/pizza-party' do
+    erb :pizza_party
+  end
 
   get '/' do
-    send_file './static/index.html'
+    erb :index
   end
 
   get '/portfolio' do
-    send_file 'static/portfolio.html'
+    erb :portfolio
   end
 
   get '/about' do
-    send_file 'static/about.html'
+    erb :about
   end
 
-  get '/hobby' do
-    send_file 'static/hobby-blog.html'
+  get '/blog' do
+    erb :blog
   end
 
   run!

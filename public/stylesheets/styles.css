@@ -1,0 +1,175 @@
+/********** BASELINE **********/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/Revbigblue.jpg);
+  background-color: #f4ffff;
+  background-size: 150%;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: junction;
+    src: url(Fontin-Regular.otf);
+}
+
+html {
+  font-family: junction;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:visted {
+  color: black;
+}
+
+h1 {
+  padding-left: .6em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+h2 {
+  padding-left: .8em;
+  padding-top: .8em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+h3 {
+  padding-left: 1.5em;
+  padding-top: .5em;
+  width: 60%;
+  margin-left: .1em;
+}
+/********** HEADER **********/
+
+nav {
+  clear: both;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 3em;
+  margin-bottom: 5em;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  font-size: 2em;
+  padding: .5em;
+}
+
+li~li { border-left: 1px solid #000000 }
+
+/********** BODY **********/
+
+/*** index ***/
+.welcome {
+  font-size: 1.3em;
+  padding: 1em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+/*** programmer ***/
+
+.intro p {
+  font-size: 1.3em;
+  padding-left: 1em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.Scrabble, .word-guess, .static-site, .FarMar, .bank-accounts, .solar-system {
+  padding-bottom: 1em;
+}
+
+.Scrabble p, .word-guess p, .static-site p, .FarMar p, .bank-accounts p, .solar-system p {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+/*** person ***/
+
+.bio p {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.headshot {
+  float: left;
+  padding-left: 1.7em;
+  padding-right: .5em;
+  padding-bottom:.5em;
+  width: 30%;
+  height: auto;
+}
+
+/*** performer/producer ***/
+
+.stage h1, .film h1, .modeling h1, .star-trek h1, .broadway-babes h1, .burlxmen h1, .revelry h1 {
+  text-align: center;
+  clear: both;
+  width: 60%;
+}
+
+.stage p, .film p, .modeling p {
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+.modeling img, .film img, .stage img {
+  width: 50%;
+  height: auto;
+  float: left;
+  padding-left: 1.7em;
+  padding-right: .5em;
+  padding-bottom: 1.7em;
+}
+
+img {
+  width: 20%;
+  height: auto;
+  float: left;
+  padding-left: 1.7em;
+  padding-right: .5em;
+  padding-bottom: 1.7em;
+}
+
+.revelry p, .burlxmen p, .broadway-babes p, .star-trek p  {
+  font-size: 1em;
+  padding-left: 1.7em;
+  width: 60%;
+  margin-left: .1em;
+}
+
+/********** FOOTER **********/
+
+footer {
+  clear: both;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+footer li {
+  display: inline;
+  font-size: 1em;
+  padding: .5em;
+}

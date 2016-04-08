@@ -1,0 +1,49 @@
+<!-- <form action="" method="post">
+<p>My favorite pizza toppings are:</p>
+<input type="checkbox" name="toppings[]" value="pepperoni">Pepperoni
+<input type="checkbox" name="toppings[]" value="ham">Ham
+<input type="checkbox" name="toppings[]" value="mushrooms">Mushrooms
+<input type="checkbox" name="toppings[]" value="onions">Onions
+
+<input type="submit" value="Choose">
+</form> -->
+<!-- up above is bad, below is better use lables -->
+<div class="params"> <!-- This is to see what we're doing for debugging purposes -->
+  <%= params %> <!-- params is a hash -->
+</div>
+<!-- These are checkboxes -->
+<h1><form action="" method="post">
+  <fieldset>
+
+    <legend>My favorite pizza toppings are:</legend>
+
+    <fieldset>
+      <legend>Meats!</legend>
+      <label><input type="checkbox" name="toppings[meats][]" value="pepperoni">Pepperoni</label>
+      <label><input type="checkbox" name="toppings[meats][]" value="ham">Ham</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Veggies!</legend>
+      <label><input type="checkbox" name="toppings[veggies][]" value="mushrooms">Mushrooms</label>
+      <label><input type="checkbox" name="toppings[veggies][]" value="onions">Onions</label>
+    </fieldset>
+
+  </fieldset>
+
+  <input type="submit" value="Choose">
+</form></h1>
+
+<!-- These below are radio buttons -->
+
+<h1><form action="" method="post">
+  <fieldset>
+    <legend>My most favorite pizza topping is:</legend>
+    <label><input type="radio" name="topping" value="pepperoni">Pepperoni</label>
+    <label><input type="radio" name="topping" value="ham">Ham</label>
+    <label><input type="radio" name="topping" value="mushrooms">Mushrooms</label>
+    <label><input type="radio" name="topping" value="onions">Onions</label>
+  </fieldset>
+
+  <input type="submit" value="Yum">
+</form></h1>

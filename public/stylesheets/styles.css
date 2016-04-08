@@ -1,0 +1,191 @@
+body {
+  font: normal 15px/150% Helvetica, Arial, sans-serif;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.skull-image {
+  display: block;
+  margin: 20px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  color: white;
+}
+
+.header-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  clear: both;
+}
+
+.header-nav li {
+  float: left;
+}
+
+.header-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+  text-decoration: underline;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+.bench {
+  width: 350px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+}
+
+.sunset {
+  font-size: 24px;
+  color: white;
+  /*margin: 70px;*/
+}
+
+.water {
+  width: 250px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+}
+
+.m-water {
+  font-size: 24px;
+  color: white;
+  /*margin: 70px;*/
+}
+
+.smiles {
+  width: 350px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+}
+
+.j-smile {
+  font-size: 24px;
+  color: white;
+  /*margin: 70px;*/
+}
+
+section.left {
+  float: left;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+section.right {
+  float: right;
+  margin-right: 300px;
+  margin-top: 50px;
+}
+
+section.bcenter{
+  clear: both;
+  margin-top: 450px;
+  margin-bottom: 100px;
+}
+
+.intro {
+  font-size: 18px;
+  color: white;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-top: 50px;
+  line-height:36px;
+}
+
+.footer-nav > ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin: 0px;
+  clear: both;
+}
+
+.footer-nav li {
+    display: block;
+    color: white;
+    text-decoration: underline;;
+    margin: 0;
+    float: none;
+}
+
+.footer-nav a {
+    color: white;
+}
+
+.copyright {
+  text-align: center;
+  clear: both;
+}
+
+/*New page  This is for portfolio styles*/
+/**************************************************/
+
+.port-images {
+  float: left;
+  width: 25%;
+  clear: left;
+  margin: 20px 10px 5px 10px;
+}
+
+.port-images img {
+  width: 300px;
+}
+
+.port-text {
+  float: left;
+  width: 65%;
+  margin: 20px 10px 5px 10px;
+}
+
+/*End of Portfolio styles*/
+
+/*New page, this is for about me styles*/
+/************************************************/
+
+.siblings {
+  width: 350px;
+  height: 250px;
+  margin: 15px;
+}
+
+/*end of about me styling*/
+
+/*new page for Blog styling*/
+/*************************************************/
+
+.blogtext {
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+hr {
+  width: 50%;
+}
